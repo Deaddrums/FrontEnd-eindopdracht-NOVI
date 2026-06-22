@@ -1,18 +1,17 @@
 import './NavBar.css'
+import logoMain from '../../images/Broodschaap logo.jpg'
 
 
-
-function NavBar(){
+function NavBar() {
 
 
     return <>
 
-        <div className="outerwrapper">
-        <div className="innerwrapper">
-
-
-
-        </div>
+        <div className="nav-outerwrapper">
+            <div className="nav-innerwrapper">
+                <img src={logoMain} alt="main logo broodschaap"/>
+<h1> De Broodschaap app</h1>
+            </div>
         </div>
 
     </>
