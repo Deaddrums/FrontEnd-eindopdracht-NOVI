@@ -1,3 +1,11 @@
+.navListItems {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
 .nav-innerwrapper {
     background: #FF1053;
     background: linear-gradient(352deg,rgba(255, 16, 83, 1) 0%, rgba(255, 255, 255, 1) 38%);
