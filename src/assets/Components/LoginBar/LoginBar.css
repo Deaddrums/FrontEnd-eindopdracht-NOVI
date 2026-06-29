@@ -1,0 +1,18 @@
+.loginBarLayout {
+    background: #ffffff;
+    border-top: var(--border-color) solid 2px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 10px;
+
+}
+.loginBarLayout button {
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+color: var(--text-alternate-color);
+}

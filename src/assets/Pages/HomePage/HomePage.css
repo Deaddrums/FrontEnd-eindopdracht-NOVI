@@ -1,0 +1,16 @@
+.title-Wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.titleHome{
+    font-size: 100px;
+    color: var(--text-alternate-color);
+}
+
+.underlineHome {
+    text-decoration: underline;
+}
