@@ -1,5 +1,5 @@
-.nav-outerwrapper {
-
+.navOuterwrapper {
+gap: 10px;
 }
 
 .navListItems {
@@ -7,29 +7,32 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 40px;
+
+    gap: 50px;
     font-size: 20px;
+
+    padding: 10px;
 }
 
-.nav-innerwrapper {
-    /*background: #FF1053;*/
-    /*background: linear-gradient(352deg,rgba(255, 16, 83, 1) 0%, rgba(255, 255, 255, 1) 38%);*/
+.navInnerWrapper {
+    /*background: #ffffff;*/
+    /*background: linear-gradient(90deg,rgba(255, 255, 255, 1) 25%, rgba(255, 16, 83, 1) 50%, rgba(255, 255, 255, 1) 75%);*/
 
-    background: #ffffff;
-    background: linear-gradient(90deg,rgba(255, 255, 255, 1) 25%, rgba(255, 16, 83, 1) 50%, rgba(255, 255, 255, 1) 75%);
+    background: #FE6691;
+    background: linear-gradient(113deg,rgba(254, 102, 145, 1) 0%, rgba(255, 255, 255, 1) 65%);
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.nav-innerwrapper img {
+.navInnerWrapper img {
     height: 100px;
     width: 100px;
     border-radius: 100px;
 }
 
-.nav-innerwrapper img:hover {
+.navInnerWrapper img:hover {
     animation: logoHover 2s ease 0s infinite normal forwards;
 }
 
@@ -56,11 +59,11 @@
         transform: scale3d(1, 1, 1);
     }
 }
-.nav-innerwrapper ul li {
-
+.navInnerWrapper p em {
+color: var(--text-color);
 }
 
-.nav-innerwrapper ul li:hover {
+.navInnerWrapper ul li:hover {
     color: var(--text-alternate-color);
     transition: transform 0.2s ease;
     cursor: pointer;

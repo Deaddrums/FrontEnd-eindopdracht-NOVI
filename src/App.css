@@ -14,9 +14,12 @@
 /*0.2 Colors*/
 :root {
  --background-color: #e9eef4;
+ --background-container-color:#FFFFFF;
+
  --text-color: #666666;
  --text-alternate-color: white;
  --title-color: #363636;
+
  --ul-li-color: #9598da;
  --border-color: #363636;
  --text-accent-color: #ff7600;

@@ -1,0 +1,18 @@
+.footerWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 50px;
+
+
+    background: #FE6691;
+    background: linear-gradient(13deg,rgba(254, 102, 145, 1) 0%, rgba(255, 255, 255, 1) 65%);
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}

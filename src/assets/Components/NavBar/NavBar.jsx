@@ -7,16 +7,16 @@ function NavBar() {
 
     return <>
 
-        <div className="nav-outerwrapper">
+        <div className="navOuterWrapper">
 
 
-            <div className="nav-innerwrapper">
+            <div className="navInnerWrapper">
                 <img src={logoMain} alt="main logo broodschaap"/>
-               {/*<h1> De Broodschaap app</h1>*/}
+                <p><em>Bééééééééééééééhoorlijk makkelijk!</em></p>
                 <ul className="navListItems">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Allergie / dieet info</li>
+                    <li><strong>Home</strong></li>
+                    <li><strong>About</strong></li>
+                    <li><strong>Allergie / dieet info</strong></li>
                 </ul>
             </div>
         </div>
