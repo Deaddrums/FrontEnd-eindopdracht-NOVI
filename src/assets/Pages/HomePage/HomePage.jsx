@@ -16,35 +16,49 @@ function HomePage() {
                     title="Inloggen of registreren"
                     text="Heb je al een account? kom dan lekker inloggen.
                   Zo niet, schrik niet! Want je kan hier ook een account aanmaken"
-                    >
+                >
 
-                <button
-                    id="Login Button"
-                    type="button"
-                >LOGIN
-                </button>
-
-                <button
-                    id="Register Button"
-                    type="button"
-                >REGISTREER
-                </button>
-
-            </MainPageContainer>
-
-                <SmallMainPageContainer
-                    id="MainPageContainer-QUICKLIST"
-                    title="Geen account maar toch een lijstje?"
-                    text="Klik dan hier op deze button op snel een lijstje te maken, zonder voorkeuren ;)"
-                    >
                     <button
-                        id="QUICKLIST Button"
+                        id="Login Button"
                         type="button"
-                    >Snelle boodschappenlijst
+                    >LOGIN
                     </button>
 
-                </SmallMainPageContainer>
+                    <button
+                        id="Register Button"
+                        type="button"
+                    >REGISTREER
+                    </button>
 
+                </MainPageContainer>
+                <div className="smallMpcContainerWrapper">
+                    <SmallMainPageContainer
+                        id="MainPageContainer-QUICKLIST"
+                        title="Liever meteen een lijstje?"
+                        text="Geen account, geen voorkeuren — gewoon klikken en grazen maar 🐑"
+                    >
+                        <button
+                            id="QUICKLIST Button"
+                            type="button"
+                        ><strong>Direct lijstje maken</strong>
+                        </button>
+
+                    </SmallMainPageContainer>
+
+                    <SmallMainPageContainer
+                        id="MainPageContainer-QUICKLIST"
+                        title="Persoonlijker lijstje in 10 sec?"
+                        text="Vertel even wat je wil — wij doen de rest. Geen account, geen geblaat, gewoon resultaat."
+                    >
+                        <button
+                            id="QUICKCUSTOMLIST Button"
+                            type="button"
+                        ><strong>Snel persoonlijk lijstje</strong>
+                        </button>
+
+                    </SmallMainPageContainer>
+
+                </div>
             </div>
 
         </div>

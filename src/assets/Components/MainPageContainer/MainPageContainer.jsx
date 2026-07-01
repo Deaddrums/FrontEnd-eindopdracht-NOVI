@@ -29,13 +29,13 @@ export function SmallMainPageContainer ({title, text, children}) {
             <div className="smallMpcTextWrapper"
             >
                 <h3>{title}</h3>
-                <p>{text}</p>
-            </div>
 
+                <p>{text}</p>
             <div className="smallMpcButtonWrapper"
             >{children}
             </div>
 
+        </div>
         </div>
     </>
 

@@ -60,7 +60,7 @@
     padding: 10px;
 
     min-height: 100px;
-    width: 400px;
+    width: 390px;
 }
 
 .smallMpcTextWrapper {
@@ -69,11 +69,12 @@
     justify-content: center;
     align-items: center;
 
-    max-width: 60%;
+
 }
 
 .smallMpcTextWrapper h3{
     font-size: 20px;
+    letter-spacing: 1px;
     margin: 0;
 }
 
@@ -83,13 +84,13 @@
     justify-content: center;
     align-items: center;
 
-    padding: 10px;
-    gap: 20px;
+    padding: 5px;
+
 }
 
 .smallMpcButtonWrapper button {
     height: 35px;
-    width: 160px;
+    width: 200px;
     font-size: 14px;
 
     border: var(--border-color) 2px solid;

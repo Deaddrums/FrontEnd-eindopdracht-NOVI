@@ -15,9 +15,6 @@ gap: 10px;
 }
 
 .navInnerWrapper {
-    /*background: #ffffff;*/
-    /*background: linear-gradient(90deg,rgba(255, 255, 255, 1) 25%, rgba(255, 16, 83, 1) 50%, rgba(255, 255, 255, 1) 75%);*/
-
     background: #FE6691;
     background: linear-gradient(113deg,rgba(254, 102, 145, 1) 0%, rgba(255, 255, 255, 1) 65%);
 
@@ -67,4 +64,11 @@ color: var(--text-color);
     color: var(--text-alternate-color);
     transition: transform 0.2s ease;
     cursor: pointer;
+}
+
+a:visited {
+    color: var(--title-color);
+}
+a:active {
+    color: var(--text-accent-color);
 }
