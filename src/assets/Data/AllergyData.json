@@ -50,7 +50,7 @@
   {
     "id": 9,
     "name": "Nachtschade",
-    "description": "Nachtschade-allergie is een zeldzame overgevoeligheid of allergische reactie op voedingsmiddelen uit de nachtschadefamilie, zoals aardappelen, tomaten, paprika’s en aubergines. Deze reactie kan worden veroorzaakt door stoffen zoals alkaloïden en lectine, die in kleine hoeveelheden voor de meeste mensen geen probleem vormen, maar bij sommigen een sterke immuunreactie kunnen veroorzaken.",
+    "description": "Nachtschade-allergie is een zeldzame overgevoeligheid of allergische reactie op voedingsmiddelen uit de nachtschadefamilie. Deze reactie kan worden veroorzaakt door alkaloïden en lectines, die bij sommige mensen een immuunreactie kunnen opwekken.",
     "products": ["Tomaat", "Paprika", "Aardappel", "Aubergine", "Gojibes"]
   },
   {
@@ -97,20 +97,20 @@
   },
   {
     "id": 17,
-    "name": "Een specerijenallergie is een allergische reactie op eiwititen in bepaalde kruiden en specerijen, zoals peper, kaneel, kruidnagel of komijn.",
-    "description": "Overgevoeligheid voor één of meerdere kruiden of specerijen.",
+    "name": "Specerijen",
+    "description": "Een specerijenallergie is een allergische reactie op eiwititen in bepaalde kruiden en specerijen, zoals peper, kaneel, kruidnagel of komijn.",
     "products": ["Kaneel", "Nootmuskaat", "Kruidnagel", "Paprikapoeder", "Komijn"]
   },
   {
     "id": 18,
-    "name": "Steenvruchtenallergie is een allergische reactie op steenvruchten, die een verzamelnaam zijn voor vruchten met een harde pit in het midden. Deze allergie kan optreden door een overgevoeligheid voor bepaalde eiwitten in deze vruchten.",
-    "description": "Allergische reactie op fruit met een harde pit.",
+    "name": "Steenvruchten",
+    "description": "Steenvruchtenallergie is een allergische reactie op steenvruchten, die een verzamelnaam zijn voor vruchten met een harde pit in het midden. Deze allergie kan optreden door een overgevoeligheid voor bepaalde eiwitten in deze vruchten.",
     "products": ["Perzik", "Nectarine", "Pruim", "Kers", "Abrikoos"]
   },
   {
     "id": 19,
     "name": "Sulfiet",
-    "description": "Een sulfietintolerantie is een overgevoeligheidsreactie op sulfieten, een groep conserveermiddelen die worden gebruikt om bederf en verkleuring in voedingsmiddelen en dranken te voorkomen. Het is geen echte allergie (zoals bijvoorbeeld een pinda-allergie), maar een intolerantie waarbij het lichaam moeite heeft met het verwerken van sulfiet.",
+    "description": "Een sulfietintolerantie is een overgevoeligheidsreactie op sulfieten, een groep conserveermiddelen die worden gebruikt om bederf en verkleuring in voedingsmiddelen en dranken te voorkomen. Het is een intolerantie waarbij het lichaam moeite heeft met het verwerken van sulfiet.",
     "products": ["Wijn", "Gedroogd fruit", "Azijn", "Aardappelproducten", "Conserven"]
   },
   {

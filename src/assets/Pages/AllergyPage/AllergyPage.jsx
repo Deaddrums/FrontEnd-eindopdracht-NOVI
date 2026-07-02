@@ -9,10 +9,10 @@ function AllergyPage () {
 
 <div className="allergyOuterContainer">
 
-    <div className="allergyInnerContainer">
+
 
 <h1 className="allergyTitle">ALLERGIEËN INFORMATIE</h1>
-
+        <div className="allergyInnerContainer">
 
         {data.map((allergy) => (
             <AllergyInfoCard

@@ -1,24 +1,17 @@
 .allergyInnerContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
 
+    gap: 20px;
     padding: 20px;
-    gap:10px;
+
 }
 
 .allergyTitle{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+
     font-size: 100px;
     color: var(--text-alternate-color);
-}
-
-.underlineHome {
-    text-decoration: underline;
-}
-
-.smallMpcContainerWrapper {
-    display: flex;
-    flex-direction: row;
-
 }
