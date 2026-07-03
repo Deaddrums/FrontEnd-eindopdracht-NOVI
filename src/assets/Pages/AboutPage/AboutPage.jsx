@@ -31,7 +31,7 @@ function AboutPage() {
                     <p>
                         Met de broodschaap app maak je snel en gemakkelijk boodschappenlijstjes die aansluiten op jouw leef situatie!
                         <br/>
-                        Geef door welke allergieën je hebt, of welke dieet je volgt. Zet een eigen budget en de app zorgt ervoor dat jij altijd binnen je budget blijft
+                        Geef door welke allergieën je hebt en zet een eigen budget. De app zorgt ervoor dat jij altijd binnen je budget blijft
                     </p>
 
                     <p>

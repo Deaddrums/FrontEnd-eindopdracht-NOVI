@@ -56,7 +56,11 @@ button {
     border-radius: 10px;
     border: var(--border-color);
     background: var(--button-color);
+   box-shadow: 2px 2px 2px 1px var(--border-color);
+
     transition: transform 0.2s ease;
+
+
 }
 
 button:hover {

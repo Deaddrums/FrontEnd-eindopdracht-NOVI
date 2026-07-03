@@ -1,11 +1,14 @@
 import './NavBar.css'
 import logoMain from '../../images/Broodschaap logo.jpg'
-import { NavLink } from "react-router-dom";
+import {NavLink} from "react-router-dom";
+import {useState} from "react";
 
 function NavBar() {
+    const isAuth = false
 
+    // const [isAuth, toggleIsAuth] = useState()
 
-    return <>
+    return <nav>
 
         <div className="navOuterWrapper">
 
@@ -24,15 +27,28 @@ function NavBar() {
                     <li>
                         <NavLink to="/Allergy"><strong>Allergie info</strong></NavLink>
                     </li>
-                    <li>
-                        <NavLink to="/Diet"><strong>dieet info</strong></NavLink>
-                    </li>
+
+                    {isAuth ?
+                        <li>
+                            <NavLink to="/Account"><strong>My Account</strong></NavLink>
+                        </li>
+                        :
+                        <>
+                        <li>
+                            <NavLink to="/Login"><strong>Login</strong></NavLink>
+                        </li>
+                        <li>
+                        <NavLink to="/Register"><strong>Register</strong></NavLink>
+                        </li>
+                        </>
+
+                    }
                 </ul>
 
             </div>
         </div>
 
-    </>
+    </nav>
 
 }
 

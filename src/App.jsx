@@ -6,6 +6,7 @@ import FooterBar from "./assets/Components/FooterBar/FooterBar.jsx";
 import AboutPage from "./assets/Pages/AboutPage/AboutPage.jsx";
 import AllergyPage from "./assets/Pages/AllergyPage/AllergyPage.jsx";
 import {Routes, Route} from "react-router-dom";
+import LoginPage from "./assets/Pages/LoginPage/LoginPage.jsx";
 
 function App() {
 
@@ -14,9 +15,11 @@ function App() {
             <NavBar/>
 
             <Routes>
-<Route path="/" element={ <HomePage/> } />
-<Route path="/About" element={ <AboutPage/> } />
-<Route path="/Allergy" element={ <AllergyPage/> } />
+                <Route path="/" element={<HomePage/>}/>
+                <Route path="/About" element={<AboutPage/>}/>
+                <Route path="/Allergy" element={<AllergyPage/>}/>
+                <Route path="/Login" element={<LoginPage/>}/>
+                {/*<Route path="/Register" element={<RegisterPage/>}/>*/}
             </Routes>
 
             <FooterBar/>
