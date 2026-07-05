@@ -19,7 +19,6 @@
     flex-direction: row;
     justify-content: flex-start;
 
-
     background: var(--background-container-color);
     border: var(--border-color) 2px solid;
     border-radius: 15px;
@@ -68,7 +67,7 @@
     border-radius: 10px;
 
     font-size: 1rem;
-    background: white;
+    background: var(--background-container-color);
 }
 
 .inputContainer label {
@@ -79,9 +78,9 @@
 
     transform: translateY(-50%);
 
-    background: white;
+    background: var(--background-container-color);
     padding: 0 6px;
 
-    color: #777;
+    color: var(--text-soft-color);
     font-size: 0.85rem;
 }

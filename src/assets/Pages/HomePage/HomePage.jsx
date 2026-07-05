@@ -1,6 +1,7 @@
 import './HomePage.css'
 import MainPageContainer from "../../Components/MainPageContainer/MainPageContainer.jsx";
 import {SmallMainPageContainer} from "../../Components/MainPageContainer/MainPageContainer.jsx";
+import {Link} from "react-router-dom";
 
 function HomePage() {
 
@@ -18,17 +19,21 @@ function HomePage() {
                   Zo niet, schrik niet! Want je kan hier ook een account aanmaken"
                 >
 
-                    <button
-                        id="Login Button"
-                        type="button"
-                    >LOGIN
-                    </button>
+                    <Link to="/Login">
+                        <button
+                            id="Login Button"
+                            type="button"
+                        >LOGIN
+                        </button>
+                    </Link>
 
-                    <button
-                        id="Register Button"
-                        type="button"
-                    >REGISTREER
-                    </button>
+                    <Link to="/Register">
+                        <button
+                            id="Register Button"
+                            type="button"
+                        >REGISTREER
+                        </button>
+                    </Link>
 
                 </MainPageContainer>
                 <div className="smallMpcContainerWrapper">
