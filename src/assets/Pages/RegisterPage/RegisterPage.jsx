@@ -1,12 +1,14 @@
 import './RegisterPage.css'
 import {useState} from "react";
 import image from '../../images/Broodschaap Register.png'
+import {PasswordConfirmer} from "../../Helpers/PasswordConfirmer/PasswordConfirmer.jsx";
 
 function RegisterPage() {
 
     const [rpName, setRpName] = useState('')
     const [rpEmail, setRpEmail] = useState('')
     const [rpPassword, setRpPassword] = useState('')
+    const [rpConfirmPassword, setRpConfirmPassword] = useState('')
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -29,7 +31,7 @@ function RegisterPage() {
                 >
 
                     <fieldset className="rpFieldset">
-                        <legend>Name</legend>
+                        <legend>Naam</legend>
                         <input type="textarea"
                                id="rpNameID"
                                name="rpName"
@@ -45,21 +47,37 @@ function RegisterPage() {
                         <input type="textarea"
                                id="rpEmailID"
                                name="rpEmail"
-                               placeholder="Schrijf hier je Email"
+                               placeholder="Schrijf hier je e-mail"
                                value={rpEmail}
                                onChange={(e) => setRpEmail(e.target.value)}
                         />
 
                     </fieldset>
 
-                    <fieldset className="rpFieldset">
-                        <legend>Password</legend>
-                        <input type="textarea"
+                    <fieldset
+                        className={`rpFieldset ${PasswordConfirmer(rpPassword, rpConfirmPassword)}`}
+                    >
+                        <legend>Wachtwoord</legend>
+                        <input type="password"
                                id="rpPasswordID"
                                name="rpPassword"
-                               placeholder="Schrijf hier je naam"
+                               placeholder="Schrijf hier je wachtwoord"
                                value={rpPassword}
                                onChange={(e) => setRpPassword(e.target.value)}
+                        />
+
+                    </fieldset>
+
+                    <fieldset
+                        className={`rpFieldset ${PasswordConfirmer(rpPassword, rpConfirmPassword)}`}
+                    >
+                        <legend>Bevestig wachtwoord</legend>
+                        <input type="password"
+                               id="rpPasswordConfirmID"
+                               name="rpPasswordConfirm"
+                               value={rpConfirmPassword}
+                               onChange={(e) => setRpConfirmPassword(e.target.value)}
+                               placeholder="Herhaal hier je wachtwoord"
                         />
 
                     </fieldset>

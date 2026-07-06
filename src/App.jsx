@@ -8,6 +8,7 @@ import AllergyPage from "./assets/Pages/AllergyPage/AllergyPage.jsx";
 import {Routes, Route} from "react-router-dom";
 import LoginPage from "./assets/Pages/LoginPage/LoginPage.jsx";
 import RegisterPage from "./assets/Pages/RegisterPage/RegisterPage.jsx";
+import AccountDashboardPage from "./assets/Pages/AccountDashboardPage/AccountDashboardPage.jsx";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/Allergy" element={<AllergyPage/>}/>
                 <Route path="/Login" element={<LoginPage/>}/>
                 <Route path="/Register" element={<RegisterPage/>}/>
+                <Route path="/Dashboard" element={<AccountDashboardPage/>}/>
             </Routes>
 
             <FooterBar/>

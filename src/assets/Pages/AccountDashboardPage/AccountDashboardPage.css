@@ -1,0 +1,38 @@
+.adpOuterWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.adpTitle {
+    font-size: 100px;
+    color: var(--text-alternate-color);
+}
+
+.adpInnerWrapper {
+    height: 800px;
+    width: 800px;
+
+    border: var(--border-color) 2px solid;
+    border-radius: 15px;
+    background: var(--background-container-color);
+
+}
+
+.adpButtonWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    gap: 20px;
+}
+
+.adpButtonWrapper button {
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+
+
+}
