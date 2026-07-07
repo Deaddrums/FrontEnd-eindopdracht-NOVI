@@ -9,6 +9,8 @@ import {Routes, Route} from "react-router-dom";
 import LoginPage from "./assets/Pages/LoginPage/LoginPage.jsx";
 import RegisterPage from "./assets/Pages/RegisterPage/RegisterPage.jsx";
 import AccountDashboardPage from "./assets/Pages/AccountDashboardPage/AccountDashboardPage.jsx";
+import HistoryPage from "./assets/Pages/HistoryPage/HistoryPage.jsx";
+import PreferencePage from "./assets/Pages/PreferencePage/PreferencePage.jsx";
 
 function App() {
 
@@ -23,6 +25,8 @@ function App() {
                 <Route path="/Login" element={<LoginPage/>}/>
                 <Route path="/Register" element={<RegisterPage/>}/>
                 <Route path="/Dashboard" element={<AccountDashboardPage/>}/>
+                <Route path="/History" element={<HistoryPage/>}/>
+                <Route path="/Preference" element={<PreferencePage/>}/>
             </Routes>
 
             <FooterBar/>

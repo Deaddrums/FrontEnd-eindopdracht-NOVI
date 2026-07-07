@@ -1,5 +1,6 @@
 import './AccountDashboardPage.css'
 import {Link} from "react-router-dom";
+import image from './../../images/Broodschaap doet boodschappen.png'
 
 function AccountDashboardPage() {
 
@@ -17,17 +18,42 @@ function AccountDashboardPage() {
                 <em>Bekijk hier je boodschappenlijstje historie en je voorkeuren</em>
             </h2>
             <div
-                className="adpInnerwrapper">
+                className="adpInnerWrapper">
 
-<div
-className="adpButtonWrapper"
->
+                <div
+                    className="adpButtonWrapper"
+                >
+                    <Link to="/History">
+                        <button
+                            id="adpHistory"
+                            type="button"
+                        >Historie
+                        </button>
+                    </Link>
 
-    <button>Historie</button>
-    <button>Voorkeuren</button>
-    <button>Nog iets</button>
+                    <Link to="/Preference">
+                        <button
+                            id="adpPreference"
+                            type="button"
+                        >Voorkeuren
+                        </button>
+                    </Link>
 
-</div>
+                    <button
+                        id="adpGenerateList"
+                        type="button"
+                    >Genereer
+                    </button>
+
+                </div>
+
+                <img src={image} alt="Broodschaap doet boodschappen"/>
+
+                <button
+                    id="adpLogOut"
+                    type="button"
+                >Uitloggen
+                </button>
 
             </div>
         </div>

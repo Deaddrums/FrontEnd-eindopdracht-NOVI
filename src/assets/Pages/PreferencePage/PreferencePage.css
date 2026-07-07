@@ -1,0 +1,65 @@
+.ppOuterWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ppTitle {
+    font-size: 50px;
+    color: var(--text-alternate-color);
+}
+
+.ppInnerWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 600px;
+    width: 1600px;
+
+    border: var(--border-color) 2px solid;
+    border-radius: 15px;
+    background: var(--background-container-color);
+}
+
+.ppPreferenceForm {
+    display: flex;
+    flex-direction: row;
+
+    gap: 40px;
+}
+
+.ppAllergyList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+
+    border: var(--border-soft-color) 2px solid;
+    border-radius: 15px;
+
+}
+
+
+.ppAllergyList p {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: 0;
+}
+
+
+.ppFamilyList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    gap: 10px;
+    padding: 10px;
+
+    border: var(--border-soft-color) 2px solid;
+    border-radius: 15px;
+
+}
