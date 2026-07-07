@@ -17,10 +17,10 @@ function LoginPage() {
 
                     <div className="inputContainer">
                         <input
-                            id="username"
-                            name="username"
-                            type="text"
-                            placeholder=" Type hier je gebruikersnaam "
+                            id="loginEmail"
+                            name="loginEmail"
+                            type="email"
+                            placeholder=" Type hier je email "
                             required
                         />
 

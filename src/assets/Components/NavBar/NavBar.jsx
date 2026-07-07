@@ -3,8 +3,9 @@ import logoMain from '../../images/Broodschaap logo.jpg'
 import {NavLink} from "react-router-dom";
 import {useState} from "react";
 
+
 function NavBar() {
-    const isAuth = false
+    const isAuth = true
 
     // const [isAuth, toggleIsAuth] = useState()
 
@@ -30,7 +31,7 @@ function NavBar() {
 
                     {isAuth ?
                         <li>
-                            <NavLink to="/Account"><strong>My Account</strong></NavLink>
+                            <NavLink to="/Dashboard"><strong>Dashboard</strong></NavLink>
                         </li>
                         :
                         <>

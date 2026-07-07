@@ -44,7 +44,7 @@ function RegisterPage() {
 
                     <fieldset className="rpFieldset">
                         <legend>Email</legend>
-                        <input type="textarea"
+                        <input type="email"
                                id="rpEmailID"
                                name="rpEmail"
                                placeholder="Schrijf hier je e-mail"
