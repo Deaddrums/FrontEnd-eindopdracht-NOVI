@@ -26,12 +26,18 @@ function PreferencePage() {
         e.preventDefault();
 
         const preferenceData = {
-            familyAmount: ppFamilyamount,
+            familyAmount: ppAmountFamily,
             budgetAmount: ppBudgetAmount,
             budgetPeriod: ppBudgetPeriod,
             allergies: ppSelectedAllergies
         };
 
+        localStorage.setItem(
+            "AccountPreferences",
+            JSON.stringify(preferenceData)
+        );
+
+        console.log("opgeslagen data: ", preferenceData)
     }
 
     return <>
@@ -54,6 +60,7 @@ function PreferencePage() {
                     <form
                         id="ppPreferencesForm"
                         className="ppPreferenceForm"
+                        onSubmit={handleSubmit}
                     >
                         <fieldset
                             className="ppAllergyList"
@@ -71,8 +78,11 @@ function PreferencePage() {
                             </p>
 
                             {data2.map((allergy) => (
-                                <label key={allergy}>
-                                    <input type="checkbox"/>
+                                <label key={allergy.id}>
+                                    <input type="checkbox"
+                                           checked={ppSelectedAllergies.includes(allergy.name)}
+                                           onChange={() => handleAllergyChange(allergy.name)}
+                                    />
                                     {" " + allergy.name}
                                 </label>
                             ))}
@@ -121,6 +131,9 @@ function PreferencePage() {
                                     type="radio"
                                     id="ppCheckboxBudget1"
                                     name="budgetPeriod"
+                                    value="Week"
+                                    checked={ppBudgetPeriod === "Week"}
+                                    onChange={(e) => setPpBudgetPeriod(e.target.value)}
                                 />
                                 <label htmlFor="ppCheckboxBudget1"> Week</label>
                             </div>
@@ -132,6 +145,9 @@ function PreferencePage() {
                                     type="radio"
                                     id="ppCheckboxBudget2"
                                     name="budgetPeriod"
+                                    value="Maand"
+                                    checked={ppBudgetPeriod === "Maand"}
+                                    onChange={(e) => setPpBudgetPeriod(e.target.value)}
                                 />
                                 <label htmlFor="ppCheckboxBudget2"> Maand</label>
                             </div>
@@ -144,6 +160,9 @@ function PreferencePage() {
                                     type="radio"
                                     id="ppCheckboxBudget3"
                                     name="budgetPeriod"
+                                    value="Kwartaal"
+                                    checked={ppBudgetPeriod === "Kwartaal"}
+                                    onChange={(e) => setPpBudgetPeriod(e.target.value)}
                                 />
                                 <label htmlFor="ppCheckboxBudget3"> Kwartaal</label>
                             </div>
@@ -157,7 +176,7 @@ function PreferencePage() {
                         id="ppSavePreferences"
                         name="ppSavePreferences"
                         type="submit"
-                        // onClick={handleSubmit}
+                        onClick={handleSubmit}
                     >Sla voorkeuren op
                     </button>
                 </div>
