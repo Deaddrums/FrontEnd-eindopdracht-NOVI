@@ -1,0 +1,81 @@
+/*CSS guide*/
+/*0.1 IMPORTS*/
+/*0.2 Colors*/
+
+/*0.9 style reset*/
+/*1.0 Main Styling*/
+/*1.1 Base*/
+/*1.2 Typography*/
+/*1.3 Main elements*/
+
+/*0.1 IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap');
+
+/*0.2 Colors*/
+:root {
+ --background-color: #e9eef4;
+ --background-container-color:#FFFFFF;
+ --background-allergy-card:#9bdbf9;
+
+
+ --text-color: #666666;
+ --text-alternate-color: white;
+ --title-color: #363636;
+ --text-soft-color:#777;
+
+ --ul-li-color: #9598da;
+ --border-color: #363636;
+ --border-soft-color:#d9d9d9;
+ --border-alternate-color:#777;
+ --text-accent-color: #ff7600;
+ --button-color: #FF1053;
+
+ --approve-color:#76e846;
+ --approve-color-soft: rgba(0, 255, 0, 0.15);
+ --disapprove-color:#ff5757;
+ --disapprove-color-soft: rgba(255, 0, 0, 0.15);
+
+}
+
+
+/*0.9 style reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*1.0 Main Styling*/
+/*1.1 Base*/
+body {
+    font-family: "Manrope", sans-serif;
+    background: var(--background-color);
+}
+
+/*1.2 Typography*/
+h1, h2, h3 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+/*1.3 Main elements*/
+button {
+    color: var(--text-alternate-color);
+    border-radius: 10px;
+    border: var(--border-color);
+    background: var(--button-color);
+   box-shadow: 2px 2px 2px 1px var(--border-color);
+
+    transition: transform 0.2s ease;
+
+
+}
+
+button:hover {
+    transform: scale(1.1)
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}

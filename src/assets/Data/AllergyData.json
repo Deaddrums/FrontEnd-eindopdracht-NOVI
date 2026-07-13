@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Appel",
+    "description": "Appelallergie is een allergische reactie op bepaalde eiwitten in appels. Je kunt allergisch zijn voor de eiwitten in appels zelf, maar soms komt een reactie op appel ook voor bij mensen met een berkenpollenallergie. Dat komt doordat die eiwitten sterk op elkaar lijken.",
+    "products": ["Appel", "Appelsap", "Appeltaart", "Compote", "Appelmoes"]
+  },
+  {
+    "id": 2,
+    "name": "Ei",
+    "description": "Ei-allergie is een allergie voor de eiwitten (proteïnen) in ei. Dan kan kippenei zijn, maar ook andere soorten eieren kunnen reacties geven. De meeste reacties op ei-eiwitten komen voor bij baby’s en jonge kinderen, maar ei-allergie kan ook voorkomen op latere leeftijd. Naast ei-allergie kun je ook intolerant zijn voor ei.",
+    "products": ["Gekookt ei", "Mayonaise", "Cake", "Pannenkoeken", "Meringue"]
+  },
+  {
+    "id": 3,
+    "name": "Fructose",
+    "description": "Fructose-intolerantie is een aandoening waarbij het lichaam moeite heeft met het verteren van fructose, een soort suiker. Er zijn twee hoofdtypen van fructose-intolerantie: fructosemalabsorptie en erfelijke fructose-intolerantie. Fructose-intolerantie kan levenslang duren, maar ook tijdelijk zijn.",
+    "products": ["Appel", "Peer", "Honing", "Druiven", "Mango"]
+  },
+  {
+    "id": 4,
+    "name": "Gluten",
+    "description": "Glutenovergevoeligheid is geen allergie, maar een aandoening van de darmen. Een bekende vorm van glutenovergevoeligheid is de ziekte coeliakie. Naast coeliakie bestaat er ook niet-coeliakie glutensensitiviteit (NCGS). Glutenovergevoeligheid is niet hetzelfde als tarwe-allergie.",
+    "products": ["Brood", "Pasta", "Pizza", "Koekjes", "Bier"]
+  },
+  {
+    "id": 5,
+    "name": "Lupine",
+    "description": "Lupine-allergie is een allergie voor lupine-eiwit. Lupinemeel wordt gemaakt van zaden van de blauwe lupine, een peulvrucht. Het heet ook wel ‘bonenmeel’.",
+    "products": ["Lupinemeel", "Vegetarische burgers", "Bakmixen", "Brood", "Pasta"]
+  },
+  {
+    "id": 6,
+    "name": "Lactose",
+    "description": "Lactose-intolerantie is een aandoening waarbij het lichaam lactose, de suiker in melk en zuivelproducten, niet goed kan verteren. Dit komt doordat er te weinig van het enzym lactase wordt aangemaakt in de dunne darm, waardoor lactose onverteerd in de dikke darm terechtkomt en klachten veroorzaakt",
+    "products": ["Melk", "IJs", "Vla", "Chocolademelk", "Yoghurt"]
+  },
+  {
+    "id": 7,
+    "name": "Melk",
+    "description": "Melkallergie is een allergie voor het eiwit in dierlijke melk, zoals koemelk, geitenmelk, schapenmelk, paardenmelk of kamelenmelk. Het wordt soms verward met lactose-intolerantie, maar dat is een andere aandoening waarbij de darm moeite heeft met het verteren van melksuiker (lactose), terwijl melkallergie een immuunreactie op melkeiwitten is.",
+    "products": ["Melk", "Kaas", "Boter", "Room", "Yoghurt"]
+  },
+  {
+    "id": 8,
+    "name": "Mosterd",
+    "description": "Mosterdallergie is een allergie voor mosterdeiwit. Mosterd heeft als belangrijkste ingrediënt mosterdzaden. Er zijn verschillende typen mosterdzaden: witte/gele, bruine en zwarte mosterd.",
+    "products": ["Mosterd", "Dressings", "Sauzen", "Marinades", "Kerriemixen"]
+  },
+  {
+    "id": 9,
+    "name": "Nachtschade",
+    "description": "Nachtschade-allergie is een zeldzame overgevoeligheid of allergische reactie op voedingsmiddelen uit de nachtschadefamilie. Deze reactie kan worden veroorzaakt door alkaloïden en lectines, die bij sommige mensen een immuunreactie kunnen opwekken.",
+    "products": ["Tomaat", "Paprika", "Aardappel", "Aubergine", "Gojibes"]
+  },
+  {
+    "id": 10,
+    "name": "Noten",
+    "description": "Notenallergie is een allergie voor eiwit in verschillende soorten (boom)noten. Er zijn acht soorten noten die in Europa vermeld moeten worden: amandelen, hazelnoten, walnoten, cashewnoten, pecannoten, paranoten, pistachenoten en macadamianoten.",
+    "products": ["Amandelen", "Hazelnoten", "Walnoten", "Cashewnoten", "Pistachenoten"]
+  },
+  {
+    "id": 11,
+    "name": "Pinda",
+    "description": "Pinda-allergie is een allergie voor de eiwitten in pinda’s, die tot de peulvruchten behoren. Deze allergie kan ernstige reacties veroorzaken en is een van de meest voorkomende voedselallergieën.",
+    "products": ["Pindakaas", "Pinda's", "Satésaus", "Studentenmix", "Pindakoeken"]
+  },
+  {
+    "id": 12,
+    "name": "Rood vlees",
+    "description": "Alfa-galsyndroom, ook wel bekend als alfa-galallergie, is een zeldzame voedselallergie tegen galactose-α-1,3-galactose (afgekort als alfa-gal), een suiker die in rood vlees voorkomt. Alfa-galsyndroom wordt veroorzaakt door de beet van een teek.",
+    "products": ["Rundvlees", "Varkensvlees", "Lamsvlees", "Wild", "Hamburger"]
+  },
+  {
+    "id": 13,
+    "name": "Schaaldieren",
+    "description": "Schaaldierenallergie is een allergie voor schaaldiereneiwitten. De groep schaaldieren omvat krab, garnalen en (rivier)kreeft. ",
+    "products": ["Garnalen", "Krab", "Kreeft", "Langoustine", "Rivierkreeft"]
+  },
+  {
+    "id": 14,
+    "name": "Selderij",
+    "description": "Selderijallergie is een allergie voor selderij-eiwit. Selderij kennen we als blad-, bleek- en knolselderij. Het wordt zowel rauw als gekookt gegeten, of gedroogd als specerij in kruidenmixen. ",
+    "products": ["Bleekselderij", "Knolselderij", "Soepgroenten", "Bouillon", "Kruidenmixen"]
+  },
+  {
+    "id": 15,
+    "name": "Sesam",
+    "description": "Sesamallergie is een allergie voor sesameiwit. Sesamzaad wordt als hele zaadjes gegeten, bijvoorbeeld ter versiering van brood. Ook wordt sesampasta (tahini) en sesamolie uit de zaadjes gemaakt. Vooral in de afgelopen jaren is de consumptie van sesam sterk toegenomen.",
+    "products": ["Sesamzaad", "Tahin", "Hummus", "Broodjes met sesam", "Sesamolie"]
+  },
+  {
+    "id": 16,
+    "name": "Soja",
+    "description": "Soja-allergie is een allergie voor soja-eiwit. Soja behoort tot de peulvruchten en is een van de belangrijkste voedselallergenen.",
+    "products": ["Sojamelk", "Tofu", "Tempeh", "Sojasaus", "Edamame"]
+  },
+  {
+    "id": 17,
+    "name": "Specerijen",
+    "description": "Een specerijenallergie is een allergische reactie op eiwititen in bepaalde kruiden en specerijen, zoals peper, kaneel, kruidnagel of komijn.",
+    "products": ["Kaneel", "Nootmuskaat", "Kruidnagel", "Paprikapoeder", "Komijn"]
+  },
+  {
+    "id": 18,
+    "name": "Steenvruchten",
+    "description": "Steenvruchtenallergie is een allergische reactie op steenvruchten, die een verzamelnaam zijn voor vruchten met een harde pit in het midden. Deze allergie kan optreden door een overgevoeligheid voor bepaalde eiwitten in deze vruchten.",
+    "products": ["Perzik", "Nectarine", "Pruim", "Kers", "Abrikoos"]
+  },
+  {
+    "id": 19,
+    "name": "Sulfiet",
+    "description": "Een sulfietintolerantie is een overgevoeligheidsreactie op sulfieten, een groep conserveermiddelen die worden gebruikt om bederf en verkleuring in voedingsmiddelen en dranken te voorkomen. Het is een intolerantie waarbij het lichaam moeite heeft met het verwerken van sulfiet.",
+    "products": ["Wijn", "Gedroogd fruit", "Azijn", "Aardappelproducten", "Conserven"]
+  },
+  {
+    "id": 20,
+    "name": "Tarwe",
+    "description": "Tarweallergie is een allergische reactie op specifieke eiwitten in tarwe. Deze allergie moet niet worden verward met coeliakie of glutenintolerantie, die een andere reactie van het immuunsysteem veroorzaken. Mensen met tarweallergie verdragen overige granen meestal wel goed.",
+    "products": ["Tarwebrood", "Pasta", "Couscous", "Crackers", "Gebak"]
+  },
+  {
+    "id": 21,
+    "name": "Vis",
+    "description": "Visallergie is een allergie voor eiwitten in vis. Dat kunnen verschillende eiwitten in verschillende vissoorten zijn.",
+    "products": ["Zalm", "Tonijn", "Kabeljauw", "Haring", "Makreel"]
+  },
+  {
+    "id": 22,
+    "name": "Weekdieren",
+    "description": "Weekdierenallergie is een allergie voor weekdiereneiwitten. Wie allergisch reageert op weekdieren, reageert ook vaak op schaaldieren zoals krab, kreeft en garnalen.",
+    "products": ["Mosselen", "Oesters", "Inktvis", "Octopus", "Slakken"]
+  }
+]

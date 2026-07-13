@@ -1,0 +1,99 @@
+.mpcWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background: var(--background-container-color);
+    border: var(--border-color) 2px solid;
+    border-radius: 10px;
+
+    margin: 10px;
+    padding: 10px;
+
+    height: 200px;
+    width: 800px;
+}
+
+.mpcTextWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mpcTextWrapper h3{
+    font-size: 50px;
+}
+
+.mpcButtonWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    gap: 20px;
+}
+
+.mpcButtonWrapper button {
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+
+    border: var(--border-color) 2px solid;
+    color: var(--text-alternate-color);
+
+}
+
+.smallMpcWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background: var(--background-container-color);
+    border: var(--border-color) 2px solid;
+    border-radius: 10px;
+
+    margin: 10px;
+    padding: 10px;
+
+    min-height: 100px;
+    width: 390px;
+}
+
+.smallMpcTextWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.smallMpcTextWrapper h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.smallMpcButtonWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+
+}
+
+.smallMpcButtonWrapper button {
+    height: 35px;
+    width: 200px;
+    font-size: 14px;
+
+    border: var(--border-color) 2px solid;
+    color: var(--text-alternate-color);
+
+}

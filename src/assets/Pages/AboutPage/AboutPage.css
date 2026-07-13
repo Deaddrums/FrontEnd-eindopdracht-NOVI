@@ -1,0 +1,50 @@
+.aboutInnerWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    gap:10px;
+}
+
+.aboutTitle{
+    font-size: 100px;
+    color: var(--text-alternate-color);
+}
+
+.aboutArticle h2 {
+    text-spacing: 1px;
+
+}
+
+.aboutUnderline {
+    text-decoration: underline;
+    color: var(--text-accent-color);
+}
+
+.active-menu-link {
+    border-bottom: none;
+}
+
+.default-menu-link {
+    border-bottom: 1px solid black;
+}
+
+.pTitle {
+    font-size: 20px;
+}
+
+.aboutArticle p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.titleDivider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 25px;
+}

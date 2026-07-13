@@ -1,0 +1,20 @@
+.allergyInnerContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.allergyTitle{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 20px;
+    gap:10px;
+
+    font-size: 100px;
+    color: var(--text-alternate-color);
+}

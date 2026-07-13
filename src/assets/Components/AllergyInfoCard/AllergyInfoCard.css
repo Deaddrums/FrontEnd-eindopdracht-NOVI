@@ -1,0 +1,43 @@
+.AllergyInfoCard {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: var(--border-color) 2px solid;
+    background: var(--background-container-color);
+    border-radius: 10px;
+
+    margin: 10px;
+    padding: 10px;
+
+    height: 300px;
+    width: 390px;
+
+}
+
+.AllergyInfoCard h2 {
+    text-spacing: auto;
+}
+
+.AllergyInfoCard p {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.AllergyInfoCard ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.AllergyInfoCard ul li {
+    text-align: center;
+    font-size: 13px;
+
+}
