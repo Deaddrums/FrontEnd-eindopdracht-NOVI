@@ -1,7 +1,9 @@
 import './RegisterPage.css'
 import {useState} from "react";
+import axios from "axios";
 import image from '../../images/Broodschaap Register.png'
 import {PasswordConfirmer} from "../../Helpers/PasswordConfirmer/PasswordConfirmer.jsx";
+import {ENDPOINTS} from "../../Api/endpoints.js";
 
 function RegisterPage() {
 
@@ -10,10 +12,52 @@ function RegisterPage() {
     const [rpPassword, setRpPassword] = useState('')
     const [rpConfirmPassword, setRpConfirmPassword] = useState('')
 
-    const handleSubmit = (e) => {
+    // const API_URL = import.meta.env.VITE_API_BASE_URL
+
+    async function handleSubmit(e) {
         e.preventDefault();
-        console.log(`Form submitted, ${rpName}, ${rpEmail}, ${rpPassword}`)
+
+
+        const payload = {
+            username: rpName,
+            email: rpEmail,
+            password: rpPassword,
+            roles: ["user"]
+        };
+
+        console.log(payload);
+
+
+        try {
+            const response = await axios.post(
+                ENDPOINTS.auth.create,
+                payload,
+            );
+
+            console.log(`Account succesvol aangemaakt! ${rpName}`)
+
+        } catch (error) {
+
+            console.error(error)
+            console.log('Er ging iets mis met het aanmaken van jouw account')
+
+            console.log('STATUS');
+            console.log(error.response.status);
+
+            console.log('DATA');
+            console.log(error.response.data);
+
+            console.log('FULL RESPONSE');
+            console.log(error.response);
+
+        }
+
     }
+
+    const passwordsMatch =
+        rpPassword &&
+        rpConfirmPassword &&
+        rpPassword === rpConfirmPassword
 
     return <>
 
@@ -27,7 +71,7 @@ function RegisterPage() {
 
                 <form
                     className="rpForm"
-                onSubmit={handleSubmit}
+                    onSubmit={handleSubmit}
                 >
 
                     <fieldset className="rpFieldset">
@@ -83,9 +127,10 @@ function RegisterPage() {
                     </fieldset>
 
                     <button className="rpFormButton"
-                    type="submit"
-                    onClick={handleSubmit}
-                    >Registreer</button>
+                            type="submit"
+                            disabled={!passwordsMatch}
+                    >Registreer
+                    </button>
 
                 </form>
 

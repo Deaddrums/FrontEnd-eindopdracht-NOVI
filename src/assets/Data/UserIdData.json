@@ -1,0 +1,74 @@
+{
+  "collections": [
+    {
+      "name": "products",
+      "fields": [
+        {
+          "name": "id",
+          "type": "number",
+          "required": true
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": true,
+          "min": 2,
+          "max": 100
+        },
+        {
+          "name": "price",
+          "type": "number",
+          "required": true,
+          "min": 0
+        },
+        {
+          "name": "allergies",
+          "type": "string",
+          "required": false
+        }
+      ],
+      "permissions": {
+        "GET": [
+          "anonymous",
+          "user",
+          "admin"
+        ],
+        "POST": [
+          "admin",
+          "user"
+        ],
+        "PUT": [
+          "admin"
+        ],
+        "PATCH": [
+          "admin"
+        ],
+        "DELETE": [
+          "admin"
+        ]
+      }
+    }
+  ],
+
+  "users": [
+    {
+      "username": "Jim Horvath",
+      "email": "jimhorvath@live.nl",
+      "password": "admin123",
+      "roles": [
+        "admin"
+      ]
+    }
+  ],
+
+  "data": {
+    "products": [
+      {
+        "id": 1,
+        "name": "Pizza Margherita",
+        "price": 6.99,
+        "allergies": "Gluten, Melk"
+      }
+    ]
+  }
+}

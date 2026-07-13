@@ -77,6 +77,11 @@
     font-size: 25px;
 }
 
+.rpFormButton:disabled{
+    opacity: 50%;
+    cursor: not-allowed;
+}
+
 .rpFieldset.rpRed {
     background: var(--disapprove-color-soft);
     border-radius: 15px;
