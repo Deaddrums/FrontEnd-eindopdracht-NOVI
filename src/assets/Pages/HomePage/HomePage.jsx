@@ -3,6 +3,7 @@ import MainPageContainer from "../../Components/MainPageContainer/MainPageContai
 import {SmallMainPageContainer} from "../../Components/MainPageContainer/MainPageContainer.jsx";
 import {Link} from "react-router-dom";
 
+
 function HomePage() {
 
 

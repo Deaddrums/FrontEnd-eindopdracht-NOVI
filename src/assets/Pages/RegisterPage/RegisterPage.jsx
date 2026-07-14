@@ -12,14 +12,13 @@ function RegisterPage() {
     const [rpPassword, setRpPassword] = useState('')
     const [rpConfirmPassword, setRpConfirmPassword] = useState('')
 
-    // const API_URL = import.meta.env.VITE_API_BASE_URL
+    const PROJECT_ID = import.meta.env.VITE_PROJECT_ID
 
     async function handleSubmit(e) {
         e.preventDefault();
 
 
         const payload = {
-            username: rpName,
             email: rpEmail,
             password: rpPassword,
             roles: ["user"]
@@ -32,6 +31,12 @@ function RegisterPage() {
             const response = await axios.post(
                 ENDPOINTS.auth.create,
                 payload,
+                {
+                    headers: {
+                        'novi-education-project-id': PROJECT_ID
+                    }
+
+                }
             );
 
             console.log(`Account succesvol aangemaakt! ${rpName}`)
@@ -46,10 +51,6 @@ function RegisterPage() {
 
             console.log('DATA');
             console.log(error.response.data);
-
-            console.log('FULL RESPONSE');
-            console.log(error.response);
-
         }
 
     }

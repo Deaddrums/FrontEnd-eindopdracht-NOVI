@@ -15,6 +15,7 @@ import boodschappenImage from './assets/images/Broodschaap doet boodschappen.png
 import keukenImage from './assets/images/Broodschaap in de keuken.png'
 import bankImage from './assets/images/Broodschaap op bank 2.png'
 import registerImage from './assets/images/Broodschaap Register.png'
+import PrivateRoute from './assets/Components/PrivateRoute/PrivateRoute.jsx'
 
 export const preLoadImages = () => {
     [
@@ -42,7 +43,11 @@ function App() {
                 <Route path="/Allergy" element={<AllergyPage/>}/>
                 <Route path="/Login" element={<LoginPage/>}/>
                 <Route path="/Register" element={<RegisterPage/>}/>
-                <Route path="/Dashboard" element={<AccountDashboardPage/>}/>
+                <Route path="/Dashboard" element={
+                    <PrivateRoute>
+                    <AccountDashboardPage/>
+                    </PrivateRoute>
+                }/>
                 <Route path="/History" element={<HistoryPage/>}/>
                 <Route path="/Preference" element={<PreferencePage/>}/>
             </Routes>

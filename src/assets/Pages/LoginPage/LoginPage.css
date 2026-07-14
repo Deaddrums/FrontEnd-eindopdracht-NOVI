@@ -1,4 +1,4 @@
-.loginOuterWrapper {
+.lpOuterWrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,12 +9,12 @@
 
 }
 
-.loginOuterWrapper h1 {
+.lpOuterWrapper h1 {
     font-size: 100px;
     color: var(--text-alternate-color);
 }
 
-.loginInnerWrapper {
+.lpInnerWrapper {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -27,7 +27,7 @@
     width: 800px;
 }
 
-.loginInnerWrapper img {
+.lpInnerWrapper img {
     height: 500px;
     width: 400px;
 
@@ -35,7 +35,7 @@
     margin-right: 10px;
 }
 
-.loginForm {
+.lpLoginForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,40 +47,45 @@
 }
 
 
-#loginButtonLoginPage {
+#lpLoginButton {
     height: 50px;
     width: 300px;
     font-size: 25px;
 }
 
+#lpLoginButton:disabled{
+    opacity: 50%;
+    cursor: not-allowed;
+}
 
-.inputContainer {
+.lpInputContainer {
     position: relative;
     width: 100%;
 }
 
-.inputContainer input {
-    width: 100%;
-    padding: 16px;
+
+.lpFieldset {
 
     border: var(--border-color) 2px solid;
-    border-radius: 10px;
+    border-radius: 15px;
 
-    font-size: 1rem;
-    background: var(--background-container-color);
-}
-
-.inputContainer label {
-    position: absolute;
-
-    top: 0;
-    left: 12px;
-
-    transform: translateY(-50%);
-
-    background: var(--background-container-color);
-    padding: 0 6px;
+    height: 70px;
+    width: 350px;
+    margin: 10px;
 
     color: var(--text-color);
-    font-size: 0.85rem;
+}
+
+.lpFieldset input {
+    position: relative;
+    top: -15px;
+
+    background: transparent;
+    border: transparent;
+
+    height: 70px;
+    width: 300px;
+    padding: 5px;
+
+    font-size: 15px;
 }

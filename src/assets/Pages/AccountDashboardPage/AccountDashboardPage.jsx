@@ -1,8 +1,20 @@
 import './AccountDashboardPage.css'
-import {Link} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import image from './../../images/Broodschaap doet boodschappen.png'
+import { useContext } from "react";
+import {AuthContext} from "../../Context/AuthContext.jsx";
 
 function AccountDashboardPage() {
+const {logout} = useContext(AuthContext)
+
+    const navigate = useNavigate();
+
+    function handleLogout() {
+        logout();
+        navigate("/");
+        console.log("Je bent succesvol uitgelogd")
+    }
+
 
     return <>
 
@@ -52,6 +64,7 @@ function AccountDashboardPage() {
                 <button
                     id="adpLogOut"
                     type="button"
+                    onClick={handleLogout}
                 >Uitloggen
                 </button>
 
