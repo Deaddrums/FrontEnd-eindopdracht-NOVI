@@ -1,0 +1,108 @@
+.ppnlOuterWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ppnlTitle {
+    font-size: 50px;
+    color: var(--text-alternate-color);
+}
+
+.ppnlItemContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ppnlItemContainer button {
+    gap: 10px;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.ppnlInnerWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 600px;
+    width: 60%;
+
+    border: var(--border-color) 2px solid;
+    border-radius: 15px;
+    background: var(--background-container-color);
+}
+
+.ppnlPreferenceForm {
+    display: flex;
+    flex-direction: row;
+
+    gap: 40px;
+}
+
+.ppnlPreferenceForm img {
+    height: 400px;
+    width: 400px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+    position: relative;
+    top: 10px;
+}
+
+.ppnlAllergyList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+
+    border: var(--border-soft-color) 2px solid;
+    border-radius: 15px;
+
+}
+
+.ppnlAllergyList p {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: 0;
+}
+
+
+.ppnlFamilyList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 10px;
+    padding: 10px;
+
+    border: var(--border-soft-color) 2px solid;
+    border-radius: 15px;
+
+}
+
+.ppnlFamilyList p {
+
+    margin-bottom: -10px;
+}
+
+.ppnlFamilyList input {
+    border: var(--border-soft-color) 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#ppnlSavePreferences {
+   position: relative;
+    left: 275px;
+
+    height: 50px;
+    max-width: 400px;
+
+}

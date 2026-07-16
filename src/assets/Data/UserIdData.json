@@ -68,6 +68,6000 @@
         "name": "Pizza Margherita",
         "price": 6.99,
         "allergies": "Gluten, Melk"
+      },
+      {
+        "id": 2,
+        "name": "Bananen",
+        "price": 1.34,
+        "allergies": ""
+      },
+      {
+        "id": 3,
+        "name": "Appels",
+        "price": 2.03,
+        "allergies": "Appel, Fructose"
+      },
+      {
+        "id": 4,
+        "name": "Peren",
+        "price": 2.33,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 5,
+        "name": "Druiven",
+        "price": 2.63,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 6,
+        "name": "Mandarijnen",
+        "price": 4.29,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 7,
+        "name": "Sinaasappels",
+        "price": 2.8,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 8,
+        "name": "Kiwi's",
+        "price": 4.02,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 9,
+        "name": "Aardbeien",
+        "price": 3.44,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 10,
+        "name": "Blauwe bessen",
+        "price": 5.48,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 11,
+        "name": "Mango",
+        "price": 1.65,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 12,
+        "name": "Ananas",
+        "price": 3.5,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 13,
+        "name": "Watermeloen",
+        "price": 4.6,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 14,
+        "name": "Perziken",
+        "price": 3.13,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 15,
+        "name": "Nectarines",
+        "price": 4.09,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 16,
+        "name": "Pruimen",
+        "price": 3.44,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 17,
+        "name": "Kersen",
+        "price": 7.28,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 18,
+        "name": "Aardappelen",
+        "price": 2.31,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 19,
+        "name": "Zoete aardappelen",
+        "price": 3.48,
+        "allergies": ""
+      },
+      {
+        "id": 20,
+        "name": "Tomaten",
+        "price": 2.06,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 21,
+        "name": "Komkommer",
+        "price": 1.18,
+        "allergies": ""
+      },
+      {
+        "id": 22,
+        "name": "Paprika",
+        "price": 2.41,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 23,
+        "name": "Courgette",
+        "price": 1.6,
+        "allergies": ""
+      },
+      {
+        "id": 24,
+        "name": "Aubergine",
+        "price": 1.31,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 25,
+        "name": "Wortelen",
+        "price": 1.29,
+        "allergies": ""
+      },
+      {
+        "id": 26,
+        "name": "Broccoli",
+        "price": 1.31,
+        "allergies": ""
+      },
+      {
+        "id": 27,
+        "name": "Bloemkool",
+        "price": 2.51,
+        "allergies": ""
+      },
+      {
+        "id": 28,
+        "name": "Spinazie",
+        "price": 3.24,
+        "allergies": ""
+      },
+      {
+        "id": 29,
+        "name": "IJsbergsla",
+        "price": 1.99,
+        "allergies": ""
+      },
+      {
+        "id": 30,
+        "name": "Rucola",
+        "price": 1.79,
+        "allergies": ""
+      },
+      {
+        "id": 31,
+        "name": "Champignons",
+        "price": 1.52,
+        "allergies": ""
+      },
+      {
+        "id": 32,
+        "name": "Uien",
+        "price": 1.82,
+        "allergies": ""
+      },
+      {
+        "id": 33,
+        "name": "Knoflook",
+        "price": 0.93,
+        "allergies": ""
+      },
+      {
+        "id": 34,
+        "name": "Bleekselderij",
+        "price": 2.45,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 35,
+        "name": "Knolselderij",
+        "price": 3.11,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 36,
+        "name": "Soepgroenten",
+        "price": 1.8,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 37,
+        "name": "Avocado",
+        "price": 3.33,
+        "allergies": ""
+      },
+      {
+        "id": 38,
+        "name": "Halfvolle melk",
+        "price": 1.5,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 39,
+        "name": "Volle melk",
+        "price": 1.14,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 40,
+        "name": "Magere melk",
+        "price": 1.38,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 41,
+        "name": "Lactosevrije melk",
+        "price": 2.41,
+        "allergies": "Melk"
+      },
+      {
+        "id": 42,
+        "name": "Karnemelk",
+        "price": 1.44,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 43,
+        "name": "Yoghurt",
+        "price": 2.46,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 44,
+        "name": "Griekse yoghurt",
+        "price": 1.91,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 45,
+        "name": "Kwark",
+        "price": 2.36,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 46,
+        "name": "Vla",
+        "price": 2.36,
+        "allergies": "Lactose, Melk, Ei"
+      },
+      {
+        "id": 47,
+        "name": "Slagroom",
+        "price": 1.97,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 48,
+        "name": "Kookroom",
+        "price": 2.35,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 49,
+        "name": "Roomboter",
+        "price": 2.53,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 50,
+        "name": "Jonge kaas",
+        "price": 6.27,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 51,
+        "name": "Oude kaas",
+        "price": 5.09,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 52,
+        "name": "Roomkaas",
+        "price": 2.46,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 53,
+        "name": "Mozzarella",
+        "price": 1.91,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 54,
+        "name": "Feta",
+        "price": 2.99,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 55,
+        "name": "Geraspte kaas",
+        "price": 1.99,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 56,
+        "name": "Sojamelk",
+        "price": 1.9,
+        "allergies": "Soja"
+      },
+      {
+        "id": 57,
+        "name": "Havermelk",
+        "price": 2.34,
+        "allergies": "Gluten"
+      },
+      {
+        "id": 58,
+        "name": "Amandelmelk",
+        "price": 2.56,
+        "allergies": "Noten"
+      },
+      {
+        "id": 59,
+        "name": "Eieren",
+        "price": 3.3,
+        "allergies": "Ei"
+      },
+      {
+        "id": 60,
+        "name": "Kipfilet",
+        "price": 5.29,
+        "allergies": ""
+      },
+      {
+        "id": 61,
+        "name": "Kippendijen",
+        "price": 6.74,
+        "allergies": ""
+      },
+      {
+        "id": 62,
+        "name": "Kalkoenfilet",
+        "price": 7.77,
+        "allergies": ""
+      },
+      {
+        "id": 63,
+        "name": "Rundergehakt",
+        "price": 3.93,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 64,
+        "name": "Half-om-half gehakt",
+        "price": 3.6,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 65,
+        "name": "Biefstuk",
+        "price": 6.04,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 66,
+        "name": "Runderlappen",
+        "price": 6.9,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 67,
+        "name": "Varkenshaas",
+        "price": 12.73,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 68,
+        "name": "Spekreepjes",
+        "price": 3.26,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 69,
+        "name": "Hamburgers",
+        "price": 5.85,
+        "allergies": "Rood vlees, Gluten, Tarwe"
+      },
+      {
+        "id": 70,
+        "name": "Saucijzen",
+        "price": 4.07,
+        "allergies": "Rood vlees, Specerijen"
+      },
+      {
+        "id": 71,
+        "name": "Zalmfilet",
+        "price": 9.27,
+        "allergies": "Vis"
+      },
+      {
+        "id": 72,
+        "name": "Tonijnsteak",
+        "price": 5.79,
+        "allergies": "Vis"
+      },
+      {
+        "id": 73,
+        "name": "Kabeljauwfilet",
+        "price": 9.45,
+        "allergies": "Vis"
+      },
+      {
+        "id": 74,
+        "name": "Haring",
+        "price": 3.09,
+        "allergies": "Vis"
+      },
+      {
+        "id": 75,
+        "name": "Garnalen",
+        "price": 5.78,
+        "allergies": "Schaaldieren"
+      },
+      {
+        "id": 76,
+        "name": "Mosselen",
+        "price": 5.38,
+        "allergies": "Weekdieren"
+      },
+      {
+        "id": 77,
+        "name": "Tofu",
+        "price": 1.82,
+        "allergies": "Soja"
+      },
+      {
+        "id": 78,
+        "name": "Tempeh",
+        "price": 2.56,
+        "allergies": "Soja"
+      },
+      {
+        "id": 79,
+        "name": "Vegetarische burger",
+        "price": 4.65,
+        "allergies": "Soja, Lupine, Gluten, Tarwe"
+      },
+      {
+        "id": 80,
+        "name": "Vegetarische balletjes",
+        "price": 2.78,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 81,
+        "name": "Falafel",
+        "price": 4.41,
+        "allergies": "Sesam, Specerijen"
+      },
+      {
+        "id": 82,
+        "name": "Witbrood",
+        "price": 2.75,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 83,
+        "name": "Volkorenbrood",
+        "price": 1.7,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 84,
+        "name": "Meergranenbrood",
+        "price": 2.83,
+        "allergies": "Gluten, Tarwe, Sesam"
+      },
+      {
+        "id": 85,
+        "name": "Krentenbollen",
+        "price": 2.21,
+        "allergies": "Gluten, Tarwe, Sulfiet"
+      },
+      {
+        "id": 86,
+        "name": "Croissants",
+        "price": 3.83,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 87,
+        "name": "Pistolets",
+        "price": 2.56,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 88,
+        "name": "Bagels",
+        "price": 3.48,
+        "allergies": "Gluten, Tarwe, Sesam"
+      },
+      {
+        "id": 89,
+        "name": "Beschuit",
+        "price": 2.97,
+        "allergies": "Gluten, Tarwe, Ei"
+      },
+      {
+        "id": 90,
+        "name": "Crackers",
+        "price": 2.11,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 91,
+        "name": "Havermout",
+        "price": 1.6,
+        "allergies": "Gluten"
+      },
+      {
+        "id": 92,
+        "name": "Muesli",
+        "price": 4.21,
+        "allergies": "Gluten, Noten, Sulfiet"
+      },
+      {
+        "id": 93,
+        "name": "Cruesli",
+        "price": 4.76,
+        "allergies": "Gluten, Noten"
+      },
+      {
+        "id": 94,
+        "name": "Cornflakes",
+        "price": 1.76,
+        "allergies": ""
+      },
+      {
+        "id": 95,
+        "name": "Ontbijtkoek",
+        "price": 1.72,
+        "allergies": "Gluten, Tarwe, Specerijen"
+      },
+      {
+        "id": 96,
+        "name": "Witte rijst",
+        "price": 3.24,
+        "allergies": ""
+      },
+      {
+        "id": 97,
+        "name": "Zilvervliesrijst",
+        "price": 3.35,
+        "allergies": ""
+      },
+      {
+        "id": 98,
+        "name": "Basmatirijst",
+        "price": 1.99,
+        "allergies": ""
+      },
+      {
+        "id": 99,
+        "name": "Pasta penne",
+        "price": 1.92,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 100,
+        "name": "Spaghetti",
+        "price": 1.53,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 101,
+        "name": "Macaroni",
+        "price": 0.92,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 102,
+        "name": "Couscous",
+        "price": 1.53,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 103,
+        "name": "Noedels",
+        "price": 1.28,
+        "allergies": "Gluten, Tarwe, Ei"
+      },
+      {
+        "id": 104,
+        "name": "Bloem",
+        "price": 1.56,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 105,
+        "name": "Zelfrijzend bakmeel",
+        "price": 2.1,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 106,
+        "name": "Suiker",
+        "price": 1.75,
+        "allergies": ""
+      },
+      {
+        "id": 107,
+        "name": "Honing",
+        "price": 5.7,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 108,
+        "name": "Pindakaas",
+        "price": 3.28,
+        "allergies": "Pinda"
+      },
+      {
+        "id": 109,
+        "name": "Hazelnootpasta",
+        "price": 2.56,
+        "allergies": "Noten, Melk"
+      },
+      {
+        "id": 110,
+        "name": "Aardbeienjam",
+        "price": 1.78,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 111,
+        "name": "Abrikozenjam",
+        "price": 2.25,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 112,
+        "name": "Appelstroop",
+        "price": 3.23,
+        "allergies": "Appel, Fructose"
+      },
+      {
+        "id": 113,
+        "name": "Olijfolie",
+        "price": 6.88,
+        "allergies": ""
+      },
+      {
+        "id": 114,
+        "name": "Zonnebloemolie",
+        "price": 3.15,
+        "allergies": ""
+      },
+      {
+        "id": 115,
+        "name": "Azijn",
+        "price": 1.52,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 116,
+        "name": "Tomatenpuree",
+        "price": 0.59,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 117,
+        "name": "Pastasaus",
+        "price": 1.35,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 118,
+        "name": "Kidneybonen",
+        "price": 1.67,
+        "allergies": ""
+      },
+      {
+        "id": 119,
+        "name": "Kikkererwten",
+        "price": 0.85,
+        "allergies": ""
+      },
+      {
+        "id": 120,
+        "name": "Linzen",
+        "price": 1.89,
+        "allergies": ""
+      },
+      {
+        "id": 121,
+        "name": "Tonijn in blik",
+        "price": 3.3,
+        "allergies": "Vis"
+      },
+      {
+        "id": 122,
+        "name": "Bouillonblokjes",
+        "price": 2.06,
+        "allergies": "Selderij, Specerijen"
+      },
+      {
+        "id": 123,
+        "name": "Sojasaus",
+        "price": 1.77,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 124,
+        "name": "Ketjap",
+        "price": 2.24,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 125,
+        "name": "Mayonaise",
+        "price": 2.87,
+        "allergies": "Ei, Mosterd"
+      },
+      {
+        "id": 126,
+        "name": "Ketchup",
+        "price": 1.52,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 127,
+        "name": "Mosterd",
+        "price": 0.83,
+        "allergies": "Mosterd"
+      },
+      {
+        "id": 128,
+        "name": "Satésaus",
+        "price": 2.17,
+        "allergies": "Pinda, Soja"
+      },
+      {
+        "id": 129,
+        "name": "Knoflooksaus",
+        "price": 1.64,
+        "allergies": "Melk, Lactose, Ei"
+      },
+      {
+        "id": 130,
+        "name": "Hummus",
+        "price": 3.15,
+        "allergies": "Sesam"
+      },
+      {
+        "id": 131,
+        "name": "Pesto",
+        "price": 3.81,
+        "allergies": "Noten, Melk"
+      },
+      {
+        "id": 132,
+        "name": "Dressing",
+        "price": 1.45,
+        "allergies": "Mosterd, Sulfiet"
+      },
+      {
+        "id": 133,
+        "name": "Naturel chips",
+        "price": 1.04,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 134,
+        "name": "Paprika chips",
+        "price": 3.09,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 135,
+        "name": "Borrelnoten",
+        "price": 3.92,
+        "allergies": "Pinda, Gluten, Tarwe"
+      },
+      {
+        "id": 136,
+        "name": "Notenmix",
+        "price": 5.37,
+        "allergies": "Noten"
+      },
+      {
+        "id": 137,
+        "name": "Popcorn",
+        "price": 1.61,
+        "allergies": ""
+      },
+      {
+        "id": 138,
+        "name": "Rijstwafels",
+        "price": 2.32,
+        "allergies": ""
+      },
+      {
+        "id": 139,
+        "name": "Melkchocolade",
+        "price": 1.8,
+        "allergies": "Melk, Lactose"
+      },
+      {
+        "id": 140,
+        "name": "Pure chocolade",
+        "price": 1.47,
+        "allergies": ""
+      },
+      {
+        "id": 141,
+        "name": "Koekjes",
+        "price": 1.77,
+        "allergies": "Gluten, Tarwe, Ei, Melk"
+      },
+      {
+        "id": 142,
+        "name": "Stroopwafels",
+        "price": 1.6,
+        "allergies": "Gluten, Tarwe, Melk, Ei"
+      },
+      {
+        "id": 143,
+        "name": "Speculaas",
+        "price": 1.61,
+        "allergies": "Gluten, Tarwe, Specerijen"
+      },
+      {
+        "id": 144,
+        "name": "Drop",
+        "price": 2.09,
+        "allergies": ""
+      },
+      {
+        "id": 145,
+        "name": "Diepvries pizza",
+        "price": 4.59,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 146,
+        "name": "Lasagne",
+        "price": 5.12,
+        "allergies": "Gluten, Tarwe, Melk, Ei"
+      },
+      {
+        "id": 147,
+        "name": "Diepvries spinazie",
+        "price": 1.24,
+        "allergies": ""
+      },
+      {
+        "id": 148,
+        "name": "Kroketten",
+        "price": 2.52,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 149,
+        "name": "Bitterballen",
+        "price": 3.01,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 150,
+        "name": "Vanille ijs",
+        "price": 4.4,
+        "allergies": "Lactose, Melk, Ei"
+      },
+      {
+        "id": 151,
+        "name": "Waterijsjes",
+        "price": 4.26,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 152,
+        "name": "Mineraalwater",
+        "price": 1.23,
+        "allergies": ""
+      },
+      {
+        "id": 153,
+        "name": "Bruiswater",
+        "price": 1.41,
+        "allergies": ""
+      },
+      {
+        "id": 154,
+        "name": "Cola",
+        "price": 2.75,
+        "allergies": ""
+      },
+      {
+        "id": 155,
+        "name": "Sinas",
+        "price": 1.18,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 156,
+        "name": "IJsthee",
+        "price": 1.13,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 157,
+        "name": "Koffiebonen",
+        "price": 5.46,
+        "allergies": ""
+      },
+      {
+        "id": 158,
+        "name": "Filterkoffie",
+        "price": 2.74,
+        "allergies": ""
+      },
+      {
+        "id": 159,
+        "name": "Thee",
+        "price": 1.56,
+        "allergies": ""
+      },
+      {
+        "id": 160,
+        "name": "Chocolademelk",
+        "price": 1.7,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 161,
+        "name": "Bier",
+        "price": 12.93,
+        "allergies": "Gluten, Tarwe, Sulfiet"
+      },
+      {
+        "id": 162,
+        "name": "Rode wijn",
+        "price": 8.09,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 163,
+        "name": "Witte wijn",
+        "price": 9.08,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 164,
+        "name": "Toiletpapier",
+        "price": 3.83,
+        "allergies": ""
+      },
+      {
+        "id": 165,
+        "name": "Keukenpapier",
+        "price": 1.57,
+        "allergies": ""
+      },
+      {
+        "id": 166,
+        "name": "Afwasmiddel",
+        "price": 2.19,
+        "allergies": ""
+      },
+      {
+        "id": 167,
+        "name": "Wasmiddel",
+        "price": 5.8,
+        "allergies": ""
+      },
+      {
+        "id": 168,
+        "name": "Allesreiniger",
+        "price": 2.68,
+        "allergies": ""
+      },
+      {
+        "id": 169,
+        "name": "Tandpasta",
+        "price": 2.35,
+        "allergies": ""
+      },
+      {
+        "id": 170,
+        "name": "Shampoo",
+        "price": 4.97,
+        "allergies": ""
+      },
+      {
+        "id": 171,
+        "name": "Douchegel",
+        "price": 1.82,
+        "allergies": ""
+      },
+      {
+        "id": 172,
+        "name": "Deodorant",
+        "price": 3.85,
+        "allergies": ""
+      },
+      {
+        "id": 173,
+        "name": "Luiers",
+        "price": 14.59,
+        "allergies": ""
+      },
+      {
+        "id": 174,
+        "name": "Vuilniszakken",
+        "price": 3.71,
+        "allergies": ""
+      },
+      {
+        "id": 175,
+        "name": "Bananen 500 gram",
+        "price": 2.08,
+        "allergies": ""
+      },
+      {
+        "id": 176,
+        "name": "Appels 500 gram",
+        "price": 2.28,
+        "allergies": "Appel, Fructose"
+      },
+      {
+        "id": 177,
+        "name": "Peren 500 gram",
+        "price": 1.64,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 178,
+        "name": "Druiven 500 gram",
+        "price": 4.97,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 179,
+        "name": "Mandarijnen 500 gram",
+        "price": 3.56,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 180,
+        "name": "Sinaasappels 500 gram",
+        "price": 3.51,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 181,
+        "name": "Kiwi's 500 gram",
+        "price": 3.25,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 182,
+        "name": "Aardbeien 500 gram",
+        "price": 5.43,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 183,
+        "name": "Blauwe bessen 500 gram",
+        "price": 3.15,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 184,
+        "name": "Mango 500 gram",
+        "price": 2.84,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 185,
+        "name": "Ananas 500 gram",
+        "price": 3.45,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 186,
+        "name": "Watermeloen 500 gram",
+        "price": 5.56,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 187,
+        "name": "Perziken 500 gram",
+        "price": 3.58,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 188,
+        "name": "Nectarines 500 gram",
+        "price": 3.65,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 189,
+        "name": "Pruimen 500 gram",
+        "price": 2.74,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 190,
+        "name": "Kersen 500 gram",
+        "price": 7.63,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 191,
+        "name": "Aardappelen 500 gram",
+        "price": 2.5,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 192,
+        "name": "Zoete aardappelen 500 gram",
+        "price": 2.44,
+        "allergies": ""
+      },
+      {
+        "id": 193,
+        "name": "Tomaten 500 gram",
+        "price": 1.82,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 194,
+        "name": "Komkommer 500 gram",
+        "price": 1.18,
+        "allergies": ""
+      },
+      {
+        "id": 195,
+        "name": "Paprika 500 gram",
+        "price": 3.36,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 196,
+        "name": "Courgette 500 gram",
+        "price": 1.14,
+        "allergies": ""
+      },
+      {
+        "id": 197,
+        "name": "Aubergine 500 gram",
+        "price": 1.46,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 198,
+        "name": "Wortelen 500 gram",
+        "price": 1.9,
+        "allergies": ""
+      },
+      {
+        "id": 199,
+        "name": "Broccoli 500 gram",
+        "price": 2.24,
+        "allergies": ""
+      },
+      {
+        "id": 200,
+        "name": "Bloemkool 500 gram",
+        "price": 1.75,
+        "allergies": ""
+      },
+      {
+        "id": 201,
+        "name": "Spinazie 500 gram",
+        "price": 2.28,
+        "allergies": ""
+      },
+      {
+        "id": 202,
+        "name": "IJsbergsla 500 gram",
+        "price": 2.23,
+        "allergies": ""
+      },
+      {
+        "id": 203,
+        "name": "Rucola 500 gram",
+        "price": 2.33,
+        "allergies": ""
+      },
+      {
+        "id": 204,
+        "name": "Champignons 500 gram",
+        "price": 3.07,
+        "allergies": ""
+      },
+      {
+        "id": 205,
+        "name": "Uien 500 gram",
+        "price": 2.18,
+        "allergies": ""
+      },
+      {
+        "id": 206,
+        "name": "Knoflook 500 gram",
+        "price": 0.71,
+        "allergies": ""
+      },
+      {
+        "id": 207,
+        "name": "Bleekselderij 500 gram",
+        "price": 1.69,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 208,
+        "name": "Knolselderij 500 gram",
+        "price": 2.48,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 209,
+        "name": "Soepgroenten 500 gram",
+        "price": 2.56,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 210,
+        "name": "Avocado 500 gram",
+        "price": 2.26,
+        "allergies": ""
+      },
+      {
+        "id": 211,
+        "name": "Halfvolle melk 500 gram",
+        "price": 1.12,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 212,
+        "name": "Volle melk 500 gram",
+        "price": 1.35,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 213,
+        "name": "Magere melk 500 gram",
+        "price": 1.45,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 214,
+        "name": "Lactosevrije melk 500 gram",
+        "price": 2.24,
+        "allergies": "Melk"
+      },
+      {
+        "id": 215,
+        "name": "Karnemelk 500 gram",
+        "price": 1.35,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 216,
+        "name": "Yoghurt 500 gram",
+        "price": 1.49,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 217,
+        "name": "Griekse yoghurt 500 gram",
+        "price": 2.87,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 218,
+        "name": "Kwark 500 gram",
+        "price": 1.9,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 219,
+        "name": "Vla 500 gram",
+        "price": 1.37,
+        "allergies": "Lactose, Melk, Ei"
+      },
+      {
+        "id": 220,
+        "name": "Slagroom 500 gram",
+        "price": 1.39,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 221,
+        "name": "Kookroom 500 gram",
+        "price": 1.59,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 222,
+        "name": "Roomboter 500 gram",
+        "price": 3.96,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 223,
+        "name": "Jonge kaas 500 gram",
+        "price": 6.19,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 224,
+        "name": "Oude kaas 500 gram",
+        "price": 7.18,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 225,
+        "name": "Roomkaas 500 gram",
+        "price": 2.07,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 226,
+        "name": "Mozzarella 500 gram",
+        "price": 1.91,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 227,
+        "name": "Feta 500 gram",
+        "price": 2.87,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 228,
+        "name": "Geraspte kaas 500 gram",
+        "price": 3.47,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 229,
+        "name": "Sojamelk 500 gram",
+        "price": 1.29,
+        "allergies": "Soja"
+      },
+      {
+        "id": 230,
+        "name": "Havermelk 500 gram",
+        "price": 2.04,
+        "allergies": "Gluten"
+      },
+      {
+        "id": 231,
+        "name": "Amandelmelk 500 gram",
+        "price": 3.47,
+        "allergies": "Noten"
+      },
+      {
+        "id": 232,
+        "name": "Eieren 500 gram",
+        "price": 2.3,
+        "allergies": "Ei"
+      },
+      {
+        "id": 233,
+        "name": "Kipfilet 500 gram",
+        "price": 7.29,
+        "allergies": ""
+      },
+      {
+        "id": 234,
+        "name": "Kippendijen 500 gram",
+        "price": 7.85,
+        "allergies": ""
+      },
+      {
+        "id": 235,
+        "name": "Kalkoenfilet 500 gram",
+        "price": 6.0,
+        "allergies": ""
+      },
+      {
+        "id": 236,
+        "name": "Rundergehakt 500 gram",
+        "price": 5.65,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 237,
+        "name": "Half-om-half gehakt 500 gram",
+        "price": 6.61,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 238,
+        "name": "Biefstuk 500 gram",
+        "price": 6.25,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 239,
+        "name": "Runderlappen 500 gram",
+        "price": 6.09,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 240,
+        "name": "Varkenshaas 500 gram",
+        "price": 12.53,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 241,
+        "name": "Spekreepjes 500 gram",
+        "price": 2.1,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 242,
+        "name": "Hamburgers 500 gram",
+        "price": 4.01,
+        "allergies": "Rood vlees, Gluten, Tarwe"
+      },
+      {
+        "id": 243,
+        "name": "Saucijzen 500 gram",
+        "price": 2.88,
+        "allergies": "Rood vlees, Specerijen"
+      },
+      {
+        "id": 244,
+        "name": "Zalmfilet 500 gram",
+        "price": 12.38,
+        "allergies": "Vis"
+      },
+      {
+        "id": 245,
+        "name": "Tonijnsteak 500 gram",
+        "price": 11.93,
+        "allergies": "Vis"
+      },
+      {
+        "id": 246,
+        "name": "Kabeljauwfilet 500 gram",
+        "price": 6.77,
+        "allergies": "Vis"
+      },
+      {
+        "id": 247,
+        "name": "Haring 500 gram",
+        "price": 3.71,
+        "allergies": "Vis"
+      },
+      {
+        "id": 248,
+        "name": "Garnalen 500 gram",
+        "price": 10.26,
+        "allergies": "Schaaldieren"
+      },
+      {
+        "id": 249,
+        "name": "Mosselen 500 gram",
+        "price": 5.14,
+        "allergies": "Weekdieren"
+      },
+      {
+        "id": 250,
+        "name": "Tofu 500 gram",
+        "price": 3.26,
+        "allergies": "Soja"
+      },
+      {
+        "id": 251,
+        "name": "Tempeh 500 gram",
+        "price": 2.88,
+        "allergies": "Soja"
+      },
+      {
+        "id": 252,
+        "name": "Vegetarische burger 500 gram",
+        "price": 3.46,
+        "allergies": "Soja, Lupine, Gluten, Tarwe"
+      },
+      {
+        "id": 253,
+        "name": "Vegetarische balletjes 500 gram",
+        "price": 4.44,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 254,
+        "name": "Falafel 500 gram",
+        "price": 2.61,
+        "allergies": "Sesam, Specerijen"
+      },
+      {
+        "id": 255,
+        "name": "Witbrood half",
+        "price": 1.8,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 256,
+        "name": "Volkorenbrood half",
+        "price": 2.39,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 257,
+        "name": "Meergranenbrood half",
+        "price": 3.03,
+        "allergies": "Gluten, Tarwe, Sesam"
+      },
+      {
+        "id": 258,
+        "name": "Krentenbollen half",
+        "price": 2.92,
+        "allergies": "Gluten, Tarwe, Sulfiet"
+      },
+      {
+        "id": 259,
+        "name": "Croissants half",
+        "price": 3.94,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 260,
+        "name": "Pistolets half",
+        "price": 2.21,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 261,
+        "name": "Bagels half",
+        "price": 1.96,
+        "allergies": "Gluten, Tarwe, Sesam"
+      },
+      {
+        "id": 262,
+        "name": "Beschuit half",
+        "price": 2.64,
+        "allergies": "Gluten, Tarwe, Ei"
+      },
+      {
+        "id": 263,
+        "name": "Crackers half",
+        "price": 1.25,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 264,
+        "name": "Havermout 500 gram",
+        "price": 1.08,
+        "allergies": "Gluten"
+      },
+      {
+        "id": 265,
+        "name": "Muesli 500 gram",
+        "price": 4.06,
+        "allergies": "Gluten, Noten, Sulfiet"
+      },
+      {
+        "id": 266,
+        "name": "Cruesli 500 gram",
+        "price": 2.12,
+        "allergies": "Gluten, Noten"
+      },
+      {
+        "id": 267,
+        "name": "Cornflakes 500 gram",
+        "price": 3.37,
+        "allergies": ""
+      },
+      {
+        "id": 268,
+        "name": "Ontbijtkoek 500 gram",
+        "price": 3.34,
+        "allergies": "Gluten, Tarwe, Specerijen"
+      },
+      {
+        "id": 269,
+        "name": "Witte rijst 500 gram",
+        "price": 1.02,
+        "allergies": ""
+      },
+      {
+        "id": 270,
+        "name": "Zilvervliesrijst 500 gram",
+        "price": 1.8,
+        "allergies": ""
+      },
+      {
+        "id": 271,
+        "name": "Basmatirijst 500 gram",
+        "price": 4.09,
+        "allergies": ""
+      },
+      {
+        "id": 272,
+        "name": "Pasta penne 500 gram",
+        "price": 0.9,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 273,
+        "name": "Spaghetti 500 gram",
+        "price": 2.07,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 274,
+        "name": "Macaroni 500 gram",
+        "price": 1.97,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 275,
+        "name": "Couscous 500 gram",
+        "price": 1.06,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 276,
+        "name": "Noedels 500 gram",
+        "price": 1.29,
+        "allergies": "Gluten, Tarwe, Ei"
+      },
+      {
+        "id": 277,
+        "name": "Bloem 500 gram",
+        "price": 1.97,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 278,
+        "name": "Zelfrijzend bakmeel 500 gram",
+        "price": 1.63,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 279,
+        "name": "Suiker 500 gram",
+        "price": 0.96,
+        "allergies": ""
+      },
+      {
+        "id": 280,
+        "name": "Honing 500 gram",
+        "price": 2.43,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 281,
+        "name": "Pindakaas 500 gram",
+        "price": 2.26,
+        "allergies": "Pinda"
+      },
+      {
+        "id": 282,
+        "name": "Hazelnootpasta 500 gram",
+        "price": 4.89,
+        "allergies": "Noten, Melk"
+      },
+      {
+        "id": 283,
+        "name": "Aardbeienjam 500 gram",
+        "price": 2.7,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 284,
+        "name": "Abrikozenjam 500 gram",
+        "price": 2.38,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 285,
+        "name": "Appelstroop 500 gram",
+        "price": 2.66,
+        "allergies": "Appel, Fructose"
+      },
+      {
+        "id": 286,
+        "name": "Olijfolie 500 gram",
+        "price": 6.06,
+        "allergies": ""
+      },
+      {
+        "id": 287,
+        "name": "Zonnebloemolie 500 gram",
+        "price": 3.02,
+        "allergies": ""
+      },
+      {
+        "id": 288,
+        "name": "Azijn 500 gram",
+        "price": 2.19,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 289,
+        "name": "Tomatenpuree 500 gram",
+        "price": 1.41,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 290,
+        "name": "Pastasaus 500 gram",
+        "price": 2.66,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 291,
+        "name": "Kidneybonen 500 gram",
+        "price": 1.03,
+        "allergies": ""
+      },
+      {
+        "id": 292,
+        "name": "Kikkererwten 500 gram",
+        "price": 1.33,
+        "allergies": ""
+      },
+      {
+        "id": 293,
+        "name": "Linzen 500 gram",
+        "price": 2.44,
+        "allergies": ""
+      },
+      {
+        "id": 294,
+        "name": "Tonijn in blik 500 gram",
+        "price": 2.72,
+        "allergies": "Vis"
+      },
+      {
+        "id": 295,
+        "name": "Bouillonblokjes 500 gram",
+        "price": 1.58,
+        "allergies": "Selderij, Specerijen"
+      },
+      {
+        "id": 296,
+        "name": "Sojasaus 500 gram",
+        "price": 1.5,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 297,
+        "name": "Ketjap 500 gram",
+        "price": 2.63,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 298,
+        "name": "Mayonaise 500 gram",
+        "price": 2.7,
+        "allergies": "Ei, Mosterd"
+      },
+      {
+        "id": 299,
+        "name": "Ketchup 500 gram",
+        "price": 1.43,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 300,
+        "name": "Mosterd 500 gram",
+        "price": 0.92,
+        "allergies": "Mosterd"
+      },
+      {
+        "id": 301,
+        "name": "Satésaus 500 gram",
+        "price": 2.53,
+        "allergies": "Pinda, Soja"
+      },
+      {
+        "id": 302,
+        "name": "Knoflooksaus 500 gram",
+        "price": 1.94,
+        "allergies": "Melk, Lactose, Ei"
+      },
+      {
+        "id": 303,
+        "name": "Hummus 500 gram",
+        "price": 2.44,
+        "allergies": "Sesam"
+      },
+      {
+        "id": 304,
+        "name": "Pesto 500 gram",
+        "price": 2.68,
+        "allergies": "Noten, Melk"
+      },
+      {
+        "id": 305,
+        "name": "Dressing 500 gram",
+        "price": 2.53,
+        "allergies": "Mosterd, Sulfiet"
+      },
+      {
+        "id": 306,
+        "name": "Naturel chips 500 gram",
+        "price": 3.41,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 307,
+        "name": "Paprika chips 500 gram",
+        "price": 1.03,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 308,
+        "name": "Borrelnoten 500 gram",
+        "price": 3.88,
+        "allergies": "Pinda, Gluten, Tarwe"
+      },
+      {
+        "id": 309,
+        "name": "Notenmix 500 gram",
+        "price": 2.59,
+        "allergies": "Noten"
+      },
+      {
+        "id": 310,
+        "name": "Popcorn 500 gram",
+        "price": 1.71,
+        "allergies": ""
+      },
+      {
+        "id": 311,
+        "name": "Rijstwafels 500 gram",
+        "price": 2.05,
+        "allergies": ""
+      },
+      {
+        "id": 312,
+        "name": "Melkchocolade 500 gram",
+        "price": 1.69,
+        "allergies": "Melk, Lactose"
+      },
+      {
+        "id": 313,
+        "name": "Pure chocolade 500 gram",
+        "price": 1.12,
+        "allergies": ""
+      },
+      {
+        "id": 314,
+        "name": "Koekjes 500 gram",
+        "price": 1.62,
+        "allergies": "Gluten, Tarwe, Ei, Melk"
+      },
+      {
+        "id": 315,
+        "name": "Stroopwafels 500 gram",
+        "price": 1.27,
+        "allergies": "Gluten, Tarwe, Melk, Ei"
+      },
+      {
+        "id": 316,
+        "name": "Speculaas 500 gram",
+        "price": 2.35,
+        "allergies": "Gluten, Tarwe, Specerijen"
+      },
+      {
+        "id": 317,
+        "name": "Drop 500 gram",
+        "price": 1.03,
+        "allergies": ""
+      },
+      {
+        "id": 318,
+        "name": "Diepvries pizza 500 gram",
+        "price": 4.2,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 319,
+        "name": "Pizza Margherita 500 gram",
+        "price": 6.16,
+        "allergies": "Gluten, Melk"
+      },
+      {
+        "id": 320,
+        "name": "Lasagne 500 gram",
+        "price": 6.79,
+        "allergies": "Gluten, Tarwe, Melk, Ei"
+      },
+      {
+        "id": 321,
+        "name": "Diepvries spinazie 500 gram",
+        "price": 2.75,
+        "allergies": ""
+      },
+      {
+        "id": 322,
+        "name": "Kroketten 500 gram",
+        "price": 4.52,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 323,
+        "name": "Bitterballen 500 gram",
+        "price": 6.86,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 324,
+        "name": "Vanille ijs 500 gram",
+        "price": 2.14,
+        "allergies": "Lactose, Melk, Ei"
+      },
+      {
+        "id": 325,
+        "name": "Waterijsjes 500 gram",
+        "price": 4.2,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 326,
+        "name": "Mineraalwater 1 liter",
+        "price": 1.34,
+        "allergies": ""
+      },
+      {
+        "id": 327,
+        "name": "Bruiswater 1 liter",
+        "price": 0.89,
+        "allergies": ""
+      },
+      {
+        "id": 328,
+        "name": "Cola 1 liter",
+        "price": 2.09,
+        "allergies": ""
+      },
+      {
+        "id": 329,
+        "name": "Sinas 1 liter",
+        "price": 1.27,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 330,
+        "name": "IJsthee 1 liter",
+        "price": 1.48,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 331,
+        "name": "Koffiebonen 1 liter",
+        "price": 10.09,
+        "allergies": ""
+      },
+      {
+        "id": 332,
+        "name": "Filterkoffie 1 liter",
+        "price": 4.68,
+        "allergies": ""
+      },
+      {
+        "id": 333,
+        "name": "Thee 1 liter",
+        "price": 1.65,
+        "allergies": ""
+      },
+      {
+        "id": 334,
+        "name": "Chocolademelk 1 liter",
+        "price": 1.51,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 335,
+        "name": "Bier 1 liter",
+        "price": 9.6,
+        "allergies": "Gluten, Tarwe, Sulfiet"
+      },
+      {
+        "id": 336,
+        "name": "Rode wijn 1 liter",
+        "price": 5.34,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 337,
+        "name": "Witte wijn 1 liter",
+        "price": 4.88,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 338,
+        "name": "Toiletpapier 1 stuk",
+        "price": 5.66,
+        "allergies": ""
+      },
+      {
+        "id": 339,
+        "name": "Keukenpapier 1 stuk",
+        "price": 1.73,
+        "allergies": ""
+      },
+      {
+        "id": 340,
+        "name": "Afwasmiddel 1 stuk",
+        "price": 2.42,
+        "allergies": ""
+      },
+      {
+        "id": 341,
+        "name": "Wasmiddel 1 stuk",
+        "price": 4.25,
+        "allergies": ""
+      },
+      {
+        "id": 342,
+        "name": "Allesreiniger 1 stuk",
+        "price": 2.54,
+        "allergies": ""
+      },
+      {
+        "id": 343,
+        "name": "Tandpasta 1 stuk",
+        "price": 3.81,
+        "allergies": ""
+      },
+      {
+        "id": 344,
+        "name": "Shampoo 1 stuk",
+        "price": 2.95,
+        "allergies": ""
+      },
+      {
+        "id": 345,
+        "name": "Douchegel 1 stuk",
+        "price": 4.62,
+        "allergies": ""
+      },
+      {
+        "id": 346,
+        "name": "Deodorant 1 stuk",
+        "price": 3.47,
+        "allergies": ""
+      },
+      {
+        "id": 347,
+        "name": "Luiers 1 stuk",
+        "price": 5.07,
+        "allergies": ""
+      },
+      {
+        "id": 348,
+        "name": "Vuilniszakken 1 stuk",
+        "price": 4.59,
+        "allergies": ""
+      },
+      {
+        "id": 349,
+        "name": "Bananen 1 kilo",
+        "price": 1.28,
+        "allergies": ""
+      },
+      {
+        "id": 350,
+        "name": "Appels 1 kilo",
+        "price": 3.19,
+        "allergies": "Appel, Fructose"
+      },
+      {
+        "id": 351,
+        "name": "Peren 1 kilo",
+        "price": 2.64,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 352,
+        "name": "Druiven 1 kilo",
+        "price": 4.46,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 353,
+        "name": "Mandarijnen 1 kilo",
+        "price": 2.84,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 354,
+        "name": "Sinaasappels 1 kilo",
+        "price": 2.66,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 355,
+        "name": "Kiwi's 1 kilo",
+        "price": 4.41,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 356,
+        "name": "Aardbeien 1 kilo",
+        "price": 5.27,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 357,
+        "name": "Blauwe bessen 1 kilo",
+        "price": 4.82,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 358,
+        "name": "Mango 1 kilo",
+        "price": 2.32,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 359,
+        "name": "Ananas 1 kilo",
+        "price": 3.14,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 360,
+        "name": "Watermeloen 1 kilo",
+        "price": 4.64,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 361,
+        "name": "Perziken 1 kilo",
+        "price": 4.46,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 362,
+        "name": "Nectarines 1 kilo",
+        "price": 4.19,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 363,
+        "name": "Pruimen 1 kilo",
+        "price": 4.78,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 364,
+        "name": "Kersen 1 kilo",
+        "price": 4.34,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 365,
+        "name": "Aardappelen 1 kilo",
+        "price": 1.86,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 366,
+        "name": "Zoete aardappelen 1 kilo",
+        "price": 4.23,
+        "allergies": ""
+      },
+      {
+        "id": 367,
+        "name": "Tomaten 1 kilo",
+        "price": 1.51,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 368,
+        "name": "Komkommer 1 kilo",
+        "price": 1.16,
+        "allergies": ""
+      },
+      {
+        "id": 369,
+        "name": "Paprika 1 kilo",
+        "price": 2.33,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 370,
+        "name": "Courgette 1 kilo",
+        "price": 1.77,
+        "allergies": ""
+      },
+      {
+        "id": 371,
+        "name": "Aubergine 1 kilo",
+        "price": 1.83,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 372,
+        "name": "Wortelen 1 kilo",
+        "price": 2.04,
+        "allergies": ""
+      },
+      {
+        "id": 373,
+        "name": "Broccoli 1 kilo",
+        "price": 2.56,
+        "allergies": ""
+      },
+      {
+        "id": 374,
+        "name": "Bloemkool 1 kilo",
+        "price": 2.57,
+        "allergies": ""
+      },
+      {
+        "id": 375,
+        "name": "Spinazie 1 kilo",
+        "price": 2.93,
+        "allergies": ""
+      },
+      {
+        "id": 376,
+        "name": "IJsbergsla 1 kilo",
+        "price": 1.19,
+        "allergies": ""
+      },
+      {
+        "id": 377,
+        "name": "Rucola 1 kilo",
+        "price": 1.13,
+        "allergies": ""
+      },
+      {
+        "id": 378,
+        "name": "Champignons 1 kilo",
+        "price": 2.41,
+        "allergies": ""
+      },
+      {
+        "id": 379,
+        "name": "Uien 1 kilo",
+        "price": 2.15,
+        "allergies": ""
+      },
+      {
+        "id": 380,
+        "name": "Knoflook 1 kilo",
+        "price": 1.66,
+        "allergies": ""
+      },
+      {
+        "id": 381,
+        "name": "Bleekselderij 1 kilo",
+        "price": 1.65,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 382,
+        "name": "Knolselderij 1 kilo",
+        "price": 2.87,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 383,
+        "name": "Soepgroenten 1 kilo",
+        "price": 1.5,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 384,
+        "name": "Avocado 1 kilo",
+        "price": 3.43,
+        "allergies": ""
+      },
+      {
+        "id": 385,
+        "name": "Halfvolle melk 1 kilo",
+        "price": 1.31,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 386,
+        "name": "Volle melk 1 kilo",
+        "price": 1.11,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 387,
+        "name": "Magere melk 1 kilo",
+        "price": 1.17,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 388,
+        "name": "Lactosevrije melk 1 kilo",
+        "price": 1.61,
+        "allergies": "Melk"
+      },
+      {
+        "id": 389,
+        "name": "Karnemelk 1 kilo",
+        "price": 1.75,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 390,
+        "name": "Yoghurt 1 kilo",
+        "price": 1.7,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 391,
+        "name": "Griekse yoghurt 1 kilo",
+        "price": 3.17,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 392,
+        "name": "Kwark 1 kilo",
+        "price": 2.23,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 393,
+        "name": "Vla 1 kilo",
+        "price": 1.45,
+        "allergies": "Lactose, Melk, Ei"
+      },
+      {
+        "id": 394,
+        "name": "Slagroom 1 kilo",
+        "price": 1.84,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 395,
+        "name": "Kookroom 1 kilo",
+        "price": 2.21,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 396,
+        "name": "Roomboter 1 kilo",
+        "price": 2.52,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 397,
+        "name": "Jonge kaas 1 kilo",
+        "price": 4.68,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 398,
+        "name": "Oude kaas 1 kilo",
+        "price": 5.22,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 399,
+        "name": "Roomkaas 1 kilo",
+        "price": 2.01,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 400,
+        "name": "Mozzarella 1 kilo",
+        "price": 1.41,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 401,
+        "name": "Feta 1 kilo",
+        "price": 2.5,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 402,
+        "name": "Geraspte kaas 1 kilo",
+        "price": 2.43,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 403,
+        "name": "Sojamelk 1 kilo",
+        "price": 2.37,
+        "allergies": "Soja"
+      },
+      {
+        "id": 404,
+        "name": "Havermelk 1 kilo",
+        "price": 2.27,
+        "allergies": "Gluten"
+      },
+      {
+        "id": 405,
+        "name": "Amandelmelk 1 kilo",
+        "price": 2.2,
+        "allergies": "Noten"
+      },
+      {
+        "id": 406,
+        "name": "Eieren 1 kilo",
+        "price": 2.22,
+        "allergies": "Ei"
+      },
+      {
+        "id": 407,
+        "name": "Kipfilet 1 kilo",
+        "price": 6.21,
+        "allergies": ""
+      },
+      {
+        "id": 408,
+        "name": "Kippendijen 1 kilo",
+        "price": 9.81,
+        "allergies": ""
+      },
+      {
+        "id": 409,
+        "name": "Kalkoenfilet 1 kilo",
+        "price": 5.77,
+        "allergies": ""
+      },
+      {
+        "id": 410,
+        "name": "Rundergehakt 1 kilo",
+        "price": 7.67,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 411,
+        "name": "Half-om-half gehakt 1 kilo",
+        "price": 6.62,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 412,
+        "name": "Biefstuk 1 kilo",
+        "price": 14.25,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 413,
+        "name": "Runderlappen 1 kilo",
+        "price": 5.94,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 414,
+        "name": "Varkenshaas 1 kilo",
+        "price": 5.73,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 415,
+        "name": "Spekreepjes 1 kilo",
+        "price": 3.58,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 416,
+        "name": "Hamburgers 1 kilo",
+        "price": 2.84,
+        "allergies": "Rood vlees, Gluten, Tarwe"
+      },
+      {
+        "id": 417,
+        "name": "Saucijzen 1 kilo",
+        "price": 4.17,
+        "allergies": "Rood vlees, Specerijen"
+      },
+      {
+        "id": 418,
+        "name": "Zalmfilet 1 kilo",
+        "price": 12.47,
+        "allergies": "Vis"
+      },
+      {
+        "id": 419,
+        "name": "Tonijnsteak 1 kilo",
+        "price": 6.13,
+        "allergies": "Vis"
+      },
+      {
+        "id": 420,
+        "name": "Kabeljauwfilet 1 kilo",
+        "price": 12.15,
+        "allergies": "Vis"
+      },
+      {
+        "id": 421,
+        "name": "Haring 1 kilo",
+        "price": 2.36,
+        "allergies": "Vis"
+      },
+      {
+        "id": 422,
+        "name": "Garnalen 1 kilo",
+        "price": 4.25,
+        "allergies": "Schaaldieren"
+      },
+      {
+        "id": 423,
+        "name": "Mosselen 1 kilo",
+        "price": 5.24,
+        "allergies": "Weekdieren"
+      },
+      {
+        "id": 424,
+        "name": "Tofu 1 kilo",
+        "price": 2.41,
+        "allergies": "Soja"
+      },
+      {
+        "id": 425,
+        "name": "Tempeh 1 kilo",
+        "price": 3.87,
+        "allergies": "Soja"
+      },
+      {
+        "id": 426,
+        "name": "Vegetarische burger 1 kilo",
+        "price": 4.7,
+        "allergies": "Soja, Lupine, Gluten, Tarwe"
+      },
+      {
+        "id": 427,
+        "name": "Vegetarische balletjes 1 kilo",
+        "price": 4.27,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 428,
+        "name": "Falafel 1 kilo",
+        "price": 3.92,
+        "allergies": "Sesam, Specerijen"
+      },
+      {
+        "id": 429,
+        "name": "Witbrood heel",
+        "price": 2.22,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 430,
+        "name": "Volkorenbrood heel",
+        "price": 3.19,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 431,
+        "name": "Meergranenbrood heel",
+        "price": 2.73,
+        "allergies": "Gluten, Tarwe, Sesam"
+      },
+      {
+        "id": 432,
+        "name": "Krentenbollen heel",
+        "price": 2.69,
+        "allergies": "Gluten, Tarwe, Sulfiet"
+      },
+      {
+        "id": 433,
+        "name": "Croissants heel",
+        "price": 2.7,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 434,
+        "name": "Pistolets heel",
+        "price": 1.9,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 435,
+        "name": "Bagels heel",
+        "price": 2.0,
+        "allergies": "Gluten, Tarwe, Sesam"
+      },
+      {
+        "id": 436,
+        "name": "Beschuit heel",
+        "price": 2.93,
+        "allergies": "Gluten, Tarwe, Ei"
+      },
+      {
+        "id": 437,
+        "name": "Crackers heel",
+        "price": 2.75,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 438,
+        "name": "Havermout 1 kilo",
+        "price": 1.48,
+        "allergies": "Gluten"
+      },
+      {
+        "id": 439,
+        "name": "Muesli 1 kilo",
+        "price": 4.46,
+        "allergies": "Gluten, Noten, Sulfiet"
+      },
+      {
+        "id": 440,
+        "name": "Cruesli 1 kilo",
+        "price": 4.17,
+        "allergies": "Gluten, Noten"
+      },
+      {
+        "id": 441,
+        "name": "Cornflakes 1 kilo",
+        "price": 3.15,
+        "allergies": ""
+      },
+      {
+        "id": 442,
+        "name": "Ontbijtkoek 1 kilo",
+        "price": 1.25,
+        "allergies": "Gluten, Tarwe, Specerijen"
+      },
+      {
+        "id": 443,
+        "name": "Witte rijst 1 kilo",
+        "price": 2.37,
+        "allergies": ""
+      },
+      {
+        "id": 444,
+        "name": "Zilvervliesrijst 1 kilo",
+        "price": 3.71,
+        "allergies": ""
+      },
+      {
+        "id": 445,
+        "name": "Basmatirijst 1 kilo",
+        "price": 2.46,
+        "allergies": ""
+      },
+      {
+        "id": 446,
+        "name": "Pasta penne 1 kilo",
+        "price": 1.18,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 447,
+        "name": "Spaghetti 1 kilo",
+        "price": 1.71,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 448,
+        "name": "Macaroni 1 kilo",
+        "price": 1.04,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 449,
+        "name": "Couscous 1 kilo",
+        "price": 2.6,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 450,
+        "name": "Noedels 1 kilo",
+        "price": 1.45,
+        "allergies": "Gluten, Tarwe, Ei"
+      },
+      {
+        "id": 451,
+        "name": "Bloem 1 kilo",
+        "price": 1.9,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 452,
+        "name": "Zelfrijzend bakmeel 1 kilo",
+        "price": 1.02,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 453,
+        "name": "Suiker 1 kilo",
+        "price": 1.97,
+        "allergies": ""
+      },
+      {
+        "id": 454,
+        "name": "Honing 1 kilo",
+        "price": 2.44,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 455,
+        "name": "Pindakaas 1 kilo",
+        "price": 3.57,
+        "allergies": "Pinda"
+      },
+      {
+        "id": 456,
+        "name": "Hazelnootpasta 1 kilo",
+        "price": 2.48,
+        "allergies": "Noten, Melk"
+      },
+      {
+        "id": 457,
+        "name": "Aardbeienjam 1 kilo",
+        "price": 3.2,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 458,
+        "name": "Abrikozenjam 1 kilo",
+        "price": 2.85,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 459,
+        "name": "Appelstroop 1 kilo",
+        "price": 3.05,
+        "allergies": "Appel, Fructose"
+      },
+      {
+        "id": 460,
+        "name": "Olijfolie 1 kilo",
+        "price": 3.61,
+        "allergies": ""
+      },
+      {
+        "id": 461,
+        "name": "Zonnebloemolie 1 kilo",
+        "price": 3.41,
+        "allergies": ""
+      },
+      {
+        "id": 462,
+        "name": "Azijn 1 kilo",
+        "price": 1.99,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 463,
+        "name": "Tomatenpuree 1 kilo",
+        "price": 0.99,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 464,
+        "name": "Pastasaus 1 kilo",
+        "price": 3.4,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 465,
+        "name": "Kidneybonen 1 kilo",
+        "price": 1.66,
+        "allergies": ""
+      },
+      {
+        "id": 466,
+        "name": "Kikkererwten 1 kilo",
+        "price": 0.94,
+        "allergies": ""
+      },
+      {
+        "id": 467,
+        "name": "Linzen 1 kilo",
+        "price": 1.15,
+        "allergies": ""
+      },
+      {
+        "id": 468,
+        "name": "Tonijn in blik 1 kilo",
+        "price": 3.69,
+        "allergies": "Vis"
+      },
+      {
+        "id": 469,
+        "name": "Bouillonblokjes 1 kilo",
+        "price": 2.4,
+        "allergies": "Selderij, Specerijen"
+      },
+      {
+        "id": 470,
+        "name": "Sojasaus 1 kilo",
+        "price": 1.7,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 471,
+        "name": "Ketjap 1 kilo",
+        "price": 2.57,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 472,
+        "name": "Mayonaise 1 kilo",
+        "price": 3.19,
+        "allergies": "Ei, Mosterd"
+      },
+      {
+        "id": 473,
+        "name": "Ketchup 1 kilo",
+        "price": 1.4,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 474,
+        "name": "Mosterd 1 kilo",
+        "price": 1.7,
+        "allergies": "Mosterd"
+      },
+      {
+        "id": 475,
+        "name": "Satésaus 1 kilo",
+        "price": 2.07,
+        "allergies": "Pinda, Soja"
+      },
+      {
+        "id": 476,
+        "name": "Knoflooksaus 1 kilo",
+        "price": 1.51,
+        "allergies": "Melk, Lactose, Ei"
+      },
+      {
+        "id": 477,
+        "name": "Hummus 1 kilo",
+        "price": 3.03,
+        "allergies": "Sesam"
+      },
+      {
+        "id": 478,
+        "name": "Pesto 1 kilo",
+        "price": 1.84,
+        "allergies": "Noten, Melk"
+      },
+      {
+        "id": 479,
+        "name": "Dressing 1 kilo",
+        "price": 1.97,
+        "allergies": "Mosterd, Sulfiet"
+      },
+      {
+        "id": 480,
+        "name": "Naturel chips 1 kilo",
+        "price": 2.04,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 481,
+        "name": "Paprika chips 1 kilo",
+        "price": 2.03,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 482,
+        "name": "Borrelnoten 1 kilo",
+        "price": 1.42,
+        "allergies": "Pinda, Gluten, Tarwe"
+      },
+      {
+        "id": 483,
+        "name": "Notenmix 1 kilo",
+        "price": 4.05,
+        "allergies": "Noten"
+      },
+      {
+        "id": 484,
+        "name": "Popcorn 1 kilo",
+        "price": 1.02,
+        "allergies": ""
+      },
+      {
+        "id": 485,
+        "name": "Rijstwafels 1 kilo",
+        "price": 1.08,
+        "allergies": ""
+      },
+      {
+        "id": 486,
+        "name": "Melkchocolade 1 kilo",
+        "price": 2.74,
+        "allergies": "Melk, Lactose"
+      },
+      {
+        "id": 487,
+        "name": "Pure chocolade 1 kilo",
+        "price": 2.93,
+        "allergies": ""
+      },
+      {
+        "id": 488,
+        "name": "Koekjes 1 kilo",
+        "price": 1.08,
+        "allergies": "Gluten, Tarwe, Ei, Melk"
+      },
+      {
+        "id": 489,
+        "name": "Stroopwafels 1 kilo",
+        "price": 2.38,
+        "allergies": "Gluten, Tarwe, Melk, Ei"
+      },
+      {
+        "id": 490,
+        "name": "Speculaas 1 kilo",
+        "price": 1.44,
+        "allergies": "Gluten, Tarwe, Specerijen"
+      },
+      {
+        "id": 491,
+        "name": "Drop 1 kilo",
+        "price": 2.76,
+        "allergies": ""
+      },
+      {
+        "id": 492,
+        "name": "Diepvries pizza 1 kilo",
+        "price": 3.1,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 493,
+        "name": "Pizza Margherita 1 kilo",
+        "price": 6.33,
+        "allergies": "Gluten, Melk"
+      },
+      {
+        "id": 494,
+        "name": "Lasagne 1 kilo",
+        "price": 3.17,
+        "allergies": "Gluten, Tarwe, Melk, Ei"
+      },
+      {
+        "id": 495,
+        "name": "Diepvries spinazie 1 kilo",
+        "price": 2.36,
+        "allergies": ""
+      },
+      {
+        "id": 496,
+        "name": "Kroketten 1 kilo",
+        "price": 5.48,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 497,
+        "name": "Bitterballen 1 kilo",
+        "price": 5.23,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 498,
+        "name": "Vanille ijs 1 kilo",
+        "price": 5.26,
+        "allergies": "Lactose, Melk, Ei"
+      },
+      {
+        "id": 499,
+        "name": "Waterijsjes 1 kilo",
+        "price": 4.42,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 500,
+        "name": "Mineraalwater 1.5 liter",
+        "price": 0.66,
+        "allergies": ""
+      },
+      {
+        "id": 501,
+        "name": "Bruiswater 1.5 liter",
+        "price": 0.59,
+        "allergies": ""
+      },
+      {
+        "id": 502,
+        "name": "Cola 1.5 liter",
+        "price": 1.18,
+        "allergies": ""
+      },
+      {
+        "id": 503,
+        "name": "Sinas 1.5 liter",
+        "price": 1.02,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 504,
+        "name": "IJsthee 1.5 liter",
+        "price": 2.79,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 505,
+        "name": "Koffiebonen 1.5 liter",
+        "price": 7.27,
+        "allergies": ""
+      },
+      {
+        "id": 506,
+        "name": "Filterkoffie 1.5 liter",
+        "price": 3.71,
+        "allergies": ""
+      },
+      {
+        "id": 507,
+        "name": "Thee 1.5 liter",
+        "price": 2.42,
+        "allergies": ""
+      },
+      {
+        "id": 508,
+        "name": "Chocolademelk 1.5 liter",
+        "price": 1.81,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 509,
+        "name": "Bier 1.5 liter",
+        "price": 12.61,
+        "allergies": "Gluten, Tarwe, Sulfiet"
+      },
+      {
+        "id": 510,
+        "name": "Rode wijn 1.5 liter",
+        "price": 8.4,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 511,
+        "name": "Witte wijn 1.5 liter",
+        "price": 4.16,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 512,
+        "name": "Toiletpapier 2 stuks",
+        "price": 4.97,
+        "allergies": ""
+      },
+      {
+        "id": 513,
+        "name": "Keukenpapier 2 stuks",
+        "price": 2.08,
+        "allergies": ""
+      },
+      {
+        "id": 514,
+        "name": "Afwasmiddel 2 stuks",
+        "price": 1.38,
+        "allergies": ""
+      },
+      {
+        "id": 515,
+        "name": "Wasmiddel 2 stuks",
+        "price": 11.86,
+        "allergies": ""
+      },
+      {
+        "id": 516,
+        "name": "Allesreiniger 2 stuks",
+        "price": 1.7,
+        "allergies": ""
+      },
+      {
+        "id": 517,
+        "name": "Tandpasta 2 stuks",
+        "price": 2.21,
+        "allergies": ""
+      },
+      {
+        "id": 518,
+        "name": "Shampoo 2 stuks",
+        "price": 2.21,
+        "allergies": ""
+      },
+      {
+        "id": 519,
+        "name": "Douchegel 2 stuks",
+        "price": 1.65,
+        "allergies": ""
+      },
+      {
+        "id": 520,
+        "name": "Deodorant 2 stuks",
+        "price": 4.11,
+        "allergies": ""
+      },
+      {
+        "id": 521,
+        "name": "Luiers 2 stuks",
+        "price": 13.17,
+        "allergies": ""
+      },
+      {
+        "id": 522,
+        "name": "Vuilniszakken 2 stuks",
+        "price": 4.45,
+        "allergies": ""
+      },
+      {
+        "id": 523,
+        "name": "Bananen 2 stuks",
+        "price": 1.59,
+        "allergies": ""
+      },
+      {
+        "id": 524,
+        "name": "Appels 2 stuks",
+        "price": 3.02,
+        "allergies": "Appel, Fructose"
+      },
+      {
+        "id": 525,
+        "name": "Peren 2 stuks",
+        "price": 1.58,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 526,
+        "name": "Druiven 2 stuks",
+        "price": 2.62,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 527,
+        "name": "Mandarijnen 2 stuks",
+        "price": 2.37,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 528,
+        "name": "Sinaasappels 2 stuks",
+        "price": 3.42,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 529,
+        "name": "Kiwi's 2 stuks",
+        "price": 4.38,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 530,
+        "name": "Aardbeien 2 stuks",
+        "price": 4.35,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 531,
+        "name": "Blauwe bessen 2 stuks",
+        "price": 3.41,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 532,
+        "name": "Mango 2 stuks",
+        "price": 1.83,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 533,
+        "name": "Ananas 2 stuks",
+        "price": 3.29,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 534,
+        "name": "Watermeloen 2 stuks",
+        "price": 6.94,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 535,
+        "name": "Perziken 2 stuks",
+        "price": 4.08,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 536,
+        "name": "Nectarines 2 stuks",
+        "price": 2.78,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 537,
+        "name": "Pruimen 2 stuks",
+        "price": 2.7,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 538,
+        "name": "Kersen 2 stuks",
+        "price": 5.88,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 539,
+        "name": "Aardappelen 2 stuks",
+        "price": 4.03,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 540,
+        "name": "Zoete aardappelen 2 stuks",
+        "price": 4.87,
+        "allergies": ""
+      },
+      {
+        "id": 541,
+        "name": "Tomaten 2 stuks",
+        "price": 3.15,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 542,
+        "name": "Komkommer 2 stuks",
+        "price": 1.15,
+        "allergies": ""
+      },
+      {
+        "id": 543,
+        "name": "Paprika 2 stuks",
+        "price": 2.9,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 544,
+        "name": "Courgette 2 stuks",
+        "price": 1.5,
+        "allergies": ""
+      },
+      {
+        "id": 545,
+        "name": "Aubergine 2 stuks",
+        "price": 2.39,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 546,
+        "name": "Wortelen 2 stuks",
+        "price": 1.13,
+        "allergies": ""
+      },
+      {
+        "id": 547,
+        "name": "Broccoli 2 stuks",
+        "price": 1.25,
+        "allergies": ""
+      },
+      {
+        "id": 548,
+        "name": "Bloemkool 2 stuks",
+        "price": 1.99,
+        "allergies": ""
+      },
+      {
+        "id": 549,
+        "name": "Spinazie 2 stuks",
+        "price": 1.98,
+        "allergies": ""
+      },
+      {
+        "id": 550,
+        "name": "IJsbergsla 2 stuks",
+        "price": 1.42,
+        "allergies": ""
+      },
+      {
+        "id": 551,
+        "name": "Rucola 2 stuks",
+        "price": 1.63,
+        "allergies": ""
+      },
+      {
+        "id": 552,
+        "name": "Champignons 2 stuks",
+        "price": 1.84,
+        "allergies": ""
+      },
+      {
+        "id": 553,
+        "name": "Uien 2 stuks",
+        "price": 2.31,
+        "allergies": ""
+      },
+      {
+        "id": 554,
+        "name": "Knoflook 2 stuks",
+        "price": 1.25,
+        "allergies": ""
+      },
+      {
+        "id": 555,
+        "name": "Bleekselderij 2 stuks",
+        "price": 2.32,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 556,
+        "name": "Knolselderij 2 stuks",
+        "price": 2.07,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 557,
+        "name": "Soepgroenten 2 stuks",
+        "price": 2.72,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 558,
+        "name": "Avocado 2 stuks",
+        "price": 2.6,
+        "allergies": ""
+      },
+      {
+        "id": 559,
+        "name": "Halfvolle melk 2 stuks",
+        "price": 1.13,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 560,
+        "name": "Volle melk 2 stuks",
+        "price": 1.75,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 561,
+        "name": "Magere melk 2 stuks",
+        "price": 1.59,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 562,
+        "name": "Lactosevrije melk 2 stuks",
+        "price": 2.16,
+        "allergies": "Melk"
+      },
+      {
+        "id": 563,
+        "name": "Karnemelk 2 stuks",
+        "price": 1.0,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 564,
+        "name": "Yoghurt 2 stuks",
+        "price": 1.82,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 565,
+        "name": "Griekse yoghurt 2 stuks",
+        "price": 2.55,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 566,
+        "name": "Kwark 2 stuks",
+        "price": 2.68,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 567,
+        "name": "Vla 2 stuks",
+        "price": 2.49,
+        "allergies": "Lactose, Melk, Ei"
+      },
+      {
+        "id": 568,
+        "name": "Slagroom 2 stuks",
+        "price": 1.96,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 569,
+        "name": "Kookroom 2 stuks",
+        "price": 1.26,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 570,
+        "name": "Roomboter 2 stuks",
+        "price": 2.59,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 571,
+        "name": "Jonge kaas 2 stuks",
+        "price": 4.84,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 572,
+        "name": "Oude kaas 2 stuks",
+        "price": 3.11,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 573,
+        "name": "Roomkaas 2 stuks",
+        "price": 2.22,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 574,
+        "name": "Mozzarella 2 stuks",
+        "price": 1.33,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 575,
+        "name": "Feta 2 stuks",
+        "price": 2.0,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 576,
+        "name": "Geraspte kaas 2 stuks",
+        "price": 3.9,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 577,
+        "name": "Sojamelk 2 stuks",
+        "price": 1.94,
+        "allergies": "Soja"
+      },
+      {
+        "id": 578,
+        "name": "Havermelk 2 stuks",
+        "price": 2.55,
+        "allergies": "Gluten"
+      },
+      {
+        "id": 579,
+        "name": "Amandelmelk 2 stuks",
+        "price": 3.49,
+        "allergies": "Noten"
+      },
+      {
+        "id": 580,
+        "name": "Eieren 2 stuks",
+        "price": 4.46,
+        "allergies": "Ei"
+      },
+      {
+        "id": 581,
+        "name": "Kipfilet 2 stuks",
+        "price": 10.79,
+        "allergies": ""
+      },
+      {
+        "id": 582,
+        "name": "Kippendijen 2 stuks",
+        "price": 7.5,
+        "allergies": ""
+      },
+      {
+        "id": 583,
+        "name": "Kalkoenfilet 2 stuks",
+        "price": 7.27,
+        "allergies": ""
+      },
+      {
+        "id": 584,
+        "name": "Rundergehakt 2 stuks",
+        "price": 7.75,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 585,
+        "name": "Half-om-half gehakt 2 stuks",
+        "price": 3.31,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 586,
+        "name": "Biefstuk 2 stuks",
+        "price": 6.82,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 587,
+        "name": "Runderlappen 2 stuks",
+        "price": 8.71,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 588,
+        "name": "Varkenshaas 2 stuks",
+        "price": 9.09,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 589,
+        "name": "Spekreepjes 2 stuks",
+        "price": 2.43,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 590,
+        "name": "Hamburgers 2 stuks",
+        "price": 5.68,
+        "allergies": "Rood vlees, Gluten, Tarwe"
+      },
+      {
+        "id": 591,
+        "name": "Saucijzen 2 stuks",
+        "price": 5.19,
+        "allergies": "Rood vlees, Specerijen"
+      },
+      {
+        "id": 592,
+        "name": "Zalmfilet 2 stuks",
+        "price": 5.84,
+        "allergies": "Vis"
+      },
+      {
+        "id": 593,
+        "name": "Tonijnsteak 2 stuks",
+        "price": 7.57,
+        "allergies": "Vis"
+      },
+      {
+        "id": 594,
+        "name": "Kabeljauwfilet 2 stuks",
+        "price": 5.71,
+        "allergies": "Vis"
+      },
+      {
+        "id": 595,
+        "name": "Haring 2 stuks",
+        "price": 2.58,
+        "allergies": "Vis"
+      },
+      {
+        "id": 596,
+        "name": "Garnalen 2 stuks",
+        "price": 10.72,
+        "allergies": "Schaaldieren"
+      },
+      {
+        "id": 597,
+        "name": "Mosselen 2 stuks",
+        "price": 7.07,
+        "allergies": "Weekdieren"
+      },
+      {
+        "id": 598,
+        "name": "Tofu 2 stuks",
+        "price": 2.73,
+        "allergies": "Soja"
+      },
+      {
+        "id": 599,
+        "name": "Tempeh 2 stuks",
+        "price": 2.54,
+        "allergies": "Soja"
+      },
+      {
+        "id": 600,
+        "name": "Vegetarische burger 2 stuks",
+        "price": 4.66,
+        "allergies": "Soja, Lupine, Gluten, Tarwe"
+      },
+      {
+        "id": 601,
+        "name": "Vegetarische balletjes 2 stuks",
+        "price": 4.51,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 602,
+        "name": "Falafel 2 stuks",
+        "price": 3.44,
+        "allergies": "Sesam, Specerijen"
+      },
+      {
+        "id": 603,
+        "name": "Witbrood 6 stuks",
+        "price": 2.21,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 604,
+        "name": "Volkorenbrood 6 stuks",
+        "price": 3.39,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 605,
+        "name": "Meergranenbrood 6 stuks",
+        "price": 2.93,
+        "allergies": "Gluten, Tarwe, Sesam"
+      },
+      {
+        "id": 606,
+        "name": "Krentenbollen 6 stuks",
+        "price": 1.62,
+        "allergies": "Gluten, Tarwe, Sulfiet"
+      },
+      {
+        "id": 607,
+        "name": "Croissants 6 stuks",
+        "price": 2.43,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 608,
+        "name": "Pistolets 6 stuks",
+        "price": 2.63,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 609,
+        "name": "Bagels 6 stuks",
+        "price": 3.13,
+        "allergies": "Gluten, Tarwe, Sesam"
+      },
+      {
+        "id": 610,
+        "name": "Beschuit 6 stuks",
+        "price": 1.39,
+        "allergies": "Gluten, Tarwe, Ei"
+      },
+      {
+        "id": 611,
+        "name": "Crackers 6 stuks",
+        "price": 1.51,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 612,
+        "name": "Havermout 2 stuks",
+        "price": 1.48,
+        "allergies": "Gluten"
+      },
+      {
+        "id": 613,
+        "name": "Muesli 2 stuks",
+        "price": 3.24,
+        "allergies": "Gluten, Noten, Sulfiet"
+      },
+      {
+        "id": 614,
+        "name": "Cruesli 2 stuks",
+        "price": 2.18,
+        "allergies": "Gluten, Noten"
+      },
+      {
+        "id": 615,
+        "name": "Cornflakes 2 stuks",
+        "price": 1.87,
+        "allergies": ""
+      },
+      {
+        "id": 616,
+        "name": "Ontbijtkoek 2 stuks",
+        "price": 1.3,
+        "allergies": "Gluten, Tarwe, Specerijen"
+      },
+      {
+        "id": 617,
+        "name": "Witte rijst 2 stuks",
+        "price": 2.46,
+        "allergies": ""
+      },
+      {
+        "id": 618,
+        "name": "Zilvervliesrijst 2 stuks",
+        "price": 2.86,
+        "allergies": ""
+      },
+      {
+        "id": 619,
+        "name": "Basmatirijst 2 stuks",
+        "price": 3.27,
+        "allergies": ""
+      },
+      {
+        "id": 620,
+        "name": "Pasta penne 2 stuks",
+        "price": 1.71,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 621,
+        "name": "Spaghetti 2 stuks",
+        "price": 2.03,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 622,
+        "name": "Macaroni 2 stuks",
+        "price": 1.17,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 623,
+        "name": "Couscous 2 stuks",
+        "price": 2.28,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 624,
+        "name": "Noedels 2 stuks",
+        "price": 2.35,
+        "allergies": "Gluten, Tarwe, Ei"
+      },
+      {
+        "id": 625,
+        "name": "Bloem 2 stuks",
+        "price": 1.79,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 626,
+        "name": "Zelfrijzend bakmeel 2 stuks",
+        "price": 1.62,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 627,
+        "name": "Suiker 2 stuks",
+        "price": 1.8,
+        "allergies": ""
+      },
+      {
+        "id": 628,
+        "name": "Honing 2 stuks",
+        "price": 5.08,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 629,
+        "name": "Pindakaas 2 stuks",
+        "price": 1.55,
+        "allergies": "Pinda"
+      },
+      {
+        "id": 630,
+        "name": "Hazelnootpasta 2 stuks",
+        "price": 4.83,
+        "allergies": "Noten, Melk"
+      },
+      {
+        "id": 631,
+        "name": "Aardbeienjam 2 stuks",
+        "price": 3.43,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 632,
+        "name": "Abrikozenjam 2 stuks",
+        "price": 1.94,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 633,
+        "name": "Appelstroop 2 stuks",
+        "price": 3.33,
+        "allergies": "Appel, Fructose"
+      },
+      {
+        "id": 634,
+        "name": "Olijfolie 2 stuks",
+        "price": 4.31,
+        "allergies": ""
+      },
+      {
+        "id": 635,
+        "name": "Zonnebloemolie 2 stuks",
+        "price": 3.72,
+        "allergies": ""
+      },
+      {
+        "id": 636,
+        "name": "Azijn 2 stuks",
+        "price": 2.12,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 637,
+        "name": "Tomatenpuree 2 stuks",
+        "price": 1.28,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 638,
+        "name": "Pastasaus 2 stuks",
+        "price": 2.88,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 639,
+        "name": "Kidneybonen 2 stuks",
+        "price": 1.9,
+        "allergies": ""
+      },
+      {
+        "id": 640,
+        "name": "Kikkererwten 2 stuks",
+        "price": 1.67,
+        "allergies": ""
+      },
+      {
+        "id": 641,
+        "name": "Linzen 2 stuks",
+        "price": 2.17,
+        "allergies": ""
+      },
+      {
+        "id": 642,
+        "name": "Tonijn in blik 2 stuks",
+        "price": 1.62,
+        "allergies": "Vis"
+      },
+      {
+        "id": 643,
+        "name": "Bouillonblokjes 2 stuks",
+        "price": 1.95,
+        "allergies": "Selderij, Specerijen"
+      },
+      {
+        "id": 644,
+        "name": "Sojasaus 2 stuks",
+        "price": 2.95,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 645,
+        "name": "Ketjap 2 stuks",
+        "price": 1.44,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 646,
+        "name": "Mayonaise 2 stuks",
+        "price": 3.24,
+        "allergies": "Ei, Mosterd"
+      },
+      {
+        "id": 647,
+        "name": "Ketchup 2 stuks",
+        "price": 1.4,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 648,
+        "name": "Mosterd 2 stuks",
+        "price": 1.08,
+        "allergies": "Mosterd"
+      },
+      {
+        "id": 649,
+        "name": "Satésaus 2 stuks",
+        "price": 2.43,
+        "allergies": "Pinda, Soja"
+      },
+      {
+        "id": 650,
+        "name": "Knoflooksaus 2 stuks",
+        "price": 1.93,
+        "allergies": "Melk, Lactose, Ei"
+      },
+      {
+        "id": 651,
+        "name": "Hummus 2 stuks",
+        "price": 1.32,
+        "allergies": "Sesam"
+      },
+      {
+        "id": 652,
+        "name": "Pesto 2 stuks",
+        "price": 1.88,
+        "allergies": "Noten, Melk"
+      },
+      {
+        "id": 653,
+        "name": "Dressing 2 stuks",
+        "price": 1.18,
+        "allergies": "Mosterd, Sulfiet"
+      },
+      {
+        "id": 654,
+        "name": "Naturel chips 2 stuks",
+        "price": 1.76,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 655,
+        "name": "Paprika chips 2 stuks",
+        "price": 2.76,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 656,
+        "name": "Borrelnoten 2 stuks",
+        "price": 3.05,
+        "allergies": "Pinda, Gluten, Tarwe"
+      },
+      {
+        "id": 657,
+        "name": "Notenmix 2 stuks",
+        "price": 4.67,
+        "allergies": "Noten"
+      },
+      {
+        "id": 658,
+        "name": "Popcorn 2 stuks",
+        "price": 1.62,
+        "allergies": ""
+      },
+      {
+        "id": 659,
+        "name": "Rijstwafels 2 stuks",
+        "price": 1.88,
+        "allergies": ""
+      },
+      {
+        "id": 660,
+        "name": "Melkchocolade 2 stuks",
+        "price": 1.65,
+        "allergies": "Melk, Lactose"
+      },
+      {
+        "id": 661,
+        "name": "Pure chocolade 2 stuks",
+        "price": 1.53,
+        "allergies": ""
+      },
+      {
+        "id": 662,
+        "name": "Koekjes 2 stuks",
+        "price": 1.16,
+        "allergies": "Gluten, Tarwe, Ei, Melk"
+      },
+      {
+        "id": 663,
+        "name": "Stroopwafels 2 stuks",
+        "price": 3.83,
+        "allergies": "Gluten, Tarwe, Melk, Ei"
+      },
+      {
+        "id": 664,
+        "name": "Speculaas 2 stuks",
+        "price": 3.23,
+        "allergies": "Gluten, Tarwe, Specerijen"
+      },
+      {
+        "id": 665,
+        "name": "Drop 2 stuks",
+        "price": 1.77,
+        "allergies": ""
+      },
+      {
+        "id": 666,
+        "name": "Diepvries pizza 2 stuks",
+        "price": 4.79,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 667,
+        "name": "Pizza Margherita 2 stuks",
+        "price": 4.25,
+        "allergies": "Gluten, Melk"
+      },
+      {
+        "id": 668,
+        "name": "Lasagne 2 stuks",
+        "price": 6.38,
+        "allergies": "Gluten, Tarwe, Melk, Ei"
+      },
+      {
+        "id": 669,
+        "name": "Diepvries spinazie 2 stuks",
+        "price": 2.17,
+        "allergies": ""
+      },
+      {
+        "id": 670,
+        "name": "Kroketten 2 stuks",
+        "price": 5.75,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 671,
+        "name": "Bitterballen 2 stuks",
+        "price": 4.94,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 672,
+        "name": "Vanille ijs 2 stuks",
+        "price": 3.32,
+        "allergies": "Lactose, Melk, Ei"
+      },
+      {
+        "id": 673,
+        "name": "Waterijsjes 2 stuks",
+        "price": 3.96,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 674,
+        "name": "Mineraalwater 6-pack",
+        "price": 0.78,
+        "allergies": ""
+      },
+      {
+        "id": 675,
+        "name": "Bruiswater 6-pack",
+        "price": 1.07,
+        "allergies": ""
+      },
+      {
+        "id": 676,
+        "name": "Cola 6-pack",
+        "price": 3.12,
+        "allergies": ""
+      },
+      {
+        "id": 677,
+        "name": "Sinas 6-pack",
+        "price": 1.89,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 678,
+        "name": "IJsthee 6-pack",
+        "price": 1.22,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 679,
+        "name": "Koffiebonen 6-pack",
+        "price": 4.23,
+        "allergies": ""
+      },
+      {
+        "id": 680,
+        "name": "Filterkoffie 6-pack",
+        "price": 7.47,
+        "allergies": ""
+      },
+      {
+        "id": 681,
+        "name": "Thee 6-pack",
+        "price": 3.97,
+        "allergies": ""
+      },
+      {
+        "id": 682,
+        "name": "Chocolademelk 6-pack",
+        "price": 1.75,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 683,
+        "name": "Bier 6-pack",
+        "price": 9.14,
+        "allergies": "Gluten, Tarwe, Sulfiet"
+      },
+      {
+        "id": 684,
+        "name": "Rode wijn 6-pack",
+        "price": 7.95,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 685,
+        "name": "Witte wijn 6-pack",
+        "price": 8.32,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 686,
+        "name": "Toiletpapier 4 stuks",
+        "price": 4.42,
+        "allergies": ""
+      },
+      {
+        "id": 687,
+        "name": "Keukenpapier 4 stuks",
+        "price": 3.75,
+        "allergies": ""
+      },
+      {
+        "id": 688,
+        "name": "Afwasmiddel 4 stuks",
+        "price": 1.65,
+        "allergies": ""
+      },
+      {
+        "id": 689,
+        "name": "Wasmiddel 4 stuks",
+        "price": 8.6,
+        "allergies": ""
+      },
+      {
+        "id": 690,
+        "name": "Allesreiniger 4 stuks",
+        "price": 2.85,
+        "allergies": ""
+      },
+      {
+        "id": 691,
+        "name": "Tandpasta 4 stuks",
+        "price": 1.48,
+        "allergies": ""
+      },
+      {
+        "id": 692,
+        "name": "Shampoo 4 stuks",
+        "price": 4.33,
+        "allergies": ""
+      },
+      {
+        "id": 693,
+        "name": "Douchegel 4 stuks",
+        "price": 3.83,
+        "allergies": ""
+      },
+      {
+        "id": 694,
+        "name": "Deodorant 4 stuks",
+        "price": 3.69,
+        "allergies": ""
+      },
+      {
+        "id": 695,
+        "name": "Luiers 4 stuks",
+        "price": 8.52,
+        "allergies": ""
+      },
+      {
+        "id": 696,
+        "name": "Vuilniszakken 4 stuks",
+        "price": 4.55,
+        "allergies": ""
+      },
+      {
+        "id": 697,
+        "name": "Bananen 4 stuks",
+        "price": 1.95,
+        "allergies": ""
+      },
+      {
+        "id": 698,
+        "name": "Appels 4 stuks",
+        "price": 2.61,
+        "allergies": "Appel, Fructose"
+      },
+      {
+        "id": 699,
+        "name": "Peren 4 stuks",
+        "price": 1.57,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 700,
+        "name": "Druiven 4 stuks",
+        "price": 4.52,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 701,
+        "name": "Mandarijnen 4 stuks",
+        "price": 2.34,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 702,
+        "name": "Sinaasappels 4 stuks",
+        "price": 2.93,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 703,
+        "name": "Kiwi's 4 stuks",
+        "price": 3.37,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 704,
+        "name": "Aardbeien 4 stuks",
+        "price": 3.41,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 705,
+        "name": "Blauwe bessen 4 stuks",
+        "price": 2.66,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 706,
+        "name": "Mango 4 stuks",
+        "price": 1.57,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 707,
+        "name": "Ananas 4 stuks",
+        "price": 2.63,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 708,
+        "name": "Watermeloen 4 stuks",
+        "price": 4.84,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 709,
+        "name": "Perziken 4 stuks",
+        "price": 3.02,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 710,
+        "name": "Nectarines 4 stuks",
+        "price": 3.96,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 711,
+        "name": "Pruimen 4 stuks",
+        "price": 2.67,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 712,
+        "name": "Kersen 4 stuks",
+        "price": 5.94,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 713,
+        "name": "Aardappelen 4 stuks",
+        "price": 1.71,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 714,
+        "name": "Zoete aardappelen 4 stuks",
+        "price": 3.37,
+        "allergies": ""
+      },
+      {
+        "id": 715,
+        "name": "Tomaten 4 stuks",
+        "price": 2.46,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 716,
+        "name": "Komkommer 4 stuks",
+        "price": 1.01,
+        "allergies": ""
+      },
+      {
+        "id": 717,
+        "name": "Paprika 4 stuks",
+        "price": 2.1,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 718,
+        "name": "Courgette 4 stuks",
+        "price": 1.84,
+        "allergies": ""
+      },
+      {
+        "id": 719,
+        "name": "Aubergine 4 stuks",
+        "price": 1.16,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 720,
+        "name": "Wortelen 4 stuks",
+        "price": 1.36,
+        "allergies": ""
+      },
+      {
+        "id": 721,
+        "name": "Broccoli 4 stuks",
+        "price": 2.89,
+        "allergies": ""
+      },
+      {
+        "id": 722,
+        "name": "Bloemkool 4 stuks",
+        "price": 2.18,
+        "allergies": ""
+      },
+      {
+        "id": 723,
+        "name": "Spinazie 4 stuks",
+        "price": 2.32,
+        "allergies": ""
+      },
+      {
+        "id": 724,
+        "name": "IJsbergsla 4 stuks",
+        "price": 1.37,
+        "allergies": ""
+      },
+      {
+        "id": 725,
+        "name": "Rucola 4 stuks",
+        "price": 1.98,
+        "allergies": ""
+      },
+      {
+        "id": 726,
+        "name": "Champignons 4 stuks",
+        "price": 2.23,
+        "allergies": ""
+      },
+      {
+        "id": 727,
+        "name": "Uien 4 stuks",
+        "price": 1.91,
+        "allergies": ""
+      },
+      {
+        "id": 728,
+        "name": "Knoflook 4 stuks",
+        "price": 1.62,
+        "allergies": ""
+      },
+      {
+        "id": 729,
+        "name": "Bleekselderij 4 stuks",
+        "price": 1.45,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 730,
+        "name": "Knolselderij 4 stuks",
+        "price": 3.13,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 731,
+        "name": "Soepgroenten 4 stuks",
+        "price": 2.69,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 732,
+        "name": "Avocado 4 stuks",
+        "price": 3.21,
+        "allergies": ""
+      },
+      {
+        "id": 733,
+        "name": "Halfvolle melk 4 stuks",
+        "price": 1.07,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 734,
+        "name": "Volle melk 4 stuks",
+        "price": 1.46,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 735,
+        "name": "Magere melk 4 stuks",
+        "price": 1.3,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 736,
+        "name": "Lactosevrije melk 4 stuks",
+        "price": 2.22,
+        "allergies": "Melk"
+      },
+      {
+        "id": 737,
+        "name": "Karnemelk 4 stuks",
+        "price": 1.3,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 738,
+        "name": "Yoghurt 4 stuks",
+        "price": 1.45,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 739,
+        "name": "Griekse yoghurt 4 stuks",
+        "price": 2.08,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 740,
+        "name": "Kwark 4 stuks",
+        "price": 2.71,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 741,
+        "name": "Vla 4 stuks",
+        "price": 1.76,
+        "allergies": "Lactose, Melk, Ei"
+      },
+      {
+        "id": 742,
+        "name": "Slagroom 4 stuks",
+        "price": 2.23,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 743,
+        "name": "Kookroom 4 stuks",
+        "price": 1.72,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 744,
+        "name": "Roomboter 4 stuks",
+        "price": 2.75,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 745,
+        "name": "Jonge kaas 4 stuks",
+        "price": 4.05,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 746,
+        "name": "Oude kaas 4 stuks",
+        "price": 3.97,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 747,
+        "name": "Roomkaas 4 stuks",
+        "price": 2.05,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 748,
+        "name": "Mozzarella 4 stuks",
+        "price": 2.3,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 749,
+        "name": "Feta 4 stuks",
+        "price": 2.55,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 750,
+        "name": "Geraspte kaas 4 stuks",
+        "price": 2.48,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 751,
+        "name": "Sojamelk 4 stuks",
+        "price": 2.48,
+        "allergies": "Soja"
+      },
+      {
+        "id": 752,
+        "name": "Havermelk 4 stuks",
+        "price": 2.51,
+        "allergies": "Gluten"
+      },
+      {
+        "id": 753,
+        "name": "Amandelmelk 4 stuks",
+        "price": 3.17,
+        "allergies": "Noten"
+      },
+      {
+        "id": 754,
+        "name": "Eieren 4 stuks",
+        "price": 2.84,
+        "allergies": "Ei"
+      },
+      {
+        "id": 755,
+        "name": "Kipfilet 4 stuks",
+        "price": 10.16,
+        "allergies": ""
+      },
+      {
+        "id": 756,
+        "name": "Kippendijen 4 stuks",
+        "price": 9.38,
+        "allergies": ""
+      },
+      {
+        "id": 757,
+        "name": "Kalkoenfilet 4 stuks",
+        "price": 5.1,
+        "allergies": ""
+      },
+      {
+        "id": 758,
+        "name": "Rundergehakt 4 stuks",
+        "price": 6.33,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 759,
+        "name": "Half-om-half gehakt 4 stuks",
+        "price": 5.67,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 760,
+        "name": "Biefstuk 4 stuks",
+        "price": 8.97,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 761,
+        "name": "Runderlappen 4 stuks",
+        "price": 8.71,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 762,
+        "name": "Varkenshaas 4 stuks",
+        "price": 10.1,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 763,
+        "name": "Spekreepjes 4 stuks",
+        "price": 2.97,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 764,
+        "name": "Hamburgers 4 stuks",
+        "price": 3.57,
+        "allergies": "Rood vlees, Gluten, Tarwe"
+      },
+      {
+        "id": 765,
+        "name": "Saucijzen 4 stuks",
+        "price": 5.04,
+        "allergies": "Rood vlees, Specerijen"
+      },
+      {
+        "id": 766,
+        "name": "Zalmfilet 4 stuks",
+        "price": 11.5,
+        "allergies": "Vis"
+      },
+      {
+        "id": 767,
+        "name": "Tonijnsteak 4 stuks",
+        "price": 11.8,
+        "allergies": "Vis"
+      },
+      {
+        "id": 768,
+        "name": "Kabeljauwfilet 4 stuks",
+        "price": 11.15,
+        "allergies": "Vis"
+      },
+      {
+        "id": 769,
+        "name": "Haring 4 stuks",
+        "price": 5.01,
+        "allergies": "Vis"
+      },
+      {
+        "id": 770,
+        "name": "Garnalen 4 stuks",
+        "price": 7.01,
+        "allergies": "Schaaldieren"
+      },
+      {
+        "id": 771,
+        "name": "Mosselen 4 stuks",
+        "price": 8.54,
+        "allergies": "Weekdieren"
+      },
+      {
+        "id": 772,
+        "name": "Tofu 4 stuks",
+        "price": 1.93,
+        "allergies": "Soja"
+      },
+      {
+        "id": 773,
+        "name": "Tempeh 4 stuks",
+        "price": 3.29,
+        "allergies": "Soja"
+      },
+      {
+        "id": 774,
+        "name": "Vegetarische burger 4 stuks",
+        "price": 4.12,
+        "allergies": "Soja, Lupine, Gluten, Tarwe"
+      },
+      {
+        "id": 775,
+        "name": "Vegetarische balletjes 4 stuks",
+        "price": 3.86,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 776,
+        "name": "Falafel 4 stuks",
+        "price": 2.57,
+        "allergies": "Sesam, Specerijen"
+      },
+      {
+        "id": 777,
+        "name": "Witbrood 8 stuks",
+        "price": 2.77,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 778,
+        "name": "Volkorenbrood 8 stuks",
+        "price": 2.42,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 779,
+        "name": "Meergranenbrood 8 stuks",
+        "price": 2.7,
+        "allergies": "Gluten, Tarwe, Sesam"
+      },
+      {
+        "id": 780,
+        "name": "Krentenbollen 8 stuks",
+        "price": 2.04,
+        "allergies": "Gluten, Tarwe, Sulfiet"
+      },
+      {
+        "id": 781,
+        "name": "Croissants 8 stuks",
+        "price": 3.87,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 782,
+        "name": "Pistolets 8 stuks",
+        "price": 1.4,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 783,
+        "name": "Bagels 8 stuks",
+        "price": 2.67,
+        "allergies": "Gluten, Tarwe, Sesam"
+      },
+      {
+        "id": 784,
+        "name": "Beschuit 8 stuks",
+        "price": 2.95,
+        "allergies": "Gluten, Tarwe, Ei"
+      },
+      {
+        "id": 785,
+        "name": "Crackers 8 stuks",
+        "price": 1.14,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 786,
+        "name": "Havermout 4 stuks",
+        "price": 1.93,
+        "allergies": "Gluten"
+      },
+      {
+        "id": 787,
+        "name": "Muesli 4 stuks",
+        "price": 3.97,
+        "allergies": "Gluten, Noten, Sulfiet"
+      },
+      {
+        "id": 788,
+        "name": "Cruesli 4 stuks",
+        "price": 2.56,
+        "allergies": "Gluten, Noten"
+      },
+      {
+        "id": 789,
+        "name": "Cornflakes 4 stuks",
+        "price": 3.1,
+        "allergies": ""
+      },
+      {
+        "id": 790,
+        "name": "Ontbijtkoek 4 stuks",
+        "price": 1.56,
+        "allergies": "Gluten, Tarwe, Specerijen"
+      },
+      {
+        "id": 791,
+        "name": "Witte rijst 4 stuks",
+        "price": 3.43,
+        "allergies": ""
+      },
+      {
+        "id": 792,
+        "name": "Zilvervliesrijst 4 stuks",
+        "price": 1.3,
+        "allergies": ""
+      },
+      {
+        "id": 793,
+        "name": "Basmatirijst 4 stuks",
+        "price": 2.63,
+        "allergies": ""
+      },
+      {
+        "id": 794,
+        "name": "Pasta penne 4 stuks",
+        "price": 2.34,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 795,
+        "name": "Spaghetti 4 stuks",
+        "price": 2.31,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 796,
+        "name": "Macaroni 4 stuks",
+        "price": 1.18,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 797,
+        "name": "Couscous 4 stuks",
+        "price": 1.47,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 798,
+        "name": "Noedels 4 stuks",
+        "price": 0.84,
+        "allergies": "Gluten, Tarwe, Ei"
+      },
+      {
+        "id": 799,
+        "name": "Bloem 4 stuks",
+        "price": 0.82,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 800,
+        "name": "Zelfrijzend bakmeel 4 stuks",
+        "price": 1.48,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 801,
+        "name": "Suiker 4 stuks",
+        "price": 1.62,
+        "allergies": ""
+      },
+      {
+        "id": 802,
+        "name": "Honing 4 stuks",
+        "price": 4.27,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 803,
+        "name": "Pindakaas 4 stuks",
+        "price": 2.27,
+        "allergies": "Pinda"
+      },
+      {
+        "id": 804,
+        "name": "Hazelnootpasta 4 stuks",
+        "price": 3.95,
+        "allergies": "Noten, Melk"
+      },
+      {
+        "id": 805,
+        "name": "Aardbeienjam 4 stuks",
+        "price": 1.19,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 806,
+        "name": "Abrikozenjam 4 stuks",
+        "price": 1.65,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 807,
+        "name": "Appelstroop 4 stuks",
+        "price": 1.89,
+        "allergies": "Appel, Fructose"
+      },
+      {
+        "id": 808,
+        "name": "Olijfolie 4 stuks",
+        "price": 5.96,
+        "allergies": ""
+      },
+      {
+        "id": 809,
+        "name": "Zonnebloemolie 4 stuks",
+        "price": 2.81,
+        "allergies": ""
+      },
+      {
+        "id": 810,
+        "name": "Azijn 4 stuks",
+        "price": 1.08,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 811,
+        "name": "Tomatenpuree 4 stuks",
+        "price": 0.89,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 812,
+        "name": "Pastasaus 4 stuks",
+        "price": 1.67,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 813,
+        "name": "Kidneybonen 4 stuks",
+        "price": 1.86,
+        "allergies": ""
+      },
+      {
+        "id": 814,
+        "name": "Kikkererwten 4 stuks",
+        "price": 1.2,
+        "allergies": ""
+      },
+      {
+        "id": 815,
+        "name": "Linzen 4 stuks",
+        "price": 1.53,
+        "allergies": ""
+      },
+      {
+        "id": 816,
+        "name": "Tonijn in blik 4 stuks",
+        "price": 2.83,
+        "allergies": "Vis"
+      },
+      {
+        "id": 817,
+        "name": "Bouillonblokjes 4 stuks",
+        "price": 1.47,
+        "allergies": "Selderij, Specerijen"
+      },
+      {
+        "id": 818,
+        "name": "Sojasaus 4 stuks",
+        "price": 1.81,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 819,
+        "name": "Ketjap 4 stuks",
+        "price": 3.23,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 820,
+        "name": "Mayonaise 4 stuks",
+        "price": 2.29,
+        "allergies": "Ei, Mosterd"
+      },
+      {
+        "id": 821,
+        "name": "Ketchup 4 stuks",
+        "price": 2.05,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 822,
+        "name": "Mosterd 4 stuks",
+        "price": 1.8,
+        "allergies": "Mosterd"
+      },
+      {
+        "id": 823,
+        "name": "Satésaus 4 stuks",
+        "price": 3.18,
+        "allergies": "Pinda, Soja"
+      },
+      {
+        "id": 824,
+        "name": "Knoflooksaus 4 stuks",
+        "price": 2.09,
+        "allergies": "Melk, Lactose, Ei"
+      },
+      {
+        "id": 825,
+        "name": "Hummus 4 stuks",
+        "price": 1.85,
+        "allergies": "Sesam"
+      },
+      {
+        "id": 826,
+        "name": "Pesto 4 stuks",
+        "price": 3.75,
+        "allergies": "Noten, Melk"
+      },
+      {
+        "id": 827,
+        "name": "Dressing 4 stuks",
+        "price": 3.47,
+        "allergies": "Mosterd, Sulfiet"
+      },
+      {
+        "id": 828,
+        "name": "Naturel chips 4 stuks",
+        "price": 1.22,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 829,
+        "name": "Paprika chips 4 stuks",
+        "price": 3.02,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 830,
+        "name": "Borrelnoten 4 stuks",
+        "price": 1.59,
+        "allergies": "Pinda, Gluten, Tarwe"
+      },
+      {
+        "id": 831,
+        "name": "Notenmix 4 stuks",
+        "price": 2.62,
+        "allergies": "Noten"
+      },
+      {
+        "id": 832,
+        "name": "Popcorn 4 stuks",
+        "price": 1.68,
+        "allergies": ""
+      },
+      {
+        "id": 833,
+        "name": "Rijstwafels 4 stuks",
+        "price": 2.07,
+        "allergies": ""
+      },
+      {
+        "id": 834,
+        "name": "Melkchocolade 4 stuks",
+        "price": 1.35,
+        "allergies": "Melk, Lactose"
+      },
+      {
+        "id": 835,
+        "name": "Pure chocolade 4 stuks",
+        "price": 1.64,
+        "allergies": ""
+      },
+      {
+        "id": 836,
+        "name": "Koekjes 4 stuks",
+        "price": 2.11,
+        "allergies": "Gluten, Tarwe, Ei, Melk"
+      },
+      {
+        "id": 837,
+        "name": "Stroopwafels 4 stuks",
+        "price": 2.23,
+        "allergies": "Gluten, Tarwe, Melk, Ei"
+      },
+      {
+        "id": 838,
+        "name": "Speculaas 4 stuks",
+        "price": 1.09,
+        "allergies": "Gluten, Tarwe, Specerijen"
+      },
+      {
+        "id": 839,
+        "name": "Drop 4 stuks",
+        "price": 2.72,
+        "allergies": ""
+      },
+      {
+        "id": 840,
+        "name": "Diepvries pizza 4 stuks",
+        "price": 3.8,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 841,
+        "name": "Pizza Margherita 4 stuks",
+        "price": 6.42,
+        "allergies": "Gluten, Melk"
+      },
+      {
+        "id": 842,
+        "name": "Lasagne 4 stuks",
+        "price": 4.54,
+        "allergies": "Gluten, Tarwe, Melk, Ei"
+      },
+      {
+        "id": 843,
+        "name": "Diepvries spinazie 4 stuks",
+        "price": 2.01,
+        "allergies": ""
+      },
+      {
+        "id": 844,
+        "name": "Kroketten 4 stuks",
+        "price": 5.1,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 845,
+        "name": "Bitterballen 4 stuks",
+        "price": 5.32,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 846,
+        "name": "Vanille ijs 4 stuks",
+        "price": 3.99,
+        "allergies": "Lactose, Melk, Ei"
+      },
+      {
+        "id": 847,
+        "name": "Waterijsjes 4 stuks",
+        "price": 4.1,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 848,
+        "name": "Mineraalwater blikjes",
+        "price": 1.36,
+        "allergies": ""
+      },
+      {
+        "id": 849,
+        "name": "Bruiswater blikjes",
+        "price": 1.24,
+        "allergies": ""
+      },
+      {
+        "id": 850,
+        "name": "Cola blikjes",
+        "price": 2.45,
+        "allergies": ""
+      },
+      {
+        "id": 851,
+        "name": "Sinas blikjes",
+        "price": 2.11,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 852,
+        "name": "IJsthee blikjes",
+        "price": 1.37,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 853,
+        "name": "Koffiebonen blikjes",
+        "price": 10.05,
+        "allergies": ""
+      },
+      {
+        "id": 854,
+        "name": "Filterkoffie blikjes",
+        "price": 2.67,
+        "allergies": ""
+      },
+      {
+        "id": 855,
+        "name": "Thee blikjes",
+        "price": 1.74,
+        "allergies": ""
+      },
+      {
+        "id": 856,
+        "name": "Chocolademelk blikjes",
+        "price": 1.97,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 857,
+        "name": "Bier blikjes",
+        "price": 5.57,
+        "allergies": "Gluten, Tarwe, Sulfiet"
+      },
+      {
+        "id": 858,
+        "name": "Rode wijn blikjes",
+        "price": 6.47,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 859,
+        "name": "Witte wijn blikjes",
+        "price": 4.74,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 860,
+        "name": "Toiletpapier XL",
+        "price": 3.58,
+        "allergies": ""
+      },
+      {
+        "id": 861,
+        "name": "Keukenpapier XL",
+        "price": 2.76,
+        "allergies": ""
+      },
+      {
+        "id": 862,
+        "name": "Afwasmiddel XL",
+        "price": 2.2,
+        "allergies": ""
+      },
+      {
+        "id": 863,
+        "name": "Wasmiddel XL",
+        "price": 11.29,
+        "allergies": ""
+      },
+      {
+        "id": 864,
+        "name": "Allesreiniger XL",
+        "price": 3.27,
+        "allergies": ""
+      },
+      {
+        "id": 865,
+        "name": "Tandpasta XL",
+        "price": 1.43,
+        "allergies": ""
+      },
+      {
+        "id": 866,
+        "name": "Shampoo XL",
+        "price": 2.74,
+        "allergies": ""
+      },
+      {
+        "id": 867,
+        "name": "Douchegel XL",
+        "price": 4.05,
+        "allergies": ""
+      },
+      {
+        "id": 868,
+        "name": "Deodorant XL",
+        "price": 1.72,
+        "allergies": ""
+      },
+      {
+        "id": 869,
+        "name": "Luiers XL",
+        "price": 6.26,
+        "allergies": ""
+      },
+      {
+        "id": 870,
+        "name": "Vuilniszakken XL",
+        "price": 3.92,
+        "allergies": ""
+      },
+      {
+        "id": 871,
+        "name": "Bananen pak",
+        "price": 2.43,
+        "allergies": ""
+      },
+      {
+        "id": 872,
+        "name": "Appels pak",
+        "price": 2.51,
+        "allergies": "Appel, Fructose"
+      },
+      {
+        "id": 873,
+        "name": "Peren pak",
+        "price": 1.93,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 874,
+        "name": "Druiven pak",
+        "price": 2.32,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 875,
+        "name": "Mandarijnen pak",
+        "price": 3.61,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 876,
+        "name": "Sinaasappels pak",
+        "price": 3.93,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 877,
+        "name": "Kiwi's pak",
+        "price": 2.44,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 878,
+        "name": "Aardbeien pak",
+        "price": 5.23,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 879,
+        "name": "Blauwe bessen pak",
+        "price": 2.96,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 880,
+        "name": "Mango pak",
+        "price": 2.07,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 881,
+        "name": "Ananas pak",
+        "price": 3.89,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 882,
+        "name": "Watermeloen pak",
+        "price": 5.93,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 883,
+        "name": "Perziken pak",
+        "price": 4.24,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 884,
+        "name": "Nectarines pak",
+        "price": 2.79,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 885,
+        "name": "Pruimen pak",
+        "price": 3.72,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 886,
+        "name": "Kersen pak",
+        "price": 3.69,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 887,
+        "name": "Aardappelen pak",
+        "price": 2.85,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 888,
+        "name": "Zoete aardappelen pak",
+        "price": 2.58,
+        "allergies": ""
+      },
+      {
+        "id": 889,
+        "name": "Tomaten pak",
+        "price": 3.0,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 890,
+        "name": "Komkommer pak",
+        "price": 0.69,
+        "allergies": ""
+      },
+      {
+        "id": 891,
+        "name": "Paprika pak",
+        "price": 3.04,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 892,
+        "name": "Courgette pak",
+        "price": 1.24,
+        "allergies": ""
+      },
+      {
+        "id": 893,
+        "name": "Aubergine pak",
+        "price": 1.46,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 894,
+        "name": "Wortelen pak",
+        "price": 1.5,
+        "allergies": ""
+      },
+      {
+        "id": 895,
+        "name": "Broccoli pak",
+        "price": 1.56,
+        "allergies": ""
+      },
+      {
+        "id": 896,
+        "name": "Bloemkool pak",
+        "price": 2.87,
+        "allergies": ""
+      },
+      {
+        "id": 897,
+        "name": "Spinazie pak",
+        "price": 3.2,
+        "allergies": ""
+      },
+      {
+        "id": 898,
+        "name": "IJsbergsla pak",
+        "price": 1.31,
+        "allergies": ""
+      },
+      {
+        "id": 899,
+        "name": "Rucola pak",
+        "price": 2.07,
+        "allergies": ""
+      },
+      {
+        "id": 900,
+        "name": "Champignons pak",
+        "price": 2.91,
+        "allergies": ""
+      },
+      {
+        "id": 901,
+        "name": "Uien pak",
+        "price": 1.3,
+        "allergies": ""
+      },
+      {
+        "id": 902,
+        "name": "Knoflook pak",
+        "price": 1.09,
+        "allergies": ""
+      },
+      {
+        "id": 903,
+        "name": "Bleekselderij pak",
+        "price": 1.39,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 904,
+        "name": "Knolselderij pak",
+        "price": 2.8,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 905,
+        "name": "Soepgroenten pak",
+        "price": 2.81,
+        "allergies": "Selderij"
+      },
+      {
+        "id": 906,
+        "name": "Avocado pak",
+        "price": 3.34,
+        "allergies": ""
+      },
+      {
+        "id": 907,
+        "name": "Halfvolle melk pak",
+        "price": 1.64,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 908,
+        "name": "Volle melk pak",
+        "price": 1.68,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 909,
+        "name": "Magere melk pak",
+        "price": 1.4,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 910,
+        "name": "Lactosevrije melk pak",
+        "price": 1.77,
+        "allergies": "Melk"
+      },
+      {
+        "id": 911,
+        "name": "Karnemelk pak",
+        "price": 1.17,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 912,
+        "name": "Yoghurt pak",
+        "price": 1.99,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 913,
+        "name": "Griekse yoghurt pak",
+        "price": 1.69,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 914,
+        "name": "Kwark pak",
+        "price": 1.73,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 915,
+        "name": "Vla pak",
+        "price": 2.42,
+        "allergies": "Lactose, Melk, Ei"
+      },
+      {
+        "id": 916,
+        "name": "Slagroom pak",
+        "price": 1.21,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 917,
+        "name": "Kookroom pak",
+        "price": 1.02,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 918,
+        "name": "Roomboter pak",
+        "price": 2.61,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 919,
+        "name": "Jonge kaas pak",
+        "price": 5.4,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 920,
+        "name": "Oude kaas pak",
+        "price": 4.64,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 921,
+        "name": "Roomkaas pak",
+        "price": 2.19,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 922,
+        "name": "Mozzarella pak",
+        "price": 2.38,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 923,
+        "name": "Feta pak",
+        "price": 2.25,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 924,
+        "name": "Geraspte kaas pak",
+        "price": 3.14,
+        "allergies": "Lactose, Melk"
+      },
+      {
+        "id": 925,
+        "name": "Sojamelk pak",
+        "price": 2.07,
+        "allergies": "Soja"
+      },
+      {
+        "id": 926,
+        "name": "Havermelk pak",
+        "price": 2.35,
+        "allergies": "Gluten"
+      },
+      {
+        "id": 927,
+        "name": "Amandelmelk pak",
+        "price": 2.05,
+        "allergies": "Noten"
+      },
+      {
+        "id": 928,
+        "name": "Eieren pak",
+        "price": 4.31,
+        "allergies": "Ei"
+      },
+      {
+        "id": 929,
+        "name": "Kipfilet pak",
+        "price": 4.83,
+        "allergies": ""
+      },
+      {
+        "id": 930,
+        "name": "Kippendijen pak",
+        "price": 4.66,
+        "allergies": ""
+      },
+      {
+        "id": 931,
+        "name": "Kalkoenfilet pak",
+        "price": 3.69,
+        "allergies": ""
+      },
+      {
+        "id": 932,
+        "name": "Rundergehakt pak",
+        "price": 4.12,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 933,
+        "name": "Half-om-half gehakt pak",
+        "price": 6.74,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 934,
+        "name": "Biefstuk pak",
+        "price": 14.79,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 935,
+        "name": "Runderlappen pak",
+        "price": 9.43,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 936,
+        "name": "Varkenshaas pak",
+        "price": 6.4,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 937,
+        "name": "Spekreepjes pak",
+        "price": 3.71,
+        "allergies": "Rood vlees"
+      },
+      {
+        "id": 938,
+        "name": "Hamburgers pak",
+        "price": 2.7,
+        "allergies": "Rood vlees, Gluten, Tarwe"
+      },
+      {
+        "id": 939,
+        "name": "Saucijzen pak",
+        "price": 3.91,
+        "allergies": "Rood vlees, Specerijen"
+      },
+      {
+        "id": 940,
+        "name": "Zalmfilet pak",
+        "price": 13.9,
+        "allergies": "Vis"
+      },
+      {
+        "id": 941,
+        "name": "Tonijnsteak pak",
+        "price": 11.84,
+        "allergies": "Vis"
+      },
+      {
+        "id": 942,
+        "name": "Kabeljauwfilet pak",
+        "price": 12.49,
+        "allergies": "Vis"
+      },
+      {
+        "id": 943,
+        "name": "Haring pak",
+        "price": 4.86,
+        "allergies": "Vis"
+      },
+      {
+        "id": 944,
+        "name": "Garnalen pak",
+        "price": 8.16,
+        "allergies": "Schaaldieren"
+      },
+      {
+        "id": 945,
+        "name": "Mosselen pak",
+        "price": 7.82,
+        "allergies": "Weekdieren"
+      },
+      {
+        "id": 946,
+        "name": "Tofu pak",
+        "price": 2.86,
+        "allergies": "Soja"
+      },
+      {
+        "id": 947,
+        "name": "Tempeh pak",
+        "price": 2.51,
+        "allergies": "Soja"
+      },
+      {
+        "id": 948,
+        "name": "Vegetarische burger pak",
+        "price": 3.73,
+        "allergies": "Soja, Lupine, Gluten, Tarwe"
+      },
+      {
+        "id": 949,
+        "name": "Vegetarische balletjes pak",
+        "price": 4.14,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 950,
+        "name": "Falafel pak",
+        "price": 3.44,
+        "allergies": "Sesam, Specerijen"
+      },
+      {
+        "id": 951,
+        "name": "Witbrood ongesneden",
+        "price": 2.62,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 952,
+        "name": "Volkorenbrood ongesneden",
+        "price": 1.87,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 953,
+        "name": "Meergranenbrood ongesneden",
+        "price": 2.91,
+        "allergies": "Gluten, Tarwe, Sesam"
+      },
+      {
+        "id": 954,
+        "name": "Krentenbollen ongesneden",
+        "price": 2.06,
+        "allergies": "Gluten, Tarwe, Sulfiet"
+      },
+      {
+        "id": 955,
+        "name": "Croissants ongesneden",
+        "price": 1.5,
+        "allergies": "Gluten, Tarwe, Melk"
+      },
+      {
+        "id": 956,
+        "name": "Pistolets ongesneden",
+        "price": 1.01,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 957,
+        "name": "Bagels ongesneden",
+        "price": 3.39,
+        "allergies": "Gluten, Tarwe, Sesam"
+      },
+      {
+        "id": 958,
+        "name": "Beschuit ongesneden",
+        "price": 1.27,
+        "allergies": "Gluten, Tarwe, Ei"
+      },
+      {
+        "id": 959,
+        "name": "Crackers ongesneden",
+        "price": 2.75,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 960,
+        "name": "Havermout pak",
+        "price": 1.82,
+        "allergies": "Gluten"
+      },
+      {
+        "id": 961,
+        "name": "Muesli pak",
+        "price": 3.21,
+        "allergies": "Gluten, Noten, Sulfiet"
+      },
+      {
+        "id": 962,
+        "name": "Cruesli pak",
+        "price": 4.56,
+        "allergies": "Gluten, Noten"
+      },
+      {
+        "id": 963,
+        "name": "Cornflakes pak",
+        "price": 1.77,
+        "allergies": ""
+      },
+      {
+        "id": 964,
+        "name": "Ontbijtkoek pak",
+        "price": 2.72,
+        "allergies": "Gluten, Tarwe, Specerijen"
+      },
+      {
+        "id": 965,
+        "name": "Witte rijst pak",
+        "price": 3.06,
+        "allergies": ""
+      },
+      {
+        "id": 966,
+        "name": "Zilvervliesrijst pak",
+        "price": 2.24,
+        "allergies": ""
+      },
+      {
+        "id": 967,
+        "name": "Basmatirijst pak",
+        "price": 2.74,
+        "allergies": ""
+      },
+      {
+        "id": 968,
+        "name": "Pasta penne pak",
+        "price": 1.3,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 969,
+        "name": "Spaghetti pak",
+        "price": 2.11,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 970,
+        "name": "Macaroni pak",
+        "price": 2.0,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 971,
+        "name": "Couscous pak",
+        "price": 2.2,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 972,
+        "name": "Noedels pak",
+        "price": 1.34,
+        "allergies": "Gluten, Tarwe, Ei"
+      },
+      {
+        "id": 973,
+        "name": "Bloem pak",
+        "price": 1.05,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 974,
+        "name": "Zelfrijzend bakmeel pak",
+        "price": 1.29,
+        "allergies": "Gluten, Tarwe"
+      },
+      {
+        "id": 975,
+        "name": "Suiker pak",
+        "price": 0.91,
+        "allergies": ""
+      },
+      {
+        "id": 976,
+        "name": "Honing pak",
+        "price": 3.61,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 977,
+        "name": "Pindakaas pak",
+        "price": 1.74,
+        "allergies": "Pinda"
+      },
+      {
+        "id": 978,
+        "name": "Hazelnootpasta pak",
+        "price": 3.2,
+        "allergies": "Noten, Melk"
+      },
+      {
+        "id": 979,
+        "name": "Aardbeienjam pak",
+        "price": 2.87,
+        "allergies": "Fructose"
+      },
+      {
+        "id": 980,
+        "name": "Abrikozenjam pak",
+        "price": 2.04,
+        "allergies": "Steenvruchten, Fructose"
+      },
+      {
+        "id": 981,
+        "name": "Appelstroop pak",
+        "price": 1.96,
+        "allergies": "Appel, Fructose"
+      },
+      {
+        "id": 982,
+        "name": "Olijfolie pak",
+        "price": 4.89,
+        "allergies": ""
+      },
+      {
+        "id": 983,
+        "name": "Zonnebloemolie pak",
+        "price": 2.76,
+        "allergies": ""
+      },
+      {
+        "id": 984,
+        "name": "Azijn pak",
+        "price": 1.13,
+        "allergies": "Sulfiet"
+      },
+      {
+        "id": 985,
+        "name": "Tomatenpuree pak",
+        "price": 1.2,
+        "allergies": "Nachtschade"
+      },
+      {
+        "id": 986,
+        "name": "Pastasaus pak",
+        "price": 2.39,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 987,
+        "name": "Kidneybonen pak",
+        "price": 1.76,
+        "allergies": ""
+      },
+      {
+        "id": 988,
+        "name": "Kikkererwten pak",
+        "price": 0.92,
+        "allergies": ""
+      },
+      {
+        "id": 989,
+        "name": "Linzen pak",
+        "price": 1.32,
+        "allergies": ""
+      },
+      {
+        "id": 990,
+        "name": "Tonijn in blik pak",
+        "price": 3.73,
+        "allergies": "Vis"
+      },
+      {
+        "id": 991,
+        "name": "Bouillonblokjes pak",
+        "price": 0.99,
+        "allergies": "Selderij, Specerijen"
+      },
+      {
+        "id": 992,
+        "name": "Sojasaus pak",
+        "price": 2.67,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 993,
+        "name": "Ketjap pak",
+        "price": 2.01,
+        "allergies": "Soja, Gluten, Tarwe"
+      },
+      {
+        "id": 994,
+        "name": "Mayonaise pak",
+        "price": 1.2,
+        "allergies": "Ei, Mosterd"
+      },
+      {
+        "id": 995,
+        "name": "Ketchup pak",
+        "price": 1.01,
+        "allergies": "Nachtschade, Specerijen"
+      },
+      {
+        "id": 996,
+        "name": "Mosterd pak",
+        "price": 1.89,
+        "allergies": "Mosterd"
+      },
+      {
+        "id": 997,
+        "name": "Satésaus pak",
+        "price": 3.08,
+        "allergies": "Pinda, Soja"
+      },
+      {
+        "id": 998,
+        "name": "Knoflooksaus pak",
+        "price": 1.46,
+        "allergies": "Melk, Lactose, Ei"
+      },
+      {
+        "id": 999,
+        "name": "Hummus pak",
+        "price": 1.84,
+        "allergies": "Sesam"
+      },
+      {
+        "id": 1000,
+        "name": "Pesto pak",
+        "price": 2.54,
+        "allergies": "Noten, Melk"
       }
     ]
   }

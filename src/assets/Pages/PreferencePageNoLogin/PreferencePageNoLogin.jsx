@@ -1,4 +1,4 @@
-import './PreferencePage.css'
+import './PreferencePageNoLogin.css'
 import data2 from '../../Data/AllergyData.json'
 import {useState, useContext, useEffect} from "react";
 import {Link} from "react-router-dom";
@@ -6,11 +6,14 @@ import image from "./../../images/Broodschaap in de keuken.png"
 import {AuthContext} from "../../Context/AuthContext.jsx";
 import PopUpMessage from "../../Components/PopUpMessage/PopUpMessage.jsx";
 import { getFeedbackMessage } from "../../Helpers/GetFeedbackMessage/GetFeedbackMessage.jsx";
+import productsData from "../../Data/UserIdData.json"
+import { generateShoppingList } from "../../Helpers/ShoppingListGenerator/ShoppingListGenerator.jsx";
+import { saveShoppingListToHistory } from "../../Helpers/ShoppingListGenerator/ShoppingListStorage.jsx";
+import { generateShoppingListPDF } from "../../Helpers/PDFGenerator/PDFGenerator.jsx";
 
 
-function PreferencePage() {
+function PreferencePageNoLogin() {
     const {user} = useContext(AuthContext)
-
     const [popup, setPopup] = useState({
         show: false,
         message: "",
@@ -34,10 +37,10 @@ function PreferencePage() {
     }
 
 
-    const [ppAmountFamily, setPpAmountFamily] = useState('')
-    const [ppBudgetAmount, setPpBudgetAmount] = useState('')
-    const [ppBudgetPeriod, setPpBudgetPeriod] = useState('')
-    const [ppSelectedAllergies, setPpSelectedAllergies] = useState([])
+    const [ppnlAmountFamily, setPpnlAmountFamily] = useState('')
+    const [ppnlBudgetAmount, setPpnlBudgetAmount] = useState('')
+    const [ppnlBudgetPeriod, setPpnlBudgetPeriod] = useState('')
+    const [ppnlSelectedAllergies, setPpnlSelectedAllergies] = useState([])
 
 
     useEffect(() => {
@@ -54,19 +57,19 @@ function PreferencePage() {
         const parsedPreferences =
             JSON.parse(savedPreferences);
 
-        setPpAmountFamily(
+        setPpnlAmountFamily(
             parsedPreferences.familyAmount
         );
 
-        setPpBudgetAmount(
+        setPpnlBudgetAmount(
             parsedPreferences.budgetAmount
         );
 
-        setPpBudgetPeriod(
+        setPpnlBudgetPeriod(
             parsedPreferences.budgetPeriod
         );
 
-        setPpSelectedAllergies(
+        setPpnlSelectedAllergies(
             parsedPreferences.allergies
         );
 
@@ -74,7 +77,7 @@ function PreferencePage() {
 
 
     function handleAllergyChange(allergyName) {
-        setPpSelectedAllergies((previousAllergies) => {
+        setPpnlSelectedAllergies((previousAllergies) => {
             if (previousAllergies.includes(allergyName)) {
                 return previousAllergies.filter((allergy) => allergy !== allergyName);
             }
@@ -95,10 +98,10 @@ function PreferencePage() {
         }
 
         const preferenceData = {
-            familyAmount: ppAmountFamily,
-            budgetAmount: ppBudgetAmount,
-            budgetPeriod: ppBudgetPeriod,
-            allergies: ppSelectedAllergies
+            familyAmount: ppnlAmountFamily,
+            budgetAmount: ppnlBudgetAmount,
+            budgetPeriod: ppnlBudgetPeriod,
+            allergies: ppnlSelectedAllergies
         };
 
         localStorage.setItem(
@@ -112,24 +115,69 @@ function PreferencePage() {
     }
 
 
+    function handleGenerateList() {
+
+        const temporaryPreferences = {
+            familyAmount: ppnlAmountFamily,
+            budgetAmount: ppnlBudgetAmount,
+            budgetPeriod: ppnlBudgetPeriod,
+            allergies: ppnlSelectedAllergies,
+        };
+
+        try {
+
+            const shoppingList =
+                generateShoppingList(
+                    productsData.data.products,
+                    temporaryPreferences,
+                    null
+                );
+
+            saveShoppingListToHistory(
+                shoppingList,
+                null
+            );
+
+            generateShoppingListPDF(
+                shoppingList
+            );
+
+            showPopup(
+                getFeedbackMessage(
+                    "SHOPPINGLIST_SUCCESS"
+                )
+            );
+
+        } catch (error) {
+
+            console.error(error);
+
+            showPopup(
+                getFeedbackMessage(
+                    "SHOPPINGLIST_FAILED"
+                )
+            );
+        }
+    }
+    ``
 
 
     return <>
 
         <div
-            className="ppOuterWrapper"
+            className="ppnlOuterWrapper"
         >
 
             <h1
-                className="ppTitle"
+                className="ppnlTitle"
             > Wat zijn jouw voorkeuren? </h1>
 
             <div
-                className="ppInnerWrapper"
+                className="ppnlInnerWrapper"
             >
 
                 <div
-                    className="ppItemContainer"
+                    className="ppnlItemContainer"
                 >
 
                     {popup.show && (
@@ -142,12 +190,12 @@ function PreferencePage() {
 
 
                     <form
-                        id="ppPreferencesForm"
-                        className="ppPreferenceForm"
+                        id="ppnlPreferencesForm"
+                        className="ppnlPreferenceForm"
                         onSubmit={handleSubmit}
                     >
                         <fieldset
-                            className="ppAllergyList"
+                            className="ppnlAllergyList"
                         >
                             <legend>
                                 Allergieën
@@ -164,7 +212,7 @@ function PreferencePage() {
                             {data2.map((allergy) => (
                                 <label key={allergy.id}>
                                     <input type="checkbox"
-                                           checked={ppSelectedAllergies.includes(allergy.name)}
+                                           checked={ppnlSelectedAllergies.includes(allergy.name)}
                                            onChange={() => handleAllergyChange(allergy.name)}
                                     />
                                     {" " + allergy.name}
@@ -174,7 +222,7 @@ function PreferencePage() {
                         </fieldset>
 
                         <fieldset
-                            className="ppFamilyList"
+                            className="ppnlFamilyList"
                         >
                             <legend>
                                 Familie opstelling
@@ -186,10 +234,10 @@ function PreferencePage() {
 
                             <input
                                 type="number"
-                                id="ppAmountFamily"
+                                id="ppnlAmountFamily"
                                 placeholder="Hoe groot is jouw familie?"
-                                value={ppAmountFamily}
-                                onChange={(e) => setPpAmountFamily(e.target.value)}
+                                value={ppnlAmountFamily}
+                                onChange={(e) => setPpnlAmountFamily(e.target.value)}
                             />
 
                             <p>
@@ -198,10 +246,10 @@ function PreferencePage() {
 
                             <input
                                 type="number"
-                                id="ppBudgetAmount"
+                                id="ppnlBudgetAmount"
                                 placeholder="Wat is je budget?"
-                                value={ppBudgetAmount}
-                                onChange={(e) => setPpBudgetAmount(e.target.value)}
+                                value={ppnlBudgetAmount}
+                                onChange={(e) => setPpnlBudgetAmount(e.target.value)}
                             />
 
                             <p>
@@ -209,46 +257,46 @@ function PreferencePage() {
                             </p>
 
                             <div
-                                className="ppBudgetCheckbox"
+                                className="ppnlBudgetCheckbox"
                             >
                                 <input
                                     type="radio"
-                                    id="ppCheckboxBudget1"
+                                    id="ppnlCheckboxBudget1"
                                     name="budgetPeriod"
                                     value="Week"
-                                    checked={ppBudgetPeriod === "Week"}
-                                    onChange={(e) => setPpBudgetPeriod(e.target.value)}
+                                    checked={ppnlBudgetPeriod === "Week"}
+                                    onChange={(e) => setPpnlBudgetPeriod(e.target.value)}
                                 />
-                                <label htmlFor="ppCheckboxBudget1"> Week</label>
+                                <label htmlFor="ppnlCheckboxBudget1"> Week</label>
                             </div>
 
                             <div
-                                className="ppBudgetCheckbox"
+                                className="ppnlBudgetCheckbox"
                             >
                                 <input
                                     type="radio"
-                                    id="ppCheckboxBudget2"
+                                    id="ppnlCheckboxBudget2"
                                     name="budgetPeriod"
                                     value="Maand"
-                                    checked={ppBudgetPeriod === "Maand"}
-                                    onChange={(e) => setPpBudgetPeriod(e.target.value)}
+                                    checked={ppnlBudgetPeriod === "Maand"}
+                                    onChange={(e) => setPpnlBudgetPeriod(e.target.value)}
                                 />
-                                <label htmlFor="ppCheckboxBudget2"> Maand</label>
+                                <label htmlFor="ppnlCheckboxBudget2"> Maand</label>
                             </div>
 
                             <div
-                                className="ppBudgetCheckbox"
+                                className="ppnlBudgetCheckbox"
                             >
 
                                 <input
                                     type="radio"
-                                    id="ppCheckboxBudget3"
+                                    id="ppnlCheckboxBudget3"
                                     name="budgetPeriod"
                                     value="Kwartaal"
-                                    checked={ppBudgetPeriod === "Kwartaal"}
-                                    onChange={(e) => setPpBudgetPeriod(e.target.value)}
+                                    checked={ppnlBudgetPeriod === "Kwartaal"}
+                                    onChange={(e) => setPpnlBudgetPeriod(e.target.value)}
                                 />
-                                <label htmlFor="ppCheckboxBudget3"> Kwartaal</label>
+                                <label htmlFor="ppnlCheckboxBudget3"> Kwartaal</label>
                             </div>
 
                         </fieldset>
@@ -257,11 +305,11 @@ function PreferencePage() {
 
                     </form>
                     <button
-                        id="ppSavePreferences"
-                        name="ppSavePreferences"
+                        id="ppnlSavePreferences"
+                        name="ppnlSavePreferences"
                         type="submit"
-                        onClick={handleSubmit}
-                    >Sla voorkeuren op
+                        onClick={handleGenerateList}
+                    >Genereer boodschappenlijst
                     </button>
                 </div>
 
@@ -273,4 +321,4 @@ function PreferencePage() {
 
 }
 
-export default PreferencePage
+export default PreferencePageNoLogin

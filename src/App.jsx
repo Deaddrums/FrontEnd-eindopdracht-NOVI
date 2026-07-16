@@ -16,6 +16,7 @@ import keukenImage from './assets/images/Broodschaap in de keuken.png'
 import bankImage from './assets/images/Broodschaap op bank 2.png'
 import registerImage from './assets/images/Broodschaap Register.png'
 import PrivateRoute from './assets/Components/PrivateRoute/PrivateRoute.jsx'
+import PreferencePageNoLogin from "./assets/Pages/PreferencePageNoLogin/PreferencePageNoLogin.jsx";
 
 export const preLoadImages = () => {
     [
@@ -64,6 +65,9 @@ function App() {
                     <PreferencePage/>
                     </PrivateRoute>
                 }/>
+
+                <Route path="/PreferenceNoLogin" element={<PreferencePageNoLogin/>}/>
+
             </Routes>
 
                 </main>
