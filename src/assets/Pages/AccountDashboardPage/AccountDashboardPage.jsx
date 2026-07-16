@@ -6,7 +6,7 @@ import {AuthContext} from "../../Context/AuthContext.jsx";
 
 function AccountDashboardPage() {
 const {logout} = useContext(AuthContext)
-
+const {user} = useContext(AuthContext)
     const navigate = useNavigate();
 
     function handleLogout() {
@@ -23,7 +23,7 @@ const {logout} = useContext(AuthContext)
         >
             <h1
                 className="adpTitle">
-                Account dashboard
+                Welkom {user.email}
             </h1>
 
             <h2>

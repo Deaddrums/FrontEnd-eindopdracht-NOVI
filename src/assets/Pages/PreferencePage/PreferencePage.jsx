@@ -1,15 +1,74 @@
 import './PreferencePage.css'
 import data2 from '../../Data/AllergyData.json'
-import {useState} from "react";
+import {useState, useContext, useEffect} from "react";
 import {Link} from "react-router-dom";
 import image from "./../../images/Broodschaap in de keuken.png"
+import {AuthContext} from "../../Context/AuthContext.jsx";
+import PopUpMessage from "../../Components/PopUpMessage/PopUpMessage.jsx";
+import { getFeedbackMessage } from "../../Helpers/GetFeedbackMessage/GetFeedbackMessage.jsx";
 
 function PreferencePage() {
+    const {user} = useContext(AuthContext)
+    const [popup, setPopup] = useState({
+        show: false,
+        message: "",
+        type: "success",
+    });
+
+    function showPopup(feedback) {
+        setPopup({
+            show: true,
+            message: feedback.message,
+            type: feedback.type,
+        });
+
+        setTimeout(() => {
+            setPopup({
+                show: false,
+                message: "",
+                type: "success",
+            });
+        }, 3000);
+    }
+
 
     const [ppAmountFamily, setPpAmountFamily] = useState('')
     const [ppBudgetAmount, setPpBudgetAmount] = useState('')
     const [ppBudgetPeriod, setPpBudgetPeriod] = useState('')
     const [ppSelectedAllergies, setPpSelectedAllergies] = useState([])
+
+
+    useEffect(() => {
+
+        if (!user) return;
+
+        const savedPreferences =
+            localStorage.getItem(
+                `preferences_${user.id}`
+            );
+
+        if (!savedPreferences) return;
+
+        const parsedPreferences =
+            JSON.parse(savedPreferences);
+
+        setPpAmountFamily(
+            parsedPreferences.familyAmount
+        );
+
+        setPpBudgetAmount(
+            parsedPreferences.budgetAmount
+        );
+
+        setPpBudgetPeriod(
+            parsedPreferences.budgetPeriod
+        );
+
+        setPpSelectedAllergies(
+            parsedPreferences.allergies
+        );
+
+    }, [user]);
 
 
     function handleAllergyChange(allergyName) {
@@ -22,8 +81,16 @@ function PreferencePage() {
         });
     }
 
+
     function handleSubmit(e) {
         e.preventDefault();
+
+        if (!user) {
+            showPopup(
+                getFeedbackMessage("USER_NOT_LOGGED_IN")
+            );
+            return;
+        }
 
         const preferenceData = {
             familyAmount: ppAmountFamily,
@@ -33,12 +100,17 @@ function PreferencePage() {
         };
 
         localStorage.setItem(
-            "AccountPreferences",
+            `preferences_${user.id}`,
             JSON.stringify(preferenceData)
         );
 
-        console.log("opgeslagen data: ", preferenceData)
+        showPopup(
+            getFeedbackMessage("PREFERENCES_SAVE_SUCCESS")
+        );
     }
+
+
+
 
     return <>
 
@@ -57,6 +129,16 @@ function PreferencePage() {
                 <div
                     className="ppItemContainer"
                 >
+
+                    {popup.show && (
+                        <PopUpMessage
+                            message={popup.message}
+                            type={popup.type}
+                        />
+                    )}
+
+
+
                     <form
                         id="ppPreferencesForm"
                         className="ppPreferenceForm"

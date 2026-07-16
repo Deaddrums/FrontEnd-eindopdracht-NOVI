@@ -79,3 +79,15 @@ button:hover {
 input:focus, textarea:focus {
     outline: none;
 }
+
+
+.appWrapper {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.appContent {
+    flex: 1;
+}

@@ -35,7 +35,10 @@ function App() {
 
     return (
         <>
+            <div className="appWrapper">
             <NavBar/>
+
+                <main className="appContent">
 
             <Routes>
                 <Route path="/" element={<HomePage/>}/>
@@ -43,16 +46,30 @@ function App() {
                 <Route path="/Allergy" element={<AllergyPage/>}/>
                 <Route path="/Login" element={<LoginPage/>}/>
                 <Route path="/Register" element={<RegisterPage/>}/>
+
                 <Route path="/Dashboard" element={
                     <PrivateRoute>
                     <AccountDashboardPage/>
                     </PrivateRoute>
                 }/>
-                <Route path="/History" element={<HistoryPage/>}/>
-                <Route path="/Preference" element={<PreferencePage/>}/>
+
+                <Route path="/History" element={
+                    <PrivateRoute>
+                    <HistoryPage/>
+                    </PrivateRoute>
+                }/>
+
+                <Route path="/Preference" element={
+                    <PrivateRoute>
+                    <PreferencePage/>
+                    </PrivateRoute>
+                }/>
             </Routes>
 
+                </main>
+
             <FooterBar/>
+            </div>
         </>
     )
 }

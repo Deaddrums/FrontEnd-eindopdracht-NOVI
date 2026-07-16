@@ -1,18 +1,46 @@
 import './RegisterPage.css'
-import {useState} from "react";
+import { useState } from "react";
 import axios from "axios";
 import image from '../../images/Broodschaap Register.png'
-import {PasswordConfirmer} from "../../Helpers/PasswordConfirmer/PasswordConfirmer.jsx";
-import {ENDPOINTS} from "../../Api/endpoints.js";
+import { PasswordConfirmer } from "../../Helpers/PasswordConfirmer/PasswordConfirmer.jsx";
+import { ENDPOINTS } from "../../Api/endpoints.js";
+import popUpMessage from "../../Components/PopUpMessage/PopUpMessage.jsx";
+import { getFeedbackMessage } from "../../Helpers/GetFeedbackMessage/GetFeedbackMessage.jsx";
+import PopUpMessage from "../../Components/PopUpMessage/PopUpMessage.jsx";
 
 function RegisterPage() {
+
 
     const [rpName, setRpName] = useState('')
     const [rpEmail, setRpEmail] = useState('')
     const [rpPassword, setRpPassword] = useState('')
     const [rpConfirmPassword, setRpConfirmPassword] = useState('')
-
     const PROJECT_ID = import.meta.env.VITE_PROJECT_ID
+
+    const [popup, setPopup] = useState({
+        show: false,
+        message: "",
+        type: "success",
+    });
+
+    function showPopup(feedback) {
+
+        setPopup({
+            show: true,
+            message: feedback.message,
+            type: feedback.type,
+        });
+
+        setTimeout(() => {
+
+            setPopup({
+                show: false,
+                message: "",
+                type: "success",
+            });
+
+        }, 3000);
+    }
 
     async function handleSubmit(e) {
         e.preventDefault();
@@ -41,7 +69,15 @@ function RegisterPage() {
 
             console.log(`Account succesvol aangemaakt! ${rpName}`)
 
+            showPopup(
+                getFeedbackMessage("REGISTER_SUCCESS")
+            );
+
         } catch (error) {
+
+            showPopup(
+                getFeedbackMessage("REGISTER_FAILED")
+            )
 
             console.error(error)
             console.log('Er ging iets mis met het aanmaken van jouw account')
@@ -65,6 +101,12 @@ function RegisterPage() {
         <div className="rpOuterWrapper">
 
             <h1 className="rpTitle"> ACCOUNT REGISTREREN </h1>
+
+            {popup.show && (
+                <PopUpMessage
+                    message={popup.message}
+                    type={popup.type}/>
+            )}
 
             <div className="rpInnerWrapper">
 

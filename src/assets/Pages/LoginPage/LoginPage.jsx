@@ -6,10 +6,37 @@ import axios from "axios";
 import { ENDPOINTS } from "../../Api/endpoints.js";
 import { useContext } from "react";
 import { AuthContext } from "../../Context/AuthContext.jsx";
+import PopupMessage from "../../Components/PopupMessage/PopupMessage";
+import { getFeedbackMessage } from "../../Helpers/GetFeedbackMessage/GetFeedbackMessage.jsx";
 
 function LoginPage() {
    const { login } = useContext(AuthContext);
    const navigate = useNavigate();
+
+    const [popup, setPopup] = useState({
+        show: false,
+        message: "",
+        type: "success",
+    });
+
+    function showPopup(feedback) {
+
+        setPopup({
+            show: true,
+            message: feedback.message,
+            type: feedback.type,
+        });
+
+        setTimeout(() => {
+
+            setPopup({
+                show: false,
+                message: "",
+                type: "success",
+            });
+
+        }, 3000);
+    }
 
     const [lpEmail, setLpEmail] = useState('')
     const [lpPassword, setLpPassword] = useState('')
@@ -37,17 +64,27 @@ function LoginPage() {
                 }
             );
 
-            console.log(response.data);
+            console.log("Je bent succesvol ingelogd" , response.data);
 
             login(response.data.token);
 
-            navigate('/Dashboard');
+            showPopup(
+                getFeedbackMessage("LOGIN_SUCCESS")
+            );
 
+
+            setTimeout(() => {
+                navigate('/Dashboard');
+            }, 1500);
 
         } catch (error) {
 
+            showPopup(
+                getFeedbackMessage("LOGIN_FAILED")
+            );
+
             console.error(error)
-            console.log('Er ging iets mis met het aanmaken van jouw account')
+            console.log('Er ging iets mis bij het inloggen van jouw account')
 
             console.log('STATUS');
             console.log(error.response.status);
@@ -64,6 +101,13 @@ function LoginPage() {
 
             <div className="lpOuterWrapper">
                 <h1>Welkom terug</h1>
+
+                {popup.show && (
+                    <PopupMessage
+                        message={popup.message}
+                        type={popup.type}
+                    />
+                )}
 
                 <div className="lpInnerWrapper">
 

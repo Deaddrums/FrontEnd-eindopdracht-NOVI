@@ -6,24 +6,26 @@ function AllergyInfoCard({
                              examples
                          }) {
     return (
-       <div className="AllergyInfoGrid">
-        <article className="AllergyInfoCard">
+        <div className="AllergyInfoGrid">
 
-            <h2>{title}</h2>
+            <fieldset className="aicFieldset"
+            >
 
-            <p>{description}</p>
+                <legend><strong>{title}</strong></legend>
 
-<p> Product voorbeelden in deze allergie</p>
-            <ul>
-                {examples.map((example) => (
-                    <li key={example}>
-                       <em>{example}</em>
-                    </li>
-                ))}
-            </ul>
+                <p>{description}</p>
 
-        </article>
-       </div>
+                <p> <strong>Product voorbeelden in deze allergie</strong></p>
+                <ul>
+                    {examples.map((example) => (
+                        <li key={example}>
+                            <em>{example}</em>
+                        </li>
+                    ))}
+                </ul>
+            </fieldset>
+
+        </div>
     );
 }
 
