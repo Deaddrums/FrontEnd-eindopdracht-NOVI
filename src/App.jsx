@@ -11,12 +11,35 @@ import RegisterPage from "./assets/Pages/RegisterPage/RegisterPage.jsx";
 import AccountDashboardPage from "./assets/Pages/AccountDashboardPage/AccountDashboardPage.jsx";
 import HistoryPage from "./assets/Pages/HistoryPage/HistoryPage.jsx";
 import PreferencePage from "./assets/Pages/PreferencePage/PreferencePage.jsx";
+import boodschappenImage from './assets/images/Broodschaap doet boodschappen.png'
+import keukenImage from './assets/images/Broodschaap in de keuken.png'
+import bankImage from './assets/images/Broodschaap op bank 2.png'
+import registerImage from './assets/images/Broodschaap Register.png'
+import PrivateRoute from './assets/Components/PrivateRoute/PrivateRoute.jsx'
+import PreferencePageNoLogin from "./assets/Pages/PreferencePageNoLogin/PreferencePageNoLogin.jsx";
+
+export const preLoadImages = () => {
+    [
+        boodschappenImage,
+        keukenImage,
+        bankImage,
+        registerImage,
+    ].forEach(src => {
+        const img = new Image();
+        img.src = src;
+    });
+
+};
 
 function App() {
 
+
     return (
         <>
+            <div className="appWrapper">
             <NavBar/>
+
+                <main className="appContent">
 
             <Routes>
                 <Route path="/" element={<HomePage/>}/>
@@ -24,12 +47,33 @@ function App() {
                 <Route path="/Allergy" element={<AllergyPage/>}/>
                 <Route path="/Login" element={<LoginPage/>}/>
                 <Route path="/Register" element={<RegisterPage/>}/>
-                <Route path="/Dashboard" element={<AccountDashboardPage/>}/>
-                <Route path="/History" element={<HistoryPage/>}/>
-                <Route path="/Preference" element={<PreferencePage/>}/>
+
+                <Route path="/Dashboard" element={
+                    <PrivateRoute>
+                    <AccountDashboardPage/>
+                    </PrivateRoute>
+                }/>
+
+                <Route path="/History" element={
+                    <PrivateRoute>
+                    <HistoryPage/>
+                    </PrivateRoute>
+                }/>
+
+                <Route path="/Preference" element={
+                    <PrivateRoute>
+                    <PreferencePage/>
+                    </PrivateRoute>
+                }/>
+
+                <Route path="/PreferenceNoLogin" element={<PreferencePageNoLogin/>}/>
+
             </Routes>
 
+                </main>
+
             <FooterBar/>
+            </div>
         </>
     )
 }

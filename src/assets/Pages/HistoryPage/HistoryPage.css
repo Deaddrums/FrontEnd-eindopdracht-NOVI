@@ -1,0 +1,11 @@
+.hpOuterWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hpTitle {
+    font-size: 50px;
+    color: var(--text-alternate-color);
+}

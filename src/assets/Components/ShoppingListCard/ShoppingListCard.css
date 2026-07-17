@@ -1,0 +1,58 @@
+.slcCard {
+    border: var(--border-color) 2px solid;
+    border-radius: 15px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.slcHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: var(--background-container-color);
+
+    padding: 15px;
+    gap: 20px;
+
+}
+
+.slcHeader:hover {
+    cursor: pointer;
+}
+
+.slcBody {
+    padding: 15px;
+    border-top: var(--border-soft-color) 2px solid;
+    background: var(--background-container-color);
+}
+
+.slcBody ul{
+    list-style: none;
+ }
+
+
+.slcBody ul li{
+    padding-top: 5px;
+}
+
+.slcDeleteButton {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+
+    margin: 20px;
+    all: unset;
+}
+
+.slcDeleteButton img {
+    height: 25px;
+    width: 25px;
+    opacity: 50%;
+
+}
+
+.slcDeleteButton img:hover {
+    opacity: 100%;
+}

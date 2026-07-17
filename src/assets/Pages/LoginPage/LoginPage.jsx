@@ -1,66 +1,165 @@
 import './LoginPage.css'
-import {Link} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import image from '../../images/Broodschaap op bank 2.png'
+import { useState } from "react";
+import axios from "axios";
+import { ENDPOINTS } from "../../Api/endpoints.js";
+import { useContext } from "react";
+import { AuthContext } from "../../Context/AuthContext.jsx";
+import PopupMessage from "../../Components/PopupMessage/PopupMessage";
+import { getFeedbackMessage } from "../../Helpers/GetFeedbackMessage/GetFeedbackMessage.jsx";
 
 function LoginPage() {
+   const { login } = useContext(AuthContext);
+   const navigate = useNavigate();
 
-    return <>
+    const [popup, setPopup] = useState({
+        show: false,
+        message: "",
+        type: "success",
+    });
 
-        <div className="loginOuterWrapper">
-            <h1>Welkom terug</h1>
+    function showPopup(feedback) {
 
-            <div className="loginInnerWrapper">
+        setPopup({
+            show: true,
+            message: feedback.message,
+            type: feedback.type,
+        });
 
-                <img src={image} alt="broodschaap op bank"/>
+        setTimeout(() => {
 
-                <form className="loginForm">
+            setPopup({
+                show: false,
+                message: "",
+                type: "success",
+            });
 
-                    <div className="inputContainer">
-                        <input
-                            id="loginEmail"
-                            name="loginEmail"
-                            type="email"
-                            placeholder=" Type hier je email "
-                            required
-                        />
+        }, 3000);
+    }
 
-                        <label htmlFor="username">
-                            Gebruikersnaam
-                        </label>
-                    </div>
+    const [lpEmail, setLpEmail] = useState('')
+    const [lpPassword, setLpPassword] = useState('')
 
-                    <div className="inputContainer">
-                        <input
-                            id="password"
-                            name="password"
-                            type="password"
-                            placeholder=" Type hier je wachtwoord "
-                            required
-                        />
+    const PROJECT_ID = import.meta.env.VITE_PROJECT_ID
 
-                        <label htmlFor="password">
-                            Wachtwoord
-                        </label>
-                    </div>
+    async function handleSubmit(e) {
+        e.preventDefault();
 
-                    <Link to="/Register"
-                    >Heb je nog geen account?
-                    </Link>
+        const payload = {
+            email: lpEmail,
+            password: lpPassword,
+        };
 
-                    <button
-                        id="loginButtonLoginPage"
-                        type="button"
-                        onClick="Submit"
+        console.log(payload);
 
-                    >Inloggen
-                    </button>
+        try {
+            const response = await axios.post(
+                ENDPOINTS.auth.login,
+                payload,
+                {
+                    headers: {
+                        'novi-education-project-id': PROJECT_ID
+                    }
+                }
+            );
+
+            console.log("Je bent succesvol ingelogd" , response.data);
+
+            login(response.data.token);
+
+            showPopup(
+                getFeedbackMessage("LOGIN_SUCCESS")
+            );
 
 
-                </form>
+            setTimeout(() => {
+                navigate('/Dashboard');
+            }, 1500);
+
+        } catch (error) {
+
+            showPopup(
+                getFeedbackMessage("LOGIN_FAILED")
+            );
+
+            console.error(error)
+            console.log('Er ging iets mis bij het inloggen van jouw account')
+
+            console.log('STATUS');
+            console.log(error.response.status);
+
+            console.log('DATA');
+            console.log(error.response.data);
+        }
+    }
+        const LoginData =
+            lpEmail &&
+            lpPassword
+
+        return <>
+
+            <div className="lpOuterWrapper">
+                <h1>Welkom terug</h1>
+
+                {popup.show && (
+                    <PopupMessage
+                        message={popup.message}
+                        type={popup.type}
+                    />
+                )}
+
+                <div className="lpInnerWrapper">
+
+                    <img src={image} alt="broodschaap op bank"/>
+
+                    <form className="lpLoginForm"
+                        onSubmit={handleSubmit}
+                    >
+
+                        <div className="lpInputContainer">
+
+                            <fieldset className="lpFieldset">
+                                <legend>Email</legend>
+                                <input type="email"
+                                       id="lpEmailId"
+                                       name="lpEmail"
+                                       placeholder="Schrijf hier je email"
+                                       value={lpEmail}
+                                       onChange={(e) => setLpEmail(e.target.value)}
+                                />
+                            </fieldset>
+
+                            <fieldset className="lpFieldset">
+                                <legend>Wachtwoord</legend>
+                                <input type="password"
+                                       id="lpPasswordId"
+                                       name="lpPassword"
+                                       placeholder="Schrijf hier je wachtwoord"
+                                       value={lpPassword}
+                                       onChange={(e) => setLpPassword(e.target.value)}
+                                />
+                            </fieldset>
+
+                        </div>
+                        <Link to="/Register"
+                        >Heb je nog geen account?
+                        </Link>
+
+                        <button
+                            id="lpLoginButton"
+                            type="submit"
+                            disabled={!LoginData}
+
+                        >Inloggen
+                        </button>
+
+
+                    </form>
+                </div>
             </div>
-        </div>
-    </>
+        </>
 
-}
+    }
 
-export default LoginPage
+    export default LoginPage

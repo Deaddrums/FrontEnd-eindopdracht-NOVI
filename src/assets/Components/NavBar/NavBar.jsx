@@ -1,13 +1,11 @@
 import './NavBar.css'
 import logoMain from '../../images/Broodschaap logo.jpg'
 import {NavLink} from "react-router-dom";
-import {useState} from "react";
-
+import {useState, useContext} from "react";
+import { AuthContext } from "../../Context/AuthContext.jsx";
 
 function NavBar() {
-    const isAuth = true
-
-    // const [isAuth, toggleIsAuth] = useState()
+    const { isAuth } = useContext(AuthContext)
 
     return <nav>
 

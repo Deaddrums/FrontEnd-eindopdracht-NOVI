@@ -6,13 +6,14 @@
 
     height: 50px;
 
+    position: sticky;
 
     background: #FE6691;
     background: linear-gradient(13deg,rgba(254, 102, 145, 1) 0%, rgba(255, 255, 255, 1) 65%);
 
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
     width: 100%;
 
 }

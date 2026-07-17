@@ -1,10 +1,44 @@
 import './HomePage.css'
 import MainPageContainer from "../../Components/MainPageContainer/MainPageContainer.jsx";
-import {SmallMainPageContainer} from "../../Components/MainPageContainer/MainPageContainer.jsx";
-import {Link} from "react-router-dom";
+import { SmallMainPageContainer } from "../../Components/MainPageContainer/MainPageContainer.jsx";
+import { Link } from "react-router-dom";
+import productsData from '../../Data/UserIdData.json'
+import { generateShoppingList } from "../../Helpers/ShoppingListGenerator/ShoppingListGenerator.jsx";
+import { saveShoppingListToHistory } from "../../Helpers/ShoppingListGenerator/ShoppingListStorage.jsx";
+import { generateShoppingListPDF } from "../../Helpers/PDFGenerator/PDFGenerator.jsx";
 
 function HomePage() {
 
+    function generateQuicklist() {
+
+        const defaultPreferences = {
+            familyAmount: 1,
+            budgetAmount: 100,
+            budgetPeriod: "Week",
+            allergies: [],
+        };
+
+        try {
+            const shoppingList =
+                generateShoppingList(
+                    productsData.data.products,
+                    defaultPreferences,
+                    null
+                );
+
+            saveShoppingListToHistory(
+                shoppingList,
+                null
+            );
+
+            generateShoppingListPDF(
+                shoppingList
+            );
+        } catch (error) {
+            console.log(error)
+        }
+
+    }
 
     return <>
         <div className="home-OuterWrapper">
@@ -45,6 +79,7 @@ function HomePage() {
                         <button
                             id="QUICKLIST Button"
                             type="button"
+                            onClick={generateQuicklist}
                         ><strong>Direct lijstje maken</strong>
                         </button>
 
@@ -55,12 +90,14 @@ function HomePage() {
                         title="Persoonlijker lijstje in 10 sec?"
                         text="Vertel even wat je wil — wij doen de rest. Geen account, geen geblaat, gewoon resultaat."
                     >
-                        <button
-                            id="QUICKCUSTOMLIST Button"
-                            type="button"
-                        ><strong>Snel persoonlijk lijstje</strong>
-                        </button>
 
+                        <Link to="/PreferenceNoLogin">
+                            <button
+                                id="QUICKCUSTOMLIST Button"
+                                type="button"
+                            ><strong>Snel persoonlijk lijstje</strong>
+                            </button>
+                        </Link>
                     </SmallMainPageContainer>
 
                 </div>

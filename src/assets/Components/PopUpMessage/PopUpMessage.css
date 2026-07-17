@@ -1,0 +1,44 @@
+.popupMessage {
+    position: fixed;
+    left: 48%;
+    bottom: 40px;
+    transform: translateX(-50%);
+
+    padding: 16px 28px;
+    border-radius: 15px;
+
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+
+    color: white;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+
+    z-index: 9999;
+
+    animation: popupSlideIn 0.3s ease-out;
+}
+
+.popupMessage-success {
+    background-color: var(--approve-color, #4CAF50);
+}
+
+.popupMessage-error {
+    background-color: var(--disapprove-color, #d9534f);
+}
+
+.popupMessage-warning {
+    background-color: #f0ad4e;
+}
+
+@keyframes popupSlideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+}
