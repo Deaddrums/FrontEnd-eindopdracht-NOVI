@@ -1,17 +1,22 @@
 import './LoginPage.css'
-import { Link, useNavigate } from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import image from '../../images/Broodschaap op bank 2.png'
-import { useState } from "react";
+import {useEffect, useState, useContext} from "react";
 import axios from "axios";
-import { ENDPOINTS } from "../../Api/endpoints.js";
-import { useContext } from "react";
-import { AuthContext } from "../../Context/AuthContext.jsx";
+import {ENDPOINTS} from "../../Api/endpoints.js";
+import {AuthContext} from "../../Context/AuthContext.jsx";
 import PopupMessage from "../../Components/PopupMessage/PopupMessage";
-import { getFeedbackMessage } from "../../Helpers/GetFeedbackMessage/GetFeedbackMessage.jsx";
+import {getFeedbackMessage} from "../../Helpers/GetFeedbackMessage/GetFeedbackMessage.jsx";
+import ValidateEmail from "../../Helpers/ValidateEmail/ValidateEmail.jsx";
 
 function LoginPage() {
-   const { login } = useContext(AuthContext);
-   const navigate = useNavigate();
+    const {login} = useContext(AuthContext);
+    const navigate = useNavigate();
+    const [lpEmail, setLpEmail] = useState('')
+    const [lpPassword, setLpPassword] = useState('')
+    const [validatedEmail, setValidatedEmail] = useState("")
+
+    const PROJECT_ID = import.meta.env.VITE_PROJECT_ID
 
     const [popup, setPopup] = useState({
         show: false,
@@ -38,10 +43,18 @@ function LoginPage() {
         }, 3000);
     }
 
-    const [lpEmail, setLpEmail] = useState('')
-    const [lpPassword, setLpPassword] = useState('')
+    useEffect(() => {
 
-    const PROJECT_ID = import.meta.env.VITE_PROJECT_ID
+        const timeout = setTimeout(() => {
+            setValidatedEmail(lpEmail);
+        }, 1000);
+
+        return () => {
+            clearTimeout(timeout);
+        };
+
+    }, [lpEmail]);
+
 
     async function handleSubmit(e) {
         e.preventDefault();
@@ -64,7 +77,7 @@ function LoginPage() {
                 }
             );
 
-            console.log("Je bent succesvol ingelogd" , response.data);
+            console.log("Je bent succesvol ingelogd", response.data);
 
             login(response.data.token);
 
@@ -93,73 +106,75 @@ function LoginPage() {
             console.log(error.response.data);
         }
     }
-        const LoginData =
-            lpEmail &&
-            lpPassword
 
-        return <>
+    const LoginData =
+        lpEmail &&
+        lpPassword
 
-            <div className="lpOuterWrapper">
-                <h1>Welkom terug</h1>
+    return <>
 
-                {popup.show && (
-                    <PopupMessage
-                        message={popup.message}
-                        type={popup.type}
-                    />
-                )}
+        <div className="lpOuterWrapper">
+            <h1>Welkom terug</h1>
 
-                <div className="lpInnerWrapper">
+            {popup.show && (
+                <PopupMessage
+                    message={popup.message}
+                    type={popup.type}
+                />
+            )}
 
-                    <img src={image} alt="broodschaap op bank"/>
+            <div className="lpInnerWrapper">
 
-                    <form className="lpLoginForm"
-                        onSubmit={handleSubmit}
-                    >
+                <img src={image} alt="broodschaap op bank"/>
 
-                        <div className="lpInputContainer">
+                <form className="lpLoginForm"
+                      onSubmit={handleSubmit}
+                >
 
-                            <fieldset className="lpFieldset">
-                                <legend>Email</legend>
-                                <input type="email"
-                                       id="lpEmailId"
-                                       name="lpEmail"
-                                       placeholder="Schrijf hier je email"
-                                       value={lpEmail}
-                                       onChange={(e) => setLpEmail(e.target.value)}
-                                />
-                            </fieldset>
+                    <div className="lpInputContainer">
 
-                            <fieldset className="lpFieldset">
-                                <legend>Wachtwoord</legend>
-                                <input type="password"
-                                       id="lpPasswordId"
-                                       name="lpPassword"
-                                       placeholder="Schrijf hier je wachtwoord"
-                                       value={lpPassword}
-                                       onChange={(e) => setLpPassword(e.target.value)}
-                                />
-                            </fieldset>
+                        <fieldset className={`lpFieldset ${ValidateEmail(validatedEmail)}`}>
+                            <legend>Email</legend>
+                            <input type="email"
+                                   id="lpEmailId"
+                                   name="lpEmail"
+                                   placeholder="Schrijf hier je email"
+                                   value={lpEmail}
+                                   onChange={(e) => setLpEmail(e.target.value)}
 
-                        </div>
-                        <Link to="/Register"
-                        >Heb je nog geen account?
-                        </Link>
+                            />
+                        </fieldset>
 
-                        <button
-                            id="lpLoginButton"
-                            type="submit"
-                            disabled={!LoginData}
+                        <fieldset className="lpFieldset">
+                            <legend>Wachtwoord</legend>
+                            <input type="password"
+                                   id="lpPasswordId"
+                                   name="lpPassword"
+                                   placeholder="Schrijf hier je wachtwoord"
+                                   value={lpPassword}
+                                   onChange={(e) => setLpPassword(e.target.value)}
+                            />
+                        </fieldset>
 
-                        >Inloggen
-                        </button>
+                    </div>
+                    <Link to="/Register"
+                    >Heb je nog geen account?
+                    </Link>
+
+                    <button
+                        id="lpLoginButton"
+                        type="submit"
+                        disabled={!LoginData}
+
+                    >Inloggen
+                    </button>
 
 
-                    </form>
-                </div>
+                </form>
             </div>
-        </>
+        </div>
+    </>
 
-    }
+}
 
-    export default LoginPage
+export default LoginPage

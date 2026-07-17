@@ -11,28 +11,16 @@ import RegisterPage from "./assets/Pages/RegisterPage/RegisterPage.jsx";
 import AccountDashboardPage from "./assets/Pages/AccountDashboardPage/AccountDashboardPage.jsx";
 import HistoryPage from "./assets/Pages/HistoryPage/HistoryPage.jsx";
 import PreferencePage from "./assets/Pages/PreferencePage/PreferencePage.jsx";
-import boodschappenImage from './assets/images/Broodschaap doet boodschappen.png'
-import keukenImage from './assets/images/Broodschaap in de keuken.png'
-import bankImage from './assets/images/Broodschaap op bank 2.png'
-import registerImage from './assets/images/Broodschaap Register.png'
 import PrivateRoute from './assets/Components/PrivateRoute/PrivateRoute.jsx'
 import PreferencePageNoLogin from "./assets/Pages/PreferencePageNoLogin/PreferencePageNoLogin.jsx";
-
-export const preLoadImages = () => {
-    [
-        boodschappenImage,
-        keukenImage,
-        bankImage,
-        registerImage,
-    ].forEach(src => {
-        const img = new Image();
-        img.src = src;
-    });
-
-};
+import { useEffect } from "react";
+import { ImagePreRender } from "./assets/Helpers/ImagePreRender/ImagePreRender.jsx";
 
 function App() {
 
+    useEffect(() => {
+        ImagePreRender
+    }, []);
 
     return (
         <>
