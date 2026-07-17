@@ -101,7 +101,7 @@ function RegisterPage() {
         <div className="rpOuterWrapper">
 
             <h1 className="rpTitle"> ACCOUNT REGISTREREN </h1>
-
+f
             {popup.show && (
                 <PopUpMessage
                     message={popup.message}
