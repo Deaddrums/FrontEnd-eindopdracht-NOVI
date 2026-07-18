@@ -17,8 +17,6 @@
 :root {
  --background-color: #e9eef4;
  --background-container-color:#FFFFFF;
- --background-allergy-card:#9bdbf9;
-
 
  --text-color: #666666;
  --text-alternate-color: white;
@@ -33,9 +31,9 @@
  --button-color: #FF1053;
 
  --approve-color:#76e846;
- --approve-color-soft: rgba(0, 255, 0, 0.15);
+ --approve-color-soft: #00FF0026;
  --disapprove-color:#ff5757;
- --disapprove-color-soft: rgba(255, 0, 0, 0.15);
+ --disapprove-color-soft: #FF000026;
 
 }
 
