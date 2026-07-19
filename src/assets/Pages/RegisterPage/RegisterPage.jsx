@@ -1,12 +1,13 @@
 import './RegisterPage.css'
-import { useState } from "react";
+import {useState} from "react";
 import axios from "axios";
 import image from '../../images/Broodschaap Register.png'
-import { PasswordConfirmer } from "../../Helpers/PasswordConfirmer/PasswordConfirmer.jsx";
-import { ENDPOINTS } from "../../Api/endpoints.js";
+import {PasswordConfirmer} from "../../Helpers/PasswordConfirmer/PasswordConfirmer.jsx";
+import {ENDPOINTS} from "../../Api/endpoints.js";
 import popUpMessage from "../../Components/PopUpMessage/PopUpMessage.jsx";
-import { getFeedbackMessage } from "../../Helpers/GetFeedbackMessage/GetFeedbackMessage.jsx";
+import {getFeedbackMessage} from "../../Helpers/GetFeedbackMessage/GetFeedbackMessage.jsx";
 import PopUpMessage from "../../Components/PopUpMessage/PopUpMessage.jsx";
+import {useNavigate} from "react-router-dom";
 
 function RegisterPage() {
 
@@ -16,6 +17,7 @@ function RegisterPage() {
     const [rpPassword, setRpPassword] = useState('')
     const [rpConfirmPassword, setRpConfirmPassword] = useState('')
     const PROJECT_ID = import.meta.env.VITE_PROJECT_ID
+    const navigate = useNavigate()
 
     const [popup, setPopup] = useState({
         show: false,
@@ -72,6 +74,10 @@ function RegisterPage() {
             showPopup(
                 getFeedbackMessage("REGISTER_SUCCESS")
             );
+
+            setTimeout(() => {
+                navigate('/Login');
+            }, 1500);
 
         } catch (error) {
 

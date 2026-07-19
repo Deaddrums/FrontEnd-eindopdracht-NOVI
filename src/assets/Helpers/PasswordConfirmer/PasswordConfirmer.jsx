@@ -2,7 +2,6 @@
 
 export function PasswordConfirmer (rpPassword, rpConfirmPassword) {
 
-
         if (!rpPassword || !rpConfirmPassword) {
             return '';
         }
@@ -10,5 +9,4 @@ export function PasswordConfirmer (rpPassword, rpConfirmPassword) {
         return rpPassword === rpConfirmPassword
             ? 'rpGreen'
             : 'rpRed';
-
 }

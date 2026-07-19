@@ -1,111 +1,551 @@
-/*:root {*/
-/*  --text: #6b6375;*/
-/*  --text-h: #08060d;*/
-/*  --bg: #fff;*/
-/*  --border: #e5e4e7;*/
-/*  --code-bg: #f4f3ec;*/
-/*  --accent: #aa3bff;*/
-/*  --accent-bg: rgba(170, 59, 255, 0.1);*/
-/*  --accent-border: rgba(170, 59, 255, 0.5);*/
-/*  --social-bg: rgba(244, 243, 236, 0.5);*/
-/*  --shadow:*/
-/*    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;*/
 
-/*  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;*/
-/*  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;*/
-/*  --mono: ui-monospace, Consolas, monospace;*/
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
 
-/*  font: 18px/145% var(--sans);*/
-/*  letter-spacing: 0.18px;*/
-/*  color-scheme: light dark;*/
-/*  color: var(--text);*/
-/*  background: var(--bg);*/
-/*  font-synthesis: none;*/
-/*  text-rendering: optimizeLegibility;*/
-/*  -webkit-font-smoothing: antialiased;*/
-/*  -moz-osx-font-smoothing: grayscale;*/
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
 
-/*  @media (max-width: 1024px) {*/
-/*    font-size: 16px;*/
-/*  }*/
-/*}*/
+img {
+    max-width: 100%;
+    height: auto;
+}
 
-/*@media (prefers-color-scheme: dark) {*/
-/*  :root {*/
-/*    --text: #9ca3af;*/
-/*    --text-h: #f3f4f6;*/
-/*    --bg: #16171d;*/
-/*    --border: #2e303a;*/
-/*    --code-bg: #1f2028;*/
-/*    --accent: #c084fc;*/
-/*    --accent-bg: rgba(192, 132, 252, 0.15);*/
-/*    --accent-border: rgba(192, 132, 252, 0.5);*/
-/*    --social-bg: rgba(47, 48, 58, 0.5);*/
-/*    --shadow:*/
-/*      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;*/
-/*  }*/
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+}
 
-/*  #social .button-icon {*/
-/*    filter: invert(1) brightness(2);*/
-/*  }*/
-/*}*/
+button {
+    max-width: 100%;
+}
 
-/*body {*/
-/*  margin: 0;*/
-/*}*/
+main,
+.appContent {
+    width: 100%;
+}
 
-/*#root {*/
-/*  width: 1126px;*/
-/*  max-width: 100%;*/
-/*  margin: 0 auto;*/
-/*  text-align: center;*/
-/*  border-inline: 1px solid var(--border);*/
-/*  min-height: 100svh;*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  box-sizing: border-box;*/
-/*}*/
+/*Mobile*/
 
-/*h1,*/
-/*h2 {*/
-/*  font-family: var(--heading);*/
-/*  font-weight: 500;*/
-/*  color: var(--text-h);*/
-/*}*/
+@media screen and (max-width: 768px) {
 
-/*h1 {*/
-/*  font-size: 56px;*/
-/*  letter-spacing: -1.68px;*/
-/*  margin: 32px 0;*/
-/*  @media (max-width: 1024px) {*/
-/*    font-size: 36px;*/
-/*    margin: 20px 0;*/
-/*  }*/
-/*}*/
-/*h2 {*/
-/*  font-size: 24px;*/
-/*  line-height: 118%;*/
-/*  letter-spacing: -0.24px;*/
-/*  margin: 0 0 8px;*/
-/*  @media (max-width: 1024px) {*/
-/*    font-size: 20px;*/
-/*  }*/
-/*}*/
-/*p {*/
-/*  margin: 0;*/
-/*}*/
+    .home-OuterWrapper,
+    .lpOuterWrapper,
+    .rpOuterWrapper,
+    .ppOuterWrapper,
+    .ppnlOuterWrapper,
+    .adpOuterWrapper,
+    .allergyOuterWrapper,
+    .hpOuterWrapper {
+        padding: 20px 15px;
+        width: 100%;
+    }
 
-/*code,*/
-/*.counter {*/
-/*  font-family: var(--mono);*/
-/*  display: inline-flex;*/
-/*  border-radius: 4px;*/
-/*  color: var(--text-h);*/
-/*}*/
+    .appContent {
+        width: 100%;
+    }
 
-/*code {*/
-/*  font-size: 15px;*/
-/*  line-height: 135%;*/
-/*  padding: 4px 8px;*/
-/*  background: var(--code-bg);*/
-/*}*/
+    h1 {
+        font-size: clamp(2rem, 12vw, 3.5rem);
+        line-height: 1;
+        text-align: center;
+        word-break: normal;
+    }
+
+    h2 {
+        font-size: clamp(1.3rem, 7vw, 2rem);
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: clamp(1.1rem, 5vw, 1.6rem);
+        line-height: 1.2;
+    }
+
+    p,
+    li,
+    label,
+    input,
+    button,
+    a {
+        font-size: 0.95rem;
+    }
+
+    .title-Wrapper {
+        width: 100%;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .titleHome {
+        display: inline-block;
+        font-size: inherit;
+    }
+
+    .smallMpcContainerWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .home-OuterWrapper button {
+        width: 100%;
+        max-width: 320px;
+        margin: 8px auto;
+        display: block;
+    }
+
+    .lpInnerWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        width: 100%;
+    }
+
+    .lpInnerWrapper img {
+        width: 100%;
+        max-width: 280px;
+        order: -1;
+    }
+
+    .lpLoginForm {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .lpInputContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .lpFieldset {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .lpFieldset input {
+        width: 100%;
+    }
+
+    #lpLoginButton {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .rpInnerWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        width: 100%;
+    }
+
+    .rpInnerWrapper img {
+        width: 100%;
+        max-width: 280px;
+        order: -1;
+    }
+
+    .rpForm {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .rpFieldset {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .rpFieldset input {
+        width: 100%;
+    }
+
+    .rpFormButton {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .ppInnerWrapper {
+        width: 100%;
+    }
+
+    .ppItemContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ppPreferenceForm {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ppAllergyList,
+    .ppFamilyList {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .ppAllergyList {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .ppFamilyList input {
+        width: 100%;
+    }
+
+    .ppBudgetCheckbox {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .ppPreferenceForm img {
+        width: 100%;
+        max-width: 280px;
+        align-self: center;
+    }
+
+    #ppSavePreferences {
+        width: 100%;
+        max-width: 420px;
+        margin-top: 15px;
+    }
+
+    .ppnlInnerWrapper {
+        width: 100%;
+    }
+
+    .ppnlItemContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ppnlPreferenceForm {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ppnlAllergyList,
+    .ppnlFamilyList {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .ppnlAllergyList {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .ppnlFamilyList input {
+        width: 100%;
+    }
+
+    .ppnlBudgetCheckbox {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .ppnlPreferenceForm img {
+        width: 100%;
+        max-width: 280px;
+        align-self: center;
+    }
+
+    #ppnlSavePreferences,
+    #ppnlGenerateList {
+        width: 100%;
+        max-width: 420px;
+        margin-top: 15px;
+    }
+
+    .adpInnerWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        width: 100%;
+    }
+
+    .adpButtonWrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .adpButtonWrapper a,
+    .adpButtonWrapper button {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .adpInnerWrapper img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #adpLogOut {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .allergyTitle {
+        font-size: clamp(3rem, 18vw, 5rem);
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .allergyInnerContainer {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 15px;
+        margin-top: 0;
+    }
+
+    .AllergyInfoGrid {
+        width: 100%;
+    }
+
+    .AllergyInfoCard {
+        width: 100%;
+        max-width: 420px;
+        height: auto;
+        min-height: unset;
+        margin: 0 auto;
+    }
+
+    .aicFieldset {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .aicFieldset legend {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .aicFieldset ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .aicFieldset ul li {
+        padding: 6px 10px;
+        border-radius: 12px;
+        background: var(--background-allergy-card);
+        font-size: 0.85rem;
+    }
+
+    .hpTitle {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .slcCard {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto 15px auto;
+    }
+
+    .slcHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 15px;
+    }
+
+    .slcHeader h3 {
+        font-size: 1.2rem;
+    }
+
+    .slcHeader p {
+        font-size: 0.85rem;
+    }
+
+    .slcBody {
+        padding: 15px;
+    }
+
+    .slcBody ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .slcBody li {
+        padding: 6px 0;
+        border-bottom: 1px solid var(--border-soft-color);
+    }
+
+    .slcDeleteButton {
+        all: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        min-width: 36px;
+        min-height: 36px;
+    }
+
+    .slcDeleteButton img,
+    #cancelButton {
+        width: 22px;
+        height: 22px;
+        object-fit: contain;
+    }
+
+    .popupMessage,
+    .PopUpMessage,
+    .popup-message {
+        left: 50%;
+        bottom: 25px;
+        transform: translateX(-50%);
+        width: calc(100% - 30px);
+        max-width: 420px;
+        text-align: center;
+    }
+
+    button {
+        min-height: 44px;
+        padding: 10px 18px;
+        font-size: 1rem;
+    }
+
+    button:hover {
+        transform: none;
+    }
+}
+
+
+/*Mobile small*/
+
+@media screen and (max-width: 480px) {
+
+    .home-OuterWrapper,
+    .lpOuterWrapper,
+    .rpOuterWrapper,
+    .ppOuterWrapper,
+    .ppnlOuterWrapper,
+    .adpOuterWrapper,
+    .allergyOuterWrapper,
+    .hpOuterWrapper {
+        padding: 15px 10px;
+    }
+
+    h1 {
+        font-size: clamp(1.8rem, 14vw, 3rem);
+    }
+
+    h2 {
+        font-size: clamp(1.2rem, 8vw, 1.8rem);
+    }
+
+    p,
+    li,
+    label,
+    input,
+    button,
+    a {
+        font-size: 0.9rem;
+    }
+
+    .lpInnerWrapper img,
+    .rpInnerWrapper img,
+    .ppPreferenceForm img,
+    .ppnlPreferenceForm img,
+    .adpInnerWrapper img {
+        max-width: 230px;
+    }
+
+    .lpLoginForm,
+    .rpForm,
+    .ppPreferenceForm,
+    .ppnlPreferenceForm {
+        max-width: 100%;
+    }
+
+    .lpFieldset,
+    .rpFieldset,
+    .ppAllergyList,
+    .ppFamilyList,
+    .ppnlAllergyList,
+    .ppnlFamilyList,
+    .aicFieldset {
+        padding: 10px;
+    }
+
+    fieldset legend {
+        font-size: 1rem;
+    }
+
+    input {
+        min-height: 40px;
+    }
+
+    .AllergyInfoCard {
+        max-width: 100%;
+        padding: 8px;
+    }
+
+    .aicFieldset legend {
+        font-size: 1.2rem;
+    }
+
+    .aicFieldset p {
+        font-size: 0.9rem;
+    }
+
+    .aicFieldset ul li {
+        font-size: 0.8rem;
+        padding: 5px 8px;
+    }
+
+    .slcHeader {
+        padding: 12px;
+    }
+
+    .slcHeader h3 {
+        font-size: 1rem;
+    }
+
+    .slcBody {
+        padding: 12px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+

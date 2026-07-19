@@ -89,3 +89,13 @@
 
     font-size: 15px;
 }
+
+.lpFieldset.lpRed {
+    background: var(--disapprove-color-soft);
+    border-radius: 15px;
+}
+
+.lpFieldset.lpGreen {
+    background: var(--approve-color-soft);
+    border-radius: 15px;
+}
